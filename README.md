@@ -28,7 +28,7 @@
 * [Wolfram|Alpha](https://www.wolframalpha.com) - Computational knowledge engine.
 * [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
 * [Yout](https://yout.com) - Download video from Youtube.
-* [YouTube2mp3](https://www.youtube2mp3.cc) - YouTube to mp3
+* [YouTube to mp3](https://ytmp3.cc) - YouTube to mp3
 * [Yopmail](http://www.yopmail.com) - Disposable and Free email address.
 * [Google Translate](https://translate.google.com) - Translate languages.
 * [Google Maps](https://www.google.com/maps/@?dg=dbrw&newdg=1) - Find local businesses, view maps and get driving directions in Google Maps.
