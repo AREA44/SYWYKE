@@ -40,6 +40,7 @@
 * [timeanddate.com](https://www.timeanddate.com).
 * [10 Minute Mail](https://10minutemail.com/10MinuteMail/index.html ) - Temporary E-Mail.
 * [WeVideo](https://www.wevideo.com) - Easily create outstanding videos.
+* [GIPHY](https://giphy.com) - Search All the GIFs & Make Your Own Animated GIF.
 
 ## IV. Storage
 
