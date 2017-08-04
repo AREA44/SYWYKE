@@ -1,0 +1,11 @@
+before_install:
+  - rvm install 2.3.3
+  - nvm install 6.9.2
+
+before_script: 
+ - npm install standard-markdown
+ - gem install awesome_bot
+
+script:
+ - standard-markdown
+ - awesome_bot README.md
