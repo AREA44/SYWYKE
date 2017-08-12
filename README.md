@@ -29,7 +29,7 @@
 |[MyFonts](http://www.myfonts.com)|Fonts for Print, Products & Screens|
 |[GIFGIF.io](https://www.gifgif.io)|Online GIF editor, YouTube to GIF|
 |[timeanddate.com](https://www.timeanddate.com)|Current Time (World Clock) and online and printable Calendars for countries worldwide|
-|[10 Minute Mail](https://10minutemail.com/10MinuteMail/index.html )|Temporary E-Mail|
+|[10 Minute Mail](https://10minutemail.com/10MinuteMail/index.html)|Temporary E-Mail|
 |[WeVideo](https://www.wevideo.com)|Easily create outstanding videos|
 |[GIPHY](https://giphy.com)|Search All the GIFs & Make Your Own Animated GIF|
 |[Google Drive](https://drive.google.com)|Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more|
