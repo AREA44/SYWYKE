@@ -3,11 +3,10 @@
 
 ## Outline
 * [Entertainment](#entertainment)
-* [Programing](#programming)
+* [Learning](#learning)
 * [Social](#social)
 * [Storage](#storage)
 * [Support tool](#support-tool)
-
 
 ### Entertainment
 |Website|Decription|
@@ -15,7 +14,7 @@
 |[SoundCloud](https://soundcloud.com)|Hear the world's Sound|
 |[YouTube](https://www.youtube.com)|Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube|
 
-### Programming
+### Learning
 |Website|Decription|
 |-------|----------|
 |[Alison](https://alison.com)|Free Online Courses from the World’s Top Publishers|
@@ -29,7 +28,6 @@
 |[Free code camp](https://www.freecodecamp.com)|Learn to Code and Help Nonprofits|
 |[HackerEarth](https://www.hackerearth.com)|Be a Better Programmer|
 |[Microsoft Virtual Academy](https://mva.microsoft.com)|Free Microsoft training delivered by experts|
-|[SyntaxDB](https://syntaxdb.com)|Programming Syntax Database|
 |[Treehouse](https://teamtreehouse.com)|Learn Web Design, Coding & Much More|
 |[Udacity](https://www.udacity.com)|Free Online Classes & Nanodegrees|
 
@@ -58,11 +56,13 @@
 |[GIFGIF.io](https://www.gifgif.io)|Online GIF editor, YouTube to GIF|
 |[GIPHY](https://giphy.com)|Search All the GIFs & Make Your Own Animated GIF|
 |[HERE WeGo](https://wego.here.com)|HERE WeGo - Maps - Routes - Directions - All ways from A to B in one|
+|[Happy Hues](https://www.happyhues.co)|Curated colors in context|
 |[Icomoon](https://icomoon.io)|Pixel perfect icon solutions|
 |[MyFonts](http://www.myfonts.com)|Fonts for Print, Products & Screens|
 |[Prezi](https://prezi.com)|Presenting a better way to present|
 |[Send anywhere](https://send-anywhere.com)|Send whatever you want, wherever you want|
 |[Serial & keys](https://www.serials.ws)|Serials & keys - unlocks the world|
+|[SyntaxDB](https://syntaxdb.com)|Programming Syntax Database|
 |[timeanddate.com](https://www.timeanddate.com)|Current Time (World Clock) and online and printable Calendars for countries worldwide|
 |[Virus total](https://www.virustotal.com)|Scan virus, malware, url online|
 |[Yopmail](http://www.yopmail.com)|Disposable and Free email address|
