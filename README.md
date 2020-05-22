@@ -35,16 +35,18 @@
 |Website|Decription|
 |-------|----------|
 |[Facebook](https://www.facebook.com)|Facebook helps you connect and share with the people in your life|
-|[Google Plus](https://plus.google.com/collections/featured)|Google Plus (stylized as Google+) is an interest-based social network that is owned and operated by Google|
+|[Instagram](https://www.instagram.com)|Instagram|
 |[Twitter](https://twitter.com)|Connect with your friends — and other fascinating people|
 
 ### Storage
 |Website|Decription|
 |-------|----------|
 |[Dropbox](https://www.dropbox.com)|Bring your photos, docs, and videos anywhere and keep your files safe|
-|[One Drive](https://onedrive.live.com)|Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life|
 |[Google Drive](https://drive.google.com)|Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more|
 |[Google Photos](https://www.google.com/photos/about/)|Free storage and automatic organization for all your memories|
+|[MediaFire](https://www.mediafire.com)|File sharing and storage made simple|
+|[One Drive](https://onedrive.live.com)|Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life|
+|[PDF Archive](https://www.pdf-archive.com)|Host, share, publish and archive your PDF documents|
 
 ### Support tool
 |Website|Decription|
@@ -58,6 +60,7 @@
 |[HERE WeGo](https://wego.here.com)|HERE WeGo - Maps - Routes - Directions - All ways from A to B in one|
 |[Happy Hues](https://www.happyhues.co)|Curated colors in context|
 |[Icomoon](https://icomoon.io)|Pixel perfect icon solutions|
+|[Karan PC](https://karanpc.com)|Download free software full|
 |[MyFonts](http://www.myfonts.com)|Fonts for Print, Products & Screens|
 |[Prezi](https://prezi.com)|Presenting a better way to present|
 |[Send anywhere](https://send-anywhere.com)|Send whatever you want, wherever you want|
