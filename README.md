@@ -61,6 +61,7 @@
 |[Happy Hues](https://www.happyhues.co)|Curated colors in context|
 |[Icomoon](https://icomoon.io)|Pixel perfect icon solutions|
 |[Karan PC](https://karanpc.com)|Download free software full|
+|[Kahoot](https://kahoot.com)|Make learning awesome|
 |[MyFonts](http://www.myfonts.com)|Fonts for Print, Products & Screens|
 |[Prezi](https://prezi.com)|Presenting a better way to present|
 |[Send anywhere](https://send-anywhere.com)|Send whatever you want, wherever you want|
