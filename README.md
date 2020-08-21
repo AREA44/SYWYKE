@@ -1,7 +1,7 @@
 # Awesome Websites
 > List of awesome websites
 
-## Outline
+## Table of Content
 * [Entertainment](#entertainment)
 * [Learning](#learning)
 * [Social](#social)
