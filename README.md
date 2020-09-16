@@ -2,17 +2,11 @@
 > List of awesome websites
 
 ## Table of Content
-* [Entertainment](#entertainment)
 * [Learning](#learning)
 * [Social](#social)
 * [Storage](#storage)
-* [Support tool](#support-tool)
-
-### Entertainment
-|Website|Decription|
-|-------|----------|
-|[SoundCloud](https://soundcloud.com)|Hear the world's Sound|
-|[YouTube](https://www.youtube.com)|Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube|
+* [Tool](#tool)
+* [Other](#other)
 
 ### Learning
 |Website|Decription|
@@ -48,12 +42,14 @@
 |[One Drive](https://onedrive.live.com)|Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life|
 |[PDF Archive](https://www.pdf-archive.com)|Host, share, publish and archive your PDF documents|
 
-### Support tool
+### Tool
 |Website|Decription|
 |-------|----------|
 |[APKMODY](https://apkmody.io)|Premium APK Downloader – Modded Games & Apps|
 |[Canva](https://www.canva.com)|Canva makes design simple for everyone|
 |[BugMeNot](http://bugmenot.com)|BugMeNot: share logins|
+|[Filebin](https://filebin.net)|Convenient file sharing on the web, without registration. The files will expire automatically 1 week.|
+|[Gofile](https://gofile.io)|File sharing platform, anonymous and free|
 |[Google Maps](https://www.google.com/maps/@?dg=dbrw&newdg=1)|Find local businesses, view maps and get driving directions in Google Maps|
 |[Google Translate](https://translate.google.com)|Translate languages|
 |[GIFGIF.io](https://www.gifgif.io)|Online GIF editor, YouTube to GIF|
@@ -76,3 +72,9 @@
 |[Wolfram Alpha](https://www.wolframalpha.com)|Computational knowledge engine|
 |[WeVideo](https://www.wevideo.com)|Easily create outstanding videos|
 |[10 Minute Mail](https://10minutemail.com/10MinuteMail/index.html)|Temporary E-Mail|
+
+### Other
+|Website|Decription|
+|-------|----------|
+|[SoundCloud](https://soundcloud.com)|Hear the world's Sound|
+|[YouTube](https://www.youtube.com)|Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube|
