@@ -46,6 +46,7 @@
 |Website|Decription|
 |-------|----------|
 |[APKMODY](https://apkmody.io)|Premium APK Downloader – Modded Games & Apps|
+|[Calmly Writer](https://www.calmlywriter.com)|The Ultimate Ditraction-Free Writing Tool|
 |[Canva](https://www.canva.com)|Canva makes design simple for everyone|
 |[BugMeNot](http://bugmenot.com)|BugMeNot: share logins|
 |[Filebin](https://filebin.net)|Convenient file sharing on the web, without registration. The files will expire automatically 1 week.|
