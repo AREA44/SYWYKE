@@ -26,6 +26,7 @@ List of awesome sites.
 - [Kahoot](https://kahoot.com) - Make learning awesome.
 - [MyFonts](http://www.myfonts.com) - Fonts for Print, Products & Screens.
 - [Prezi](https://prezi.com) - Presenting a better way to present.
+- [Quizlet](https://quizlet.com) - Learning tools & flashcards, for free.
 - [Send anywhere](https://send-anywhere.com) - Send whatever you want, wherever you want.
 - [Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.
 - [SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.
