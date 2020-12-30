@@ -47,6 +47,7 @@ List of awesome sites.
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
 - [One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.
 - [PDF Archive](https://www.pdf-archive.com) - Host, share, publish and archive your PDF documents.
+- [Send.cm](https://send.cm) - Unlimited data hosting.
 
 ## Social
 
