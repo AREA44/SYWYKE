@@ -1,4 +1,5 @@
-List of awesome sites.
+# Awesome Websites
+[![Lint](https://github.com/AREA44/awesome-sites/actions/workflows/action.yml/badge.svg)](https://github.com/AREA44/awesome-sites/actions/workflows/action.yml)
 
 ## Table of Content
 
@@ -17,9 +18,8 @@ List of awesome sites.
 - [Gofile](https://gofile.io) - File sharing platform, anonymous and free.
 - [Google Maps](https://www.google.com/maps/@?dg=dbrw&newdg=1) - Find local businesses, view maps and get driving directions in Google Maps.
 - [Google Translate](https://translate.google.com) - Translate languages.
-- [GIFGIF.io](https://www.gifgif.io) - Online GIF editor, YouTube to GIF.
 - [GIPHY](https://giphy.com) - Search All the GIFs & Make Your Own Animated GIF.
-- [HERE WeGo](https://wego.here.com) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
+- [HERE WeGo](https://wego.here.com/?map&x=ep) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
 - [Happy Hues](https://www.happyhues.co) - Curated colors in context.
 - [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
 - [Karan PC](https://karanpc.com) - Download free software full.
@@ -37,7 +37,7 @@ List of awesome sites.
 - [YouTube to mp3](https://ytmp3.cc) - YouTube to mp3.
 - [Wolfram Alpha](https://www.wolframalpha.com) - Computational knowledge engine.
 - [WeVideo](https://www.wevideo.com) - Easily create outstanding videos.
-- [10 Minute Mail](https://10minutemail.com/10MinuteMail/index.html) - Temporary E-Mail.
+- [10 Minute Mail](https://10minutemail.com/) - Temporary E-Mail.
 
 ## Storage
 
