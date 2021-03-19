@@ -1,18 +1,18 @@
 # Awesome Websites
-[![Lint](https://github.com/AREA44/awesome-sites/actions/workflows/action.yml/badge.svg)](https://github.com/AREA44/awesome-sites/actions/workflows/action.yml)
+[![Lint](https://github.com/AREA44/awesome-sites/actions/workflows/lint.yml/badge.svg)](https://github.com/AREA44/awesome-sites/actions/workflows/lint.yml)
 
 ## Table of Content
 
-* [Online tool](#online-tool)
-* [Storage](#storage)
-* [Social](#social)
-* [Course](#course)
-* [Other](#other)
+- [Online tool](#online-tool)
+- [Storage](#storage)
+- [Social](#social)
+- [Course](#course)
+- [Other](#other)
 
 ## Online tool
 
 - [Calmly Writer](https://www.calmlywriter.com) - The Ultimate Ditraction-Free Writing Tool.
-- [Canva](https://www.canva.com) - Canva makes design simple for everyone.
+- [Canva](https://www.canva.com/) - Canva makes design simple for everyone.
 - [BugMeNot](http://bugmenot.com) - BugMeNot: share logins.
 - [Filebin](https://filebin.net) - Convenient file sharing on the web, without registration. The files will expire automatically 1 week.
 - [Gofile](https://gofile.io) - File sharing platform, anonymous and free.
