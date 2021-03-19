@@ -1,4 +1,5 @@
 # Awesome Websites
+
 [![Lint](https://github.com/AREA44/awesome-sites/actions/workflows/lint.yml/badge.svg)](https://github.com/AREA44/awesome-sites/actions/workflows/lint.yml)
 
 ## Table of Content
