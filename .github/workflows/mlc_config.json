@@ -1,7 +1,8 @@
 {
   "ignorePatterns": [
     {
-      "pattern": "^http://ignored-domain.com"
+      "pattern": "https://www.canva.com",
+      "pattern": "^https://wego.here.com"
     }
   ]
 }
