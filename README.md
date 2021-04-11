@@ -20,7 +20,7 @@
 - [Google Maps](https://www.google.com/maps/@?dg=dbrw&newdg=1) - Find local businesses, view maps and get driving directions in Google Maps.
 - [Google Translate](https://translate.google.com) - Translate languages.
 - [GIPHY](https://giphy.com) - Search All the GIFs & Make Your Own Animated GIF.
-- [HERE WeGo](https://wego.here.com/?x=ep&map=20.8567,106.6826,10,normal) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
+- [HERE WeGo](https://wego.here.com) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
 - [Happy Hues](https://www.happyhues.co) - Curated colors in context.
 - [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
 - [Karan PC](https://karanpc.com) - Download free software full.
