@@ -13,14 +13,14 @@
 ## Online tool
 
 - [Calmly Writer](https://www.calmlywriter.com) - The Ultimate Ditraction-Free Writing Tool.
-- [Canva](https://www.canva.com/) - Canva makes design simple for everyone.
+- [Canva](https://www.canva.com) - Canva makes design simple for everyone.
 - [BugMeNot](http://bugmenot.com) - BugMeNot: share logins.
 - [Filebin](https://filebin.net) - Convenient file sharing on the web, without registration. The files will expire automatically 1 week.
 - [Gofile](https://gofile.io) - File sharing platform, anonymous and free.
 - [Google Maps](https://www.google.com/maps/@?dg=dbrw&newdg=1) - Find local businesses, view maps and get driving directions in Google Maps.
 - [Google Translate](https://translate.google.com) - Translate languages.
 - [GIPHY](https://giphy.com) - Search All the GIFs & Make Your Own Animated GIF.
-- [HERE WeGo](https://wego.here.com/?map&x=ep) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
+- [HERE WeGo](https://wego.here.com/?x=ep&map=20.8567,106.6826,10,normal) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
 - [Happy Hues](https://www.happyhues.co) - Curated colors in context.
 - [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
 - [Karan PC](https://karanpc.com) - Download free software full.
@@ -32,6 +32,7 @@
 - [Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.
 - [SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.
 - [timeanddate.com](https://www.timeanddate.com) - Current Time (World Clock) and online and printable Calendars for countries worldwide.
+- [VEED](https://www.veed.io) - Video editing made simple.
 - [Virus total](https://www.virustotal.com) - Scan virus, malware, url online.
 - [Yopmail](http://www.yopmail.com) - Disposable and Free email address.
 - [Yout](https://yout.com) - Download video from Youtube.
