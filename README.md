@@ -53,6 +53,7 @@
 - [Virus total](https://www.virustotal.com) - Scan virus, malware, url online.
 - [WeVideo](https://www.wevideo.com) - Easily create outstanding videos.
 - [Wolfram Alpha](https://www.wolframalpha.com) - Computational knowledge engine.
+- [YIFY movies](https://yts.mx) - Movies Torrent Download.
 - [Yopmail](http://www.yopmail.com) - Disposable and Free email address.
 - [YouTube to mp3](https://ytmp3.cc) - YouTube to mp3.
 - [YouTube](https://www.youtube.com) - Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
