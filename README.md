@@ -34,6 +34,7 @@
 - [Microsoft Virtual Academy](https://mva.microsoft.com) - Free Microsoft training delivered by experts.
 - [MyFonts](http://www.myfonts.com) - Fonts for Print, Products & Screens.
 - [One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.
+- [Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.
 - [PDF Archive](https://www.pdf-archive.com) - Host, share, publish and archive your PDF documents.
 - [Poll Everywhere](https://www.polleverywhere.com) - Host interactive remote meetings, anywhere.
 - [Prezi](https://prezi.com) - Presenting a better way to present.
