@@ -52,6 +52,7 @@
 - [readme.so](https://readme.so) - The easiest way to create a README.
 - [VEED](https://www.veed.io) - Video editing made simple.
 - [Virus total](https://www.virustotal.com) - Scan virus, malware, url online.
+- [WeCompress](https://www.wecompress.com/en) - Compress PDF, PowerPoint, Word, Excel, JPEG, PNG & TIFF files online.
 - [WeVideo](https://www.wevideo.com) - Easily create outstanding videos.
 - [Wolfram Alpha](https://www.wolframalpha.com) - Computational knowledge engine.
 - [YIFY movies](https://yts.mx) - Movies Torrent Download.
