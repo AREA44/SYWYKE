@@ -16,6 +16,7 @@
 - [Duolingo](https://www.duolingo.com) - Learn a language for free. Forever.
 - [Facebook](https://www.facebook.com) - Facebook helps you connect and share with the people in your life.
 - [Filebin](https://filebin.net) - Convenient file sharing on the web, without registration. The files will expire automatically 1 week.
+- [Flickr](https://www.flickr.com) - Find your inspiration.
 - [Free code camp](https://www.freecodecamp.com) - Learn to Code and Help Nonprofits.
 - [GIPHY](https://giphy.com) - Search All the GIFs & Make Your Own Animated GIF.
 - [Gofile](https://gofile.io) - File sharing platform, anonymous and free.
