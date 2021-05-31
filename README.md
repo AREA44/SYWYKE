@@ -39,6 +39,7 @@
 - [Poll Everywhere](https://www.polleverywhere.com) - Host interactive remote meetings, anywhere.
 - [Prezi](https://prezi.com) - Presenting a better way to present.
 - [Quizlet](https://quizlet.com) - Learning tools & flashcards, for free.
+- [Sci-Hub](https://sci-hub.do) - The first website in the world to provide mass & public access to research papers.
 - [Send anywhere](https://send-anywhere.com) - Send whatever you want, wherever you want.
 - [Send.cm](https://send.cm) - Unlimited data hosting.
 - [Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.
