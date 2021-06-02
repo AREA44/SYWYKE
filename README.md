@@ -17,7 +17,8 @@
 - [Facebook](https://www.facebook.com) - Facebook helps you connect and share with the people in your life.
 - [Filebin](https://filebin.net) - Convenient file sharing on the web, without registration. The files will expire automatically 1 week.
 - [Flickr](https://www.flickr.com) - Find your inspiration.
-- [Free code camp](https://www.freecodecamp.com) - Learn to Code and Help Nonprofits.
+- [freeCodeCamp](https://www.freecodecamp.com) - Learn to Code and Help Nonprofits.
+- [FreeLogoDesign](https://www.freelogodesign.org) - Create a free logo in seconds.
 - [GIPHY](https://giphy.com) - Search All the GIFs & Make Your Own Animated GIF.
 - [Gofile](https://gofile.io) - File sharing platform, anonymous and free.
 - [Google Drive](https://drive.google.com) - Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more.
