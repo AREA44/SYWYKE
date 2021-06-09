@@ -33,6 +33,7 @@
 - [Kahoot](https://kahoot.com) - Make learning awesome.
 - [Karan PC](https://karanpc.com) - Download free software full.
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
+- [Mega](https://mega.io) - Secure Cloud Storage and Communication Privacy by Design.
 - [Microsoft Virtual Academy](https://mva.microsoft.com) - Free Microsoft training delivered by experts.
 - [MyFonts](http://www.myfonts.com) - Fonts for Print, Products & Screens.
 - [One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.
