@@ -1,6 +1,7 @@
 # AwesomeSites
 
 - [10 Minute Mail](https://10minutemail.com/) - Temporary E-Mail.
+- [Adobe Spark](https://spark.adobe.com) - Make Images, Videos and Web Stories for Free in Minutes.
 - [APKMODY](https://apkmody.io) - Premium APK Downloader – Modded Games & Apps.
 - [Alison](https://alison.com) - Free Online Courses from the World’s Top Publishers.
 - [BugMeNot](http://bugmenot.com) - BugMeNot: share logins.
@@ -12,13 +13,18 @@
 - [CodeForces](http://codeforces.com) - Programming competitions and contests, programming community.
 - [Codecademy](https://www.codecademy.com) - Learn to code interactively, for free.
 - [Coursena](https://www.coursera.org) - Take the world's best courses, online.
+- [Creatopy](https://www.creatopy.com) - Online Graphic Design Platform.
+- [DesignBold](https://www.designbold.com) - Design is really simple!
 - [Dropbox](https://www.dropbox.com) - Bring your photos, docs, and videos anywhere and keep your files safe.
 - [Duolingo](https://www.duolingo.com) - Learn a language for free. Forever.
 - [Facebook](https://www.facebook.com) - Facebook helps you connect and share with the people in your life.
 - [Filebin](https://filebin.net) - Convenient file sharing on the web, without registration. The files will expire automatically 1 week.
 - [Flickr](https://www.flickr.com) - Find your inspiration.
+- [Flixpress](https://flixpress.com) - CREATE VIDEOS ONLINE IN MINUTES.
+- [FotoJet](https://www.fotojet.com) - Turn Your Ideas into Stunning Artworks.
 - [freeCodeCamp](https://www.freecodecamp.com) - Learn to Code and Help Nonprofits.
 - [FreeLogoDesign](https://www.freelogodesign.org) - Create a free logo in seconds.
+- [FreePik](https://www.freepik.com) - Find Free Vectors, Stock Photos and PSD.
 - [GIPHY](https://giphy.com) - Search All the GIFs & Make Your Own Animated GIF.
 - [Gofile](https://gofile.io) - File sharing platform, anonymous and free.
 - [Google Drive](https://drive.google.com) - Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more.
@@ -30,15 +36,21 @@
 - [Happy Hues](https://www.happyhues.co) - Curated colors in context.
 - [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
 - [Instagram](https://www.instagram.com) - Instagram.
+- [Introcave](https://introcave.com) - Intro Maker for YouTube.
+- [Ivipid](https://ivipid.com) - Ivipid Video Maker.
 - [Kahoot](https://kahoot.com) - Make learning awesome.
 - [Karan PC](https://karanpc.com) - Download free software full.
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
 - [Mega](https://mega.io) - Secure Cloud Storage and Communication Privacy by Design.
 - [Microsoft Virtual Academy](https://mva.microsoft.com) - Free Microsoft training delivered by experts.
+- [Moovly](https://www.moovly.com) - Easily make stunning videos in any style.
+- [Moveast](https://moveast.me) - This is a journey of a Portuguese guy moving that decided that every photo should be used for free.
 - [MyFonts](http://www.myfonts.com) - Fonts for Print, Products & Screens.
 - [One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.
 - [Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.
 - [PDF Archive](https://www.pdf-archive.com) - Host, share, publish and archive your PDF documents.
+- [Pexels](https://www.pexels.com) -  Free Stock Photos.
+- [Piktochart](https://piktochart.com) - Infographics, presentations, and reports maker.
 - [Poll Everywhere](https://www.polleverywhere.com) - Host interactive remote meetings, anywhere.
 - [Prezi](https://prezi.com) - Presenting a better way to present.
 - [Quizlet](https://quizlet.com) - Learning tools & flashcards, for free.
@@ -46,13 +58,18 @@
 - [Send anywhere](https://send-anywhere.com) - Send whatever you want, wherever you want.
 - [Send.cm](https://send.cm) - Unlimited data hosting.
 - [Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.
+- [Slidely](http://slide.ly) - The #1 visual content creation platform.
 - [SoundCloud](https://soundcloud.com) - Hear the world's Sound.
+- [Startup Stock Photos](https://startupstockphotos.com) - Best Free Tech Photos.
+- [Travel Coffee Book](https://travelcoffeebook.com) - Sharing beautiful travel moments.
 - [SurveyMonkey](https://www.surveymonkey.com) - The World's Most Popular Free Online Survey Tool.
 - [SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.
+- [The Stocks 2](http://thestocks.im) - Best royalty free photos, videos, mockups, icons and fonts.
 - [Treehouse](https://teamtreehouse.com) - Learn Web Design, Coding & Much More.
 - [Twitter](https://twitter.com) - Connect with your friends — and other fascinating people.
 - [Udacity](https://www.udacity.com) - Free Online Classes & Nanodegrees.
 - [Unsplash](https://unsplash.com) - Photos for everyone.
+- [Uplevo](https://www.uplevo.com) - Online Design Platform.
 - [readme.so](https://readme.so) - The easiest way to create a README.
 - [VEED](https://www.veed.io) - Video editing made simple.
 - [Virus total](https://www.virustotal.com) - Scan virus, malware, url online.
