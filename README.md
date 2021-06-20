@@ -53,6 +53,7 @@
 - [Piktochart](https://piktochart.com) - Infographics, presentations, and reports maker.
 - [Poll Everywhere](https://www.polleverywhere.com) - Host interactive remote meetings, anywhere.
 - [Prezi](https://prezi.com) - Presenting a better way to present.
+- [Project Naptha](https://projectnaptha.com) - Highlight, copy, and translate text from any image.
 - [Quizlet](https://quizlet.com) - Learning tools & flashcards, for free.
 - [Sci-Hub](https://sci-hub.do) - The first website in the world to provide mass & public access to research papers.
 - [Send anywhere](https://send-anywhere.com) - Send whatever you want, wherever you want.
