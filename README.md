@@ -31,9 +31,10 @@
 - [Google Maps](https://www.google.com/maps/@?dg=dbrw&newdg=1) - Find local businesses, view maps and get driving directions in Google Maps.
 - [Google Photos](https://www.google.com/photos/about/) - Free storage and automatic organization for all your memories.
 - [Google Translate](https://translate.google.com) - Translate languages.
-- [HERE WeGo](https://wego.here.com) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
 - [HackerEarth](https://www.hackerearth.com) - Be a Better Programmer.
 - [Happy Hues](https://www.happyhues.co) - Curated colors in context.
+- [HexEd.it](https://hexed.it) - The client-side Javascript based hex editor.
+- [HERE WeGo](https://wego.here.com) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
 - [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
 - [Instagram](https://www.instagram.com) - Instagram.
 - [Introcave](https://introcave.com) - Intro Maker for YouTube.
