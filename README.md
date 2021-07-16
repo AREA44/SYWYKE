@@ -15,6 +15,7 @@
 - [Coursena](https://www.coursera.org) - Take the world's best courses, online.
 - [Creatopy](https://www.creatopy.com) - Online Graphic Design Platform.
 - [DesignBold](https://www.designbold.com) - Design is really simple!
+- [DocTranslator](https://www.onlinedoctranslator.com/en) - Instantly translate and preserve the layout of any document format into any language.
 - [Dropbox](https://www.dropbox.com) - Bring your photos, docs, and videos anywhere and keep your files safe.
 - [Duolingo](https://www.duolingo.com) - Learn a language for free. Forever.
 - [Facebook](https://www.facebook.com) - Facebook helps you connect and share with the people in your life.
