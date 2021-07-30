@@ -42,6 +42,7 @@
 - [Ivipid](https://ivipid.com) - Ivipid Video Maker.
 - [Kahoot](https://kahoot.com) - Make learning awesome.
 - [Karan PC](https://karanpc.com) - Download free software full.
+- [LaTeX Base](https://latexbase.com) - Online LaTeX Editor and Compiler.
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
 - [Mega](https://mega.io) - Secure Cloud Storage and Communication Privacy by Design.
 - [Microsoft Virtual Academy](https://mva.microsoft.com) - Free Microsoft training delivered by experts.
