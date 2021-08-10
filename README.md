@@ -25,6 +25,7 @@
 - [FotoJet](https://www.fotojet.com) - Turn Your Ideas into Stunning Artworks.
 - [freeCodeCamp](https://www.freecodecamp.com) - Learn to Code and Help Nonprofits.
 - [FreeLogoDesign](https://www.freelogodesign.org) - Create a free logo in seconds.
+- [FreeConvert.com](https://www.freeconvert.com) - Free Online File Converter.
 - [FreePik](https://www.freepik.com) - Find Free Vectors, Stock Photos and PSD.
 - [GIPHY](https://giphy.com) - Search All the GIFs & Make Your Own Animated GIF.
 - [Gofile](https://gofile.io) - File sharing platform, anonymous and free.
