@@ -13,6 +13,7 @@
 - [CodeFights](https://codefights.com) - Test your skills VS friends, co-workers and companies. Join a community of 500,000 devs!
 - [CodeForces](http://codeforces.com) - Programming competitions and contests, programming community.
 - [CodeSandbox](https://codesandbox.io) - Online Code Editor & IDE for Rapid Web Development.
+- [Contentful](https://www.contentful.com) - API-first content platform to build digital experiences
 - [Coursena](https://www.coursera.org) - Take the world's best courses, online.
 - [Creatopy](https://www.creatopy.com) - Online Graphic Design Platform.
 - [DesignBold](https://www.designbold.com) - Design is really simple!
@@ -83,6 +84,7 @@
 - [Virus total](https://www.virustotal.com) - Scan virus, malware, url online.
 - [WeCompress](https://www.wecompress.com/en) - Compress PDF, PowerPoint, Word, Excel, JPEG, PNG & TIFF files online.
 - [WeVideo](https://www.wevideo.com) - Easily create outstanding videos.
+- [WordPress](https://wordpress.com) - Create a Free Website or Blog.
 - [Wolfram Alpha](https://www.wolframalpha.com) - Computational knowledge engine.
 - [YIFY movies](https://yts.mx) - Movies Torrent Download.
 - [Yopmail](http://www.yopmail.com) - Disposable and Free email address.
