@@ -12,6 +12,7 @@
 - [Codecademy](https://www.codecademy.com) - Learn to code interactively, for free.
 - [CodeFights](https://codefights.com) - Test your skills VS friends, co-workers and companies. Join a community of 500,000 devs!
 - [CodeForces](http://codeforces.com) - Programming competitions and contests, programming community.
+- [CodePen](https://codepen.io) - Online Code Editor & Font End Web Developer Community.
 - [CodeSandbox](https://codesandbox.io) - Online Code Editor & IDE for Rapid Web Development.
 - [Contentful](https://www.contentful.com) - API-first content platform to build digital experiences
 - [Coursena](https://www.coursera.org) - Take the world's best courses, online.
@@ -43,6 +44,7 @@
 - [Instagram](https://www.instagram.com) - Instagram.
 - [Introcave](https://introcave.com) - Intro Maker for YouTube.
 - [Ivipid](https://ivipid.com) - Ivipid Video Maker.
+- [JSFiddle](https://jsfiddle.net) - Code Playground.
 - [Kahoot](https://kahoot.com) - Make learning awesome.
 - [Karan PC](https://karanpc.com) - Download free software full.
 - [LaTeX Base](https://latexbase.com) - Online LaTeX Editor and Compiler.
