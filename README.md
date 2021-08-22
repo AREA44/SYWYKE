@@ -62,6 +62,7 @@
 - [Piktochart](https://piktochart.com) - Infographics, presentations, and reports maker.
 - [Pixeldrain](https://pixeldrain.com) - Free file sharing service.
 - [Poll Everywhere](https://www.polleverywhere.com) - Host interactive remote meetings, anywhere.
+- [Postimages](https://postimages.org) - Free image hosting / image upload
 - [Prezi](https://prezi.com) - Presenting a better way to present.
 - [Project Naptha](https://projectnaptha.com) - Highlight, copy, and translate text from any image.
 - [Quizlet](https://quizlet.com) - Learning tools & flashcards, for free.
