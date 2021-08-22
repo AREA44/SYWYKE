@@ -38,7 +38,7 @@
 - [Google Translate](https://translate.google.com) - Translate languages.
 - [HackerEarth](https://www.hackerearth.com) - Be a Better Programmer.
 - [Happy Hues](https://www.happyhues.co) - Curated colors in context.
-- [heic.app](https://heic.app) - The free HEIC image converter.
+- [HEICtoJPEG](https://heictojpg.com) - Convert HEIC photos to JPEGs without harming the quality.
 - [HexEd.it](https://hexed.it) - The client-side Javascript based hex editor.
 - [HERE WeGo](https://wego.here.com) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
 - [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
