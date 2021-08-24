@@ -71,6 +71,7 @@
 - [Send.cm](https://send.cm) - Unlimited data hosting.
 - [Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.
 - [Slidely](http://slide.ly) - The #1 visual content creation platform.
+- [SmallDev.tools](https://smalldev.tools/) - FREE tools for developers.
 - [SoundCloud](https://soundcloud.com) - Hear the world's Sound.
 - [Startup Stock Photos](https://startupstockphotos.com) - Best Free Tech Photos.
 - [Travel Coffee Book](https://travelcoffeebook.com) - Sharing beautiful travel moments.
