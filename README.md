@@ -1,4 +1,4 @@
-# 🌻 awesome sites
+# 🌻 awesome websites
 
 > List of helpful websites for everyone
 
