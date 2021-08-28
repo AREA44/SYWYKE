@@ -1,9 +1,0 @@
-{
-  //Custom variables at https://github.com/gaurav-nelson/github-action-markdown-link-check#custom-variables
-  "ignorePatterns": [
-    {
-      "pattern": "^https://www.canva.com",
-      "pattern": "^https://www.pexels.com"
-    }
-  ]
-}
