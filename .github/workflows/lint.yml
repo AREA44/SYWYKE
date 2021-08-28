@@ -3,14 +3,6 @@ name: Lint
 on: push
 
 jobs:
-  markdown-link-check:
-    name: Markdown Link Check
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
-      with:
-        config-file: '.github/workflows/mlc_config.json'
   markdownlint:
     name: Markdown Lint
     runs-on: ubuntu-latest
