@@ -1,7 +1,3 @@
-# 🌻 awesome websites
-
-> List of helpful websites for everyone
-
 ## List of websites
 
 - [10 Minute Mail](https://10minutemail.com/) - Temporary E-Mail.
