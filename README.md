@@ -6,6 +6,7 @@
 - [APKMODY](https://apkmody.io) - Premium APK Downloader – Modded Games & Apps.
 - [Adobe Spark](https://spark.adobe.com) - Make Images, Videos and Web Stories for Free in Minutes.
 - [Alison](https://alison.com) - Free Online Courses from the World’s Top Publishers.
+- [Bitwarden](https://bitwarden.com) - Open Source Password Manager.
 - [BugMeNot](http://bugmenot.com) - BugMeNot: share logins.
 - [Calmly Writer](https://www.calmlywriter.com) - The Ultimate Ditraction-Free Writing Tool.
 - [Canva](https://www.canva.com) - Canva makes design simple for everyone.
