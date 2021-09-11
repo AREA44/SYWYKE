@@ -20,6 +20,7 @@
 - [Contentful](https://www.contentful.com) - API-first content platform to build digital experiences
 - [Coursena](https://www.coursera.org) - Take the world's best courses, online.
 - [Creatopy](https://www.creatopy.com) - Online Graphic Design Platform.
+- [den4b.com](http://www.den4b.com/tools) - These free online tools might come in handy for software developers and technology enthusiasts.
 - [DesignBold](https://www.designbold.com) - Design is really simple!
 - [DocTranslator](https://www.onlinedoctranslator.com/en/) - Instantly translate and preserve the layout of any document format into any language.
 - [Dropbox](https://www.dropbox.com) - Bring your photos, docs, and videos anywhere and keep your files safe.
