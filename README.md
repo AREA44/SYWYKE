@@ -17,6 +17,7 @@
 - [CodeSandbox](https://codesandbox.io) - Online Code Editor & IDE for Rapid Web Development.
 - [Codebeautify](https://codebeautify.org) - JSON Beautifier, XML Viewer, JSON Converters, Hex Converters and More.
 - [Codecademy](https://www.codecademy.com) - Learn to code interactively, for free.
+- [Compress.com](https://www.compresss.com) - Compress image, document, video and audio files online
 - [Contentful](https://www.contentful.com) - API-first content platform to build digital experiences
 - [Coursena](https://www.coursera.org) - Take the world's best courses, online.
 - [Creatopy](https://www.creatopy.com) - Online Graphic Design Platform.
@@ -71,6 +72,7 @@
 - [Postimages](https://postimages.org) - Free image hosting / image upload
 - [Prezi](https://prezi.com) - Presenting a better way to present.
 - [Project Naptha](https://projectnaptha.com) - Highlight, copy, and translate text from any image.
+- [ProxySite.com](https://www.proxysite.com) - Free Web Proxy Site.
 - [Quizlet](https://quizlet.com) - Learning tools & flashcards, for free.
 - [readme.so](https://readme.so) - The easiest way to create a README.
 - [removebg](https://www.remove.bg) - Remove Image Background.
