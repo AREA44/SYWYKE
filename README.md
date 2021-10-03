@@ -57,6 +57,7 @@
 - [Karan PC](https://karanpc.com) - Download free software full.
 - [LaTeX Base](https://latexbase.com) - Online LaTeX Editor and Compiler.
 - [LRepacks](https://lrepacks.net) - A Russian site includes software repack by Elchupacabra.
+- [Maskable.app](https://maskable.app) - Preview your maskable PWA icons before adding them to your web app manifest.
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
 - [Mega](https://mega.io) - Secure Cloud Storage and Communication Privacy by Design.
 - [Microsoft Virtual Academy](https://mva.microsoft.com) - Free Microsoft training delivered by experts.
@@ -97,6 +98,7 @@
 - [Uplevo](https://www.uplevo.com) - Online Design Platform.
 - [VEED](https://www.veed.io) - Video editing made simple.
 - [Virus total](https://www.virustotal.com) - Scan virus, malware, url online.
+- [web.dev](https://web.dev) - Let's build the future of the web.
 - [WeCompress](https://www.wecompress.com/en) - Compress PDF, PowerPoint, Word, Excel, JPEG, PNG & TIFF files online.
 - [WeVideo](https://www.wevideo.com) - Easily create outstanding videos.
 - [Wolfram Alpha](https://www.wolframalpha.com) - Computational knowledge engine.
