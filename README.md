@@ -24,7 +24,6 @@
 - [Creatopy](https://www.creatopy.com) - Online Graphic Design Platform.
 - [den4b.com](http://www.den4b.com/tools) - These free online tools might come in handy for software developers and technology enthusiasts.
 - [DesignBold](https://www.designbold.com) - Design is really simple!
-- [Dillinger](https://dillinger.io) - Online Markdown Editor
 - [DocTranslator](https://www.onlinedoctranslator.com/en/) - Instantly translate and preserve the layout of any document format into any language.
 - [Dropbox](https://www.dropbox.com) - Bring your photos, docs, and videos anywhere and keep your files safe.
 - [Duolingo](https://www.duolingo.com) - Learn a language for free. Forever.
@@ -59,7 +58,6 @@
 - [LaTeX Base](https://latexbase.com) - Online LaTeX Editor and Compiler.
 - [LRepacks](https://lrepacks.net) - A Russian site includes software repack by Elchupacabra.
 - [Maskable.app](https://maskable.app) - Preview your maskable PWA icons before adding them to your web app manifest.
-- [Mardown Live Preivew](https://markdownlivepreview.com) - Markdown Live Preview.
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
 - [Mega](https://mega.io) - Secure Cloud Storage and Communication Privacy by Design.
 - [Microsoft Virtual Academy](https://mva.microsoft.com) - Free Microsoft training delivered by experts.
@@ -87,6 +85,7 @@
 - [Slidely](http://slide.ly) - The #1 visual content creation platform.
 - [SmallDev.tools](https://smalldev.tools/) - FREE tools for developers.
 - [SoundCloud](https://soundcloud.com) - Hear the world's Sound.
+- [StackEdit](https://stackedit.io) - In-browser Markdown editor.
 - [Startup Stock Photos](https://startupstockphotos.com) - Best Free Tech Photos.
 - [SurveyMonkey](https://www.surveymonkey.com) - The World's Most Popular Free Online Survey Tool.
 - [SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.
