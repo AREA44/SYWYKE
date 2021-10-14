@@ -29,6 +29,8 @@
 - [Dropbox](https://www.dropbox.com) - Bring your photos, docs, and videos anywhere and keep your files safe.
 - [Duolingo](https://www.duolingo.com) - Learn a language for free. Forever.
 - [edX](https://www.edx.org) - Best Courses. Top Institutions. Learn anytime, anywhere.
+- [ELLO](https://elllo.org) - English Listening Lesson Library Online.
+- [ESL Fast](https://www.eslfast.com) - Free Online English Teaching and Learning Materials.
 - [Facebook](https://www.facebook.com) - Facebook helps you connect and share with the people in your life.
 - [Filebin](https://filebin.net) - Convenient file sharing on the web, without registration. The files will expire automatically 1 week.
 - [Flickr](https://www.flickr.com) - Find your inspiration.
@@ -57,6 +59,7 @@
 - [Kahoot](https://kahoot.com) - Make learning awesome.
 - [Karan PC](https://karanpc.com) - Download free software full.
 - [LaTeX Base](https://latexbase.com) - Online LaTeX Editor and Compiler.
+- [Listen A Minute](https://listenaminute.com) - Very short listenings (less than a minute). Free printable handouts, downloads plus MP3 listening and quizzes.
 - [LRepacks](https://lrepacks.net) - A Russian site includes software repack by Elchupacabra.
 - [Maskable.app](https://maskable.app) - Preview your maskable PWA icons before adding them to your web app manifest.
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
@@ -65,6 +68,7 @@
 - [Moovly](https://www.moovly.com) - Easily make stunning videos in any style.
 - [Moveast](https://moveast.me) - This is a journey of a Portuguese guy moving that decided that every photo should be used for free.
 - [MyFonts](http://www.myfonts.com) - Fonts for Print, Products & Screens.
+- [New in Levels](https://www.newsinlevels.com) - Worlds News for Students of English.
 - [One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.
 - [Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.
 - [PDF Archive](https://www.pdf-archive.com) - Host, share, publish and archive your PDF documents.
@@ -88,6 +92,9 @@
 - [SoundCloud](https://soundcloud.com) - Hear the world's Sound.
 - [StackEdit](https://stackedit.io) - In-browser Markdown editor.
 - [Startup Stock Photos](https://startupstockphotos.com) - Best Free Tech Photos.
+- [Storynory](https://www.storynory.com) - Free Audio Stories.
+- [StudyNhac](https://www.studynhac.vn) - Học Tiếng Anh Qua Bài Hát.
+- [StudyPhim](https://www.studyphim.vn) - Học Tiếng Anh Qua Phim.
 - [SurveyMonkey](https://www.surveymonkey.com) - The World's Most Popular Free Online Survey Tool.
 - [SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.
 - [timeanddate.com](https://www.timeanddate.com) - Current Time (World Clock) and online and printable Calendars for countries worldwide.
