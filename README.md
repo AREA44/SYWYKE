@@ -9,6 +9,7 @@
 - [Adobe Spark](https://spark.adobe.com) - Make Images, Videos and Web Stories for Free in Minutes.
 - [Alison](https://alison.com) - Free Online Courses from the World’s Top Publishers.
 - [Bitwarden](https://bitwarden.com) - Open Source Password Manager.
+- [British Council](https://www.britishcouncil.org) - The British Council builds connections, understanding and trust between people in the UK and other countries.
 - [BugMeNot](http://bugmenot.com) - BugMeNot: share logins.
 - [Calmly Writer](https://www.calmlywriter.com) - The Ultimate Ditraction-Free Writing Tool.
 - [Canva](https://www.canva.com) - Canva makes design simple for everyone.
@@ -52,6 +53,9 @@
 - [Happy Hues](https://www.happyhues.co) - Curated colors in context.
 - [HexEd.it](https://hexed.it) - The client-side Javascript based hex editor.
 - [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
+- [IDP IELTS](https://www.idpielts.me/free-ielts-practice-test) - Free IELTS practice test.
+- [IELTSbuddy](https://www.ieltsbuddy.com) - Free exam preparation to improve your test score.
+- [IELTS Exam](https://www.english-exam.org/IELTS) - Preparation for IELTS Exam.
 - [IELTS Online Test](https://ieltsonlinetests.com) - IELTS Online Practice Test.
 - [IELTS Liz](https://ieltsliz.com) - IELTS Writing Task 1 Tips, Model & More.
 - [Instagram](https://www.instagram.com) - Instagram.
@@ -67,6 +71,7 @@
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
 - [Mega](https://mega.io) - Secure Cloud Storage and Communication Privacy by Design.
 - [Microsoft Virtual Academy](https://mva.microsoft.com) - Free Microsoft training delivered by experts.
+- [Mini IELTS](https://mini-ielts.com/) - The best free website for IELTS test preparation.
 - [Moovly](https://www.moovly.com) - Easily make stunning videos in any style.
 - [Moveast](https://moveast.me) - This is a journey of a Portuguese guy moving that decided that every photo should be used for free.
 - [MyFonts](http://www.myfonts.com) - Fonts for Print, Products & Screens.
