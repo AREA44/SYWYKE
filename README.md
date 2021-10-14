@@ -3,6 +3,8 @@
 ## List of websites
 
 - [10 Minute Mail](https://10minutemail.com/) - Temporary E-Mail.
+- [750 Words](https://750words.com) - Write every day.
+- [Aeon](https://aeon.co) - A world of ideas.
 - [AirDroid](https://www.airdroid.com/en) - Delight Your Multi-Screen Life
 - [APKMODY](https://apkmody.io) - Premium APK Downloader – Modded Games & Apps.
 - [Apkdone](https://apkdone.com) - Apkdone is the #1 place for the newest and best Android game Mods.
@@ -41,6 +43,7 @@
 - [FreeConvert.com](https://www.freeconvert.com) - Free Online File Converter.
 - [FreeLogoDesign](https://www.freelogodesign.org) - Create a free logo in seconds.
 - [FreePik](https://www.freepik.com) - Find Free Vectors, Stock Photos and PSD.
+- [Gates Notes](https://www.gatesnotes.com) - The Blog of Bill Gates.
 - [GIPHY](https://giphy.com) - Search All the GIFs & Make Your Own Animated GIF.
 - [Gofile](https://gofile.io) - File sharing platform, anonymous and free.
 - [Google Drive](https://drive.google.com) - Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more.
@@ -69,6 +72,7 @@
 - [LRepacks](https://lrepacks.net) - A Russian site includes software repack by Elchupacabra.
 - [Maskable.app](https://maskable.app) - Preview your maskable PWA icons before adding them to your web app manifest.
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
+- [Medium](https://medium.com) - A place to write, read, and connect
 - [Mega](https://mega.io) - Secure Cloud Storage and Communication Privacy by Design.
 - [Microsoft Virtual Academy](https://mva.microsoft.com) - Free Microsoft training delivered by experts.
 - [Mini IELTS](https://mini-ielts.com/) - The best free website for IELTS test preparation.
@@ -89,6 +93,7 @@
 - [ProxySite.com](https://www.proxysite.com) - Free Web Proxy Site.
 - [Quizlet](https://quizlet.com) - Learning tools & flashcards, for free.
 - [readme.so](https://readme.so) - The easiest way to create a README.
+- [Readable](https://readable.com) - Readable will quickly test the readability, spelling and grammar of your text and show you how and where to make improvements.
 - [removebg](https://www.remove.bg) - Remove Image Background.
 - [Sci-Hub](https://sci-hub.do) - The first website in the world to provide mass & public access to research papers.
 - [Send anywhere](https://send-anywhere.com) - Send whatever you want, wherever you want.
@@ -121,6 +126,7 @@
 - [Wolfram Alpha](https://www.wolframalpha.com) - Computational knowledge engine.
 - [WordPress](https://wordpress.com) - Create a Free Website or Blog.
 - [wrinting9](https://writing9.com) - Check your IELTS essay online.
+- [Write & Improve](https://writeandimprove.com/) - Write & Improve is a FREE tool that helps every learner to improve their English writing.
 - [YIFY movies](https://yts.mx) - Movies Torrent Download.
 - [Yopmail](http://www.yopmail.com) - Disposable and Free email address.
 - [YouTube to mp3](https://ytmp3.cc) - YouTube to mp3.
