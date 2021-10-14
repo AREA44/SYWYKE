@@ -3,6 +3,7 @@
 ## List of websites
 
 - [10 Minute Mail](https://10minutemail.com/) - Temporary E-Mail.
+- [AirDroid](https://www.airdroid.com/en) - Delight Your Multi-Screen Life
 - [APKMODY](https://apkmody.io) - Premium APK Downloader – Modded Games & Apps.
 - [Apkdone](https://apkdone.com) - Apkdone is the #1 place for the newest and best Android game Mods.
 - [Adobe Spark](https://spark.adobe.com) - Make Images, Videos and Web Stories for Free in Minutes.
