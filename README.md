@@ -36,6 +36,7 @@
 - [ESL Fast](https://www.eslfast.com) - Free Online English Teaching and Learning Materials.
 - [Facebook](https://www.facebook.com) - Facebook helps you connect and share with the people in your life.
 - [Filebin](https://filebin.net) - Convenient file sharing on the web, without registration. The files will expire automatically 1 week.
+- [Flaticon](https://www.flaticon.com) - Download free icons and stickers for your projects.
 - [Flickr](https://www.flickr.com) - Find your inspiration.
 - [Flixpress](https://flixpress.com) - CREATE VIDEOS ONLINE IN MINUTES.
 - [FotoJet](https://www.fotojet.com) - Turn Your Ideas into Stunning Artworks.
@@ -56,6 +57,7 @@
 - [Happy Hues](https://www.happyhues.co) - Curated colors in context.
 - [HexEd.it](https://hexed.it) - The client-side Javascript based hex editor.
 - [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
+- [Icons8](https://icons8.com) - Icons, illustrations, photos, music, and design tools.
 - [IDP IELTS](https://www.idpielts.me/free-ielts-practice-test) - Free IELTS practice test.
 - [IELTSbuddy](https://www.ieltsbuddy.com) - Free exam preparation to improve your test score.
 - [IELTS Exam](https://www.english-exam.org/IELTS) - Preparation for IELTS Exam.
@@ -94,11 +96,13 @@
 - [Quizlet](https://quizlet.com) - Learning tools & flashcards, for free.
 - [readme.so](https://readme.so) - The easiest way to create a README.
 - [Readable](https://readable.com) - Readable will quickly test the readability, spelling and grammar of your text and show you how and where to make improvements.
+- [Remix Icon](https://remixicon.com) - Simply Delightful Icon System.
 - [removebg](https://www.remove.bg) - Remove Image Background.
 - [Sci-Hub](https://sci-hub.do) - The first website in the world to provide mass & public access to research papers.
 - [Send anywhere](https://send-anywhere.com) - Send whatever you want, wherever you want.
 - [Send.cm](https://send.cm) - Unlimited data hosting.
 - [Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.
+- [Simple Icons](https://simpleicons.org) - Free SVG icons for popular brands.
 - [Slidely](http://slide.ly) - The #1 visual content creation platform.
 - [SmallDev.tools](https://smalldev.tools/) - FREE tools for developers.
 - [SoundCloud](https://soundcloud.com) - Hear the world's Sound.
