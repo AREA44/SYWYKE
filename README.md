@@ -1,7 +1,3 @@
-# 🌻
-
-## List of websites
-
 - [10 Minute Mail](https://10minutemail.com/) - Temporary E-Mail.
 - [750 Words](https://750words.com) - Write every day.
 - [Aeon](https://aeon.co) - A world of ideas.
