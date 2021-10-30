@@ -103,6 +103,7 @@
 - [SmallDev.tools](https://smalldev.tools/) - FREE tools for developers.
 - [SoundCloud](https://soundcloud.com) - Hear the world's Sound.
 - [StackEdit](https://stackedit.io) - In-browser Markdown editor.
+- [Standard Resume](https://standardresume.co) - Make a good first impression with a professional resume template.
 - [Startup Stock Photos](https://startupstockphotos.com) - Best Free Tech Photos.
 - [Storynory](https://www.storynory.com) - Free Audio Stories.
 - [StudyNhac](https://www.studynhac.vn) - Học Tiếng Anh Qua Bài Hát.
