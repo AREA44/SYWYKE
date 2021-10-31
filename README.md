@@ -71,11 +71,11 @@
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
 - [Medium](https://medium.com) - A place to write, read, and connect
 - [Mega](https://mega.io) - Secure Cloud Storage and Communication Privacy by Design.
-- [Microsoft Learn](https://docs.microsoft.com/learn) - Free Microsoft training delivered by experts.
+- [Microsoft Learn](https://docs.microsoft.com/en-us/learn) - Free Microsoft training delivered by experts.
 - [Mini IELTS](https://mini-ielts.com/) - The best free website for IELTS test preparation.
 - [Moovly](https://www.moovly.com) - Easily make stunning videos in any style.
 - [Moveast](https://moveast.me) - This is a journey of a Portuguese guy moving that decided that every photo should be used for free.
-- [MyFonts](http://www.myfonts.com/) - Fonts for Print, Products & Screens.
+- [MyFonts](https://www.myfonts.com/) - Fonts for Print, Products & Screens.
 - [New in Levels](https://www.newsinlevels.com) - Worlds News for Students of English.
 - [One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.
 - [Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.
@@ -99,7 +99,7 @@
 - [Send.cm](https://send.cm) - Unlimited data hosting.
 - [Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.
 - [Simple Icons](https://simpleicons.org) - Free SVG icons for popular brands.
-- [Slidely](http://slide.ly/) - The #1 visual content creation platform.
+- [Slidely](https://slide.ly/) - The #1 visual content creation platform.
 - [SmallDev.tools](https://smalldev.tools/) - FREE tools for developers.
 - [SoundCloud](https://soundcloud.com) - Hear the world's Sound.
 - [StackEdit](https://stackedit.io) - In-browser Markdown editor.
@@ -127,7 +127,7 @@
 - [wrinting9](https://writing9.com) - Check your IELTS essay online.
 - [Write & Improve](https://writeandimprove.com/) - Write & Improve is a FREE tool that helps every learner to improve their English writing.
 - [YIFY movies](https://yts.mx) - Movies Torrent Download.
-- [Yopmail](http://yopmail.com) - Disposable and Free email address.
+- [Yopmail](https://yopmail.com) - Disposable and Free email address.
 - [Yout](https://yout.com) - Download video from Youtube.
 - [YouTube to mp3](https://ytmp3.cc/en35/) - YouTube to mp3.
 - [YouTube](https://www.youtube.com) - Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
