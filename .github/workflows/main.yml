@@ -13,11 +13,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1.84.0
       with:
         ruby-version: 3.0.2
     - name: Checks
       run: |
         gem install awesome_bot
-        awesome_bot README.md -a 403 -w https://wego.here.com,https://www.britishcouncil.org,https://sci-hub.do
+        awesome_bot README.md -a 403 -w https://wego.here.com,https://www.britishcouncil.org
