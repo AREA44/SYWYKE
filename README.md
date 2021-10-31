@@ -94,7 +94,7 @@
 - [readme.so](https://readme.so) - The easiest way to create a README.
 - [Remix Icon](https://remixicon.com) - Simply Delightful Icon System.
 - [removebg](https://www.remove.bg) - Remove Image Background.
-- [Sci-Hub](https://sci-hub.ee/) - The first website in the world to provide mass & public access to research papers.
+- [Sci-Hub](https://sci-hub.hkvisa.net/) - The first website in the world to provide mass & public access to research papers.
 - [Send anywhere](https://send-anywhere.com) - Send whatever you want, wherever you want.
 - [Send.cm](https://send.cm) - Unlimited data hosting.
 - [Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.
