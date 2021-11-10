@@ -92,6 +92,7 @@
 - [Quizlet](https://quizlet.com) - Learning tools & flashcards, for free.
 - [Readable](https://readable.com) - Readable will quickly test the readability, spelling and grammar of your text and show you how and where to make improvements.
 - [readme.so](https://readme.so) - The easiest way to create a README.
+- [RealFaviconGenerator](https://realfavicongenerator.net/) - Favicon Generator for perfect icons on all browsers.
 - [Remix Icon](https://remixicon.com) - Simply Delightful Icon System.
 - [removebg](https://www.remove.bg) - Remove Image Background.
 - [Sci-Hub](https://sci-hub.hkvisa.net/) - The first website in the world to provide mass & public access to research papers.
