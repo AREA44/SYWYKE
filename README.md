@@ -109,8 +109,9 @@
 - [Storynory](https://www.storynory.com) - Free Audio Stories.
 - [SurveyMonkey](https://www.surveymonkey.com) - The World's Most Popular Free Online Survey Tool.
 - [SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.
-- [The Stocks 2](http://thestocks.im) - Best royalty free photos, videos, mockups, icons and fonts.
+- [TechBench by WZT](https://tb.rg-adguard.net/public.php) - A project that will help you without tedious search and registration to download Windows operating systems, Office applications, language packs, and virtual machines directly from Microsoft servers
 - [timeanddate.com](https://www.timeanddate.com) - Current Time (World Clock) and online and printable Calendars for countries worldwide.
+- [The Stocks 2](http://thestocks.im) - Best royalty free photos, videos, mockups, icons and fonts.
 - [Travel Coffee Book](https://travelcoffeebook.com) - Sharing beautiful travel moments.
 - [Treehouse](https://teamtreehouse.com) - Learn Web Design, Coding & Much More.
 - [Twitter](https://twitter.com) - Connect with your friends — and other fascinating people.
