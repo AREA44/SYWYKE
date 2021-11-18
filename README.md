@@ -131,5 +131,5 @@
 - [YIFY movies](https://yts.mx) - Movies Torrent Download.
 - [Yopmail](https://yopmail.com/en/) - Disposable and Free email address.
 - [Yout](https://yout.com) - Download video from Youtube.
-- [YouTube to mp3](https://ytmp3.cc/en35/) - YouTube to mp3.
+- [YouTube to mp3](https://ytmp3.cc) - YouTube to mp3.
 - [YouTube](https://www.youtube.com) - Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
