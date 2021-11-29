@@ -19,4 +19,4 @@ jobs:
     - name: Checks
       run: |
         gem install awesome_bot
-        awesome_bot README.md -a 403 -w https://wego.here.com,https://www.britishcouncil.org,https://ytmp3.cc
+        awesome_bot README.md -a 403,443 -w https://wego.here.com,https://www.britishcouncil.org,https://ytmp3.cc
