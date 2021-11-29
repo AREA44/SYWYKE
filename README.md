@@ -6,7 +6,10 @@
 - [Alison](https://alison.com) - Free Online Courses from the World’s Top Publishers.
 - [Apkdone](https://apkdone.com) - Apkdone is the #1 place for the newest and best Android game Mods.
 - [APKMODY](https://apkmody.io) - Premium APK Downloader – Modded Games & Apps.
+- [Beautiful.ai](https://www.beautiful.ai/) - The first presentation maker that designs for you.
+- [Bigjpg](https://bigjpg.com/) - AI Image Enlarger.
 - [Bitwarden](https://bitwarden.com) - Open Source Password Manager.
+- [Brandmark](https://brandmark.io/) - Create a unique, professional logo for your business.
 - [British Council](https://www.britishcouncil.org) - The British Council builds connections, understanding and trust between people in the UK and other countries.
 - [BugMeNot](http://bugmenot.com) - BugMeNot: share logins.
 - [Calmly Writer](https://www.calmlywriter.com) - The Ultimate Ditraction-Free Writing Tool.
@@ -21,6 +24,7 @@
 - [Contentful](https://www.contentful.com) - API-first content platform to build digital experiences
 - [Coursena](https://www.coursera.org) - Take the world's best courses, online.
 - [Creatopy](https://www.creatopy.com) - Online Graphic Design Platform.
+- [Deep Image](https://deep-image.ai/) - Upscale & enhance images.
 - [den4b.com](http://www.den4b.com/tools) - These free online tools might come in handy for software developers and technology enthusiasts.
 - [DesignBold](https://www.designbold.com) - Design is really simple!
 - [DocTranslator](https://www.onlinedoctranslator.com/en/) - Instantly translate and preserve the layout of any document format into any language.
@@ -51,6 +55,7 @@
 - [HEICtoJPEG](https://heictojpg.com) - Convert HEIC photos to JPEGs without harming the quality.
 - [HERE WeGo](https://wego.here.com) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
 - [HexEd.it](https://hexed.it) - The client-side Javascript based hex editor.
+- [Hotpot.ai](https://hotpot.ai/) - Hotpot makes graphic design and image editing easier with AI tools.
 - [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
 - [Icons8](https://icons8.com) - Icons, illustrations, photos, music, and design tools.
 - [IDP IELTS](https://www.idpielts.me/free-ielts-practice-test/) - Free IELTS practice test.
@@ -66,6 +71,7 @@
 - [Karan PC](https://karanpc.com) - Download free software full.
 - [LaTeX Base](https://latexbase.com) - Online LaTeX Editor and Compiler.
 - [Listen A Minute](https://listenaminute.com) - Very short listenings (less than a minute). Free printable handouts, downloads plus MP3 listening and quizzes.
+- [Lumen5](https://lumen5.com/) - Easily make videos for content marketing, thought leadership, and brand awareness in a snap.
 - [LRepacks](https://lrepacks.net) - A Russian site includes software repack by Elchupacabra.
 - [Maskable.app](https://maskable.app) - Preview your maskable PWA icons before adding them to your web app manifest.
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
@@ -81,6 +87,7 @@
 - [Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.
 - [Overleaf](https://www.overleaf.com) - The easy to use, online, collaborative LaTeX editor.
 - [PDF Archive](https://www.pdf-archive.com) - Host, share, publish and archive your PDF documents.
+- [PFP](https://pfpmaker.com/) - Make an awesome profile picture from any photo.
 - [Pexels](https://www.pexels.com) -  Free Stock Photos.
 - [Piktochart](https://piktochart.com) - Infographics, presentations, and reports maker.
 - [Pixeldrain](https://pixeldrain.com) - Free file sharing service.
@@ -109,7 +116,7 @@
 - [Storynory](https://www.storynory.com) - Free Audio Stories.
 - [SurveyMonkey](https://www.surveymonkey.com) - The World's Most Popular Free Online Survey Tool.
 - [SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.
-- [TechBench by WZT](https://tb.rg-adguard.net/public.php) - A project that will help you without tedious search and registration to download Windows operating systems, Office applications, language packs, and virtual machines directly from Microsoft servers
+- [TechBench by WZT](https://tb.rg-adguard.net/public.php) - Help you without tedious search and registration to download Windows OS, Office directly from Microsoft servers.
 - [timeanddate.com](https://www.timeanddate.com) - Current Time (World Clock) and online and printable Calendars for countries worldwide.
 - [The Stocks 2](http://thestocks.im) - Best royalty free photos, videos, mockups, icons and fonts.
 - [Travel Coffee Book](https://travelcoffeebook.com) - Sharing beautiful travel moments.
