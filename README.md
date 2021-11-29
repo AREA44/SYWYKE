@@ -107,7 +107,6 @@
 - [Send.cm](https://send.cm) - Unlimited data hosting.
 - [Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.
 - [Simple Icons](https://simpleicons.org) - Free SVG icons for popular brands.
-- [Slidely](https://slide.ly/) - The #1 visual content creation platform.
 - [SmallDev.tools](https://smalldev.tools/) - FREE tools for developers.
 - [SoundCloud](https://soundcloud.com) - Hear the world's Sound.
 - [StackEdit](https://stackedit.io) - In-browser Markdown editor.
