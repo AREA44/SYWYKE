@@ -1,6 +1,6 @@
 - [10 Minute Mail](https://10minutemail.com/) - Temporary E-Mail.
 - [750 Words](https://750words.com) - Write every day.
-- [Adobe Spark](https://spark.adobe.com) - Make Images, Videos and Web Stories for Free in Minutes.
+- [Adobe Creative Cloud Express](https://www.adobe.com/express/) - Make Images, Videos and Web Stories for Free in Minutes.
 - [Aeon](https://aeon.co) - A world of ideas.
 - [AirDroid](https://www.airdroid.com/en/) - Delight Your Multi-Screen Life
 - [Alison](https://alison.com) - Free Online Courses from the World’s Top Publishers.
@@ -45,6 +45,7 @@
 - [FreePik](https://www.freepik.com) - Find Free Vectors, Stock Photos and PSD.
 - [Gates Notes](https://www.gatesnotes.com) - The Blog of Bill Gates.
 - [GIPHY](https://giphy.com) - Search All the GIFs & Make Your Own Animated GIF.
+- [Git.io](https://git.io) - Shorten URL by GitHub.
 - [Gofile](https://gofile.io) - File sharing platform, anonymous and free.
 - [Google Drive](https://www.google.com/drive/) - Cloud Storage for Work and Home.
 - [Google Maps](https://www.google.com/maps/@?dg=dbrw&newdg=1) - Find local businesses, view maps and get driving directions in Google Maps.
