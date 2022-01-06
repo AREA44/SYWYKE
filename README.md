@@ -71,8 +71,8 @@
 - [Karan PC](https://karanpc.com) - Download free software full.
 - [LaTeX Base](https://latexbase.com) - Online LaTeX Editor and Compiler.
 - [Listen A Minute](https://listenaminute.com) - Very short listenings (less than a minute). Free printable handouts, downloads plus MP3 listening and quizzes.
-- [Lumen5](https://lumen5.com/) - Easily make videos for content marketing, thought leadership, and brand awareness in a snap.
 - [LRepacks](https://lrepacks.net) - A Russian site includes software repack by Elchupacabra.
+- [Lumen5](https://lumen5.com/) - Easily make videos for content marketing, thought leadership, and brand awareness in a snap.
 - [Maskable.app](https://maskable.app) - Preview your maskable PWA icons before adding them to your web app manifest.
 - [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
 - [Medium](https://medium.com) - A place to write, read, and connect
@@ -87,8 +87,8 @@
 - [Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.
 - [Overleaf](https://www.overleaf.com) - The easy to use, online, collaborative LaTeX editor.
 - [PDF Archive](https://www.pdf-archive.com) - Host, share, publish and archive your PDF documents.
+- [Pexels](https://www.pexels.com) - Free Stock Photos.
 - [PFP](https://pfpmaker.com/) - Make an awesome profile picture from any photo.
-- [Pexels](https://www.pexels.com) -  Free Stock Photos.
 - [Piktochart](https://piktochart.com) - Infographics, presentations, and reports maker.
 - [Pixeldrain](https://pixeldrain.com) - Free file sharing service.
 - [Poll Everywhere](https://www.polleverywhere.com) - Host interactive remote meetings, anywhere.
@@ -117,8 +117,8 @@
 - [SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.
 - [TechBench by WZT](https://tb.rg-adguard.net/public.php) - Help you without tedious search and registration to download Windows OS, Office directly from Microsoft servers.
 - [TeleDrive](https://teledriveapp.com/) - The Free Unlimited Cloud Storage.
-- [timeanddate.com](https://www.timeanddate.com) - Current Time (World Clock) and online and printable Calendars for countries worldwide.
 - [The Stocks 2](http://thestocks.im) - Best royalty free photos, videos, mockups, icons and fonts.
+- [timeanddate.com](https://www.timeanddate.com) - Current Time (World Clock) and online and printable Calendars for countries worldwide.
 - [Travel Coffee Book](https://travelcoffeebook.com) - Sharing beautiful travel moments.
 - [Treehouse](https://teamtreehouse.com) - Learn Web Design, Coding & Much More.
 - [Twitter](https://twitter.com) - Connect with your friends — and other fascinating people.
