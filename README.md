@@ -135,6 +135,7 @@
 - [WordPress](https://wordpress.com) - Create a Free Website or Blog.
 - [wrinting9](https://writing9.com) - Check your IELTS essay online.
 - [Write & Improve](https://writeandimprove.com/) - Write & Improve is a FREE tool that helps every learner to improve their English writing.
+- [Yandex.Translate](https://translate.yandex.com/) - Dictionary an online translation.
 - [YIFY movies](https://yts.mx) - Movies Torrent Download.
 - [Yopmail](https://yopmail.com/en/) - Disposable and Free email address.
 - [Yout](https://yout.com) - Download video from Youtube.
