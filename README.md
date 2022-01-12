@@ -86,6 +86,7 @@
 - [One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.
 - [Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.
 - [Overleaf](https://www.overleaf.com) - The easy to use, online, collaborative LaTeX editor.
+- [Pastebin](https://pastebin.com/) - #1 paste tool since 2002!
 - [PDF Archive](https://www.pdf-archive.com) - Host, share, publish and archive your PDF documents.
 - [Pexels](https://www.pexels.com) - Free Stock Photos.
 - [PFP](https://pfpmaker.com/) - Make an awesome profile picture from any photo.
