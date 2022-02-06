@@ -2,7 +2,7 @@
 - [750 Words](https://750words.com) - Write every day.
 - [Adobe Creative Cloud Express](https://www.adobe.com/express/) - Make Images, Videos and Web Stories for Free in Minutes.
 - [Aeon](https://aeon.co) - A world of ideas.
-- [AirDroid](https://www.airdroid.com/en/) - Delight Your Multi-Screen Life
+- [AirDroid](https://www.airdroid.com/) - Delight Your Multi-Screen Life
 - [Alison](https://alison.com) - Free Online Courses from the World’s Top Publishers.
 - [Apkdone](https://apkdone.com) - Apkdone is the #1 place for the newest and best Android game Mods.
 - [APKMODY](https://apkmody.io) - Premium APK Downloader – Modded Games & Apps.
@@ -59,7 +59,7 @@
 - [Hotpot.ai](https://hotpot.ai/) - Hotpot makes graphic design and image editing easier with AI tools.
 - [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
 - [Icons8](https://icons8.com) - Icons, illustrations, photos, music, and design tools.
-- [IDP IELTS](https://www.idpielts.me/free-ielts-practice-test/) - Free IELTS practice test.
+- [IDP IELTS](https://ielts.idp.com/uae/prepare/ielts-test-preparation-material/free) - Free IELTS practice test.
 - [IELTS Exam](https://www.english-exam.org/IELTS/) - Preparation for IELTS Exam.
 - [IELTS Liz](https://ieltsliz.com) - IELTS Writing Task 1 Tips, Model & More.
 - [IELTS Online Test](https://ieltsonlinetests.com) - IELTS Online Practice Test.
