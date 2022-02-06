@@ -8,6 +8,7 @@
 - [APKMODY](https://apkmody.io) - Premium APK Downloader – Modded Games & Apps.
 - [Beautiful.ai](https://www.beautiful.ai/) - The first presentation maker that designs for you.
 - [Bigjpg](https://bigjpg.com/) - AI Image Enlarger.
+- [Birme]https://www.birme.net/] - Bulk Image Resizing Made.
 - [Bitwarden](https://bitwarden.com) - Open Source Password Manager.
 - [Brandmark](https://brandmark.io/) - Create a unique, professional logo for your business.
 - [British Council](https://www.britishcouncil.org) - The British Council builds connections, understanding and trust between people in the UK and other countries.
@@ -90,6 +91,7 @@
 - [PDF Archive](https://www.pdf-archive.com) - Host, share, publish and archive your PDF documents.
 - [Pexels](https://www.pexels.com) - Free Stock Photos.
 - [PFP](https://pfpmaker.com/) - Make an awesome profile picture from any photo.
+- [PicResize](https://picresize.com/) - The Internet's Original Picture Resizing Tool.
 - [Piktochart](https://piktochart.com) - Infographics, presentations, and reports maker.
 - [Pixeldrain](https://pixeldrain.com) - Free file sharing service.
 - [Poll Everywhere](https://www.polleverywhere.com) - Host interactive remote meetings, anywhere.
@@ -127,7 +129,9 @@
 - [Unsplash](https://unsplash.com) - Photos for everyone.
 - [Uplevo](https://www.uplevo.com/get-started) - Online Design Platform.
 - [VEED](https://www.veed.io) - Video editing made simple.
+- [Vimeo](https://vimeo.com/) - The world's only all-in-one video solution.
 - [Virus total](https://www.virustotal.com/gui/) - Scan virus, malware, url online.
+- [WATERMARKLY](https://watermarkly.com/) - Watermark Photos Online For Free – Make & Add Watermark.
 - [web.dev](https://web.dev) - Let's build the future of the web.
 - [WeCompress](https://www.wecompress.com/en) - Compress PDF, PowerPoint, Word, Excel, JPEG, PNG & TIFF files online.
 - [Western Overseas](https://western-overseas.com) - IELTS Coaching.
