@@ -8,7 +8,7 @@
 - [APKMODY](https://apkmody.io) - Premium APK Downloader – Modded Games & Apps.
 - [Beautiful.ai](https://www.beautiful.ai/) - The first presentation maker that designs for you.
 - [Bigjpg](https://bigjpg.com/) - AI Image Enlarger.
-- [Birme]https://www.birme.net/] - Bulk Image Resizing Made.
+- [Birme](https://www.birme.net/) - Bulk Image Resizing Made.
 - [Bitwarden](https://bitwarden.com) - Open Source Password Manager.
 - [Brandmark](https://brandmark.io/) - Create a unique, professional logo for your business.
 - [British Council](https://www.britishcouncil.org) - The British Council builds connections, understanding and trust between people in the UK and other countries.
