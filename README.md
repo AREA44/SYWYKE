@@ -84,6 +84,7 @@
 - [Moveast](https://moveast.me) - This is a journey of a Portuguese guy moving that decided that every photo should be used for free.
 - [MyFonts](https://www.myfonts.com/) - Fonts for Print, Products & Screens.
 - [New in Levels](https://www.newsinlevels.com) - Worlds News for Students of English.
+- [Netlify](https://www.netlify.com/) - Develop & deploy the best web experiences in record time.
 - [One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.
 - [Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.
 - [Overleaf](https://www.overleaf.com) - The easy to use, online, collaborative LaTeX editor.
@@ -129,8 +130,10 @@
 - [Unsplash](https://unsplash.com) - Photos for everyone.
 - [Uplevo](https://www.uplevo.com/get-started) - Online Design Platform.
 - [VEED](https://www.veed.io) - Video editing made simple.
+- [Vercel](https://vercel.com/) - Develop. Preview. Ship. For the best frontend teams.
 - [Vimeo](https://vimeo.com/) - The world's only all-in-one video solution.
 - [Virus total](https://www.virustotal.com/gui/) - Scan virus, malware, url online.
+- [Watch2Gether](https://w2g.tv/) - Watch videos, listen to music together.
 - [WATERMARKLY](https://watermarkly.com/) - Watermark Photos Online For Free – Make & Add Watermark.
 - [web.dev](https://web.dev) - Let's build the future of the web.
 - [WeCompress](https://www.wecompress.com/en) - Compress PDF, PowerPoint, Word, Excel, JPEG, PNG & TIFF files online.
@@ -140,7 +143,6 @@
 - [WordPress](https://wordpress.com) - Create a Free Website or Blog.
 - [wrinting9](https://writing9.com) - Check your IELTS essay online.
 - [Write & Improve](https://writeandimprove.com/) - Write & Improve is a FREE tool that helps every learner to improve their English writing.
-- [Watch2Gether](https://w2g.tv/) - Watch videos, listen to music together.
 - [Yandex.Translate](https://translate.yandex.com/) - Dictionary an online translation.
 - [YIFY movies](https://yts.mx) - Movies Torrent Download.
 - [Yopmail](https://yopmail.com/en/) - Disposable and Free email address.
