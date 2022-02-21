@@ -93,6 +93,7 @@
 - [Pexels](https://www.pexels.com) - Free Stock Photos.
 - [PFP](https://pfpmaker.com/) - Make an awesome profile picture from any photo.
 - [PicResize](https://picresize.com/) - The Internet's Original Picture Resizing Tool.
+- [PicWish](https://picwish.com/) - More than just a background remover. Pick a solid color, pre-designed template, or go with a customized background.
 - [Piktochart](https://piktochart.com) - Infographics, presentations, and reports maker.
 - [Pixeldrain](https://pixeldrain.com) - Free file sharing service.
 - [Poll Everywhere](https://www.polleverywhere.com) - Host interactive remote meetings, anywhere.
