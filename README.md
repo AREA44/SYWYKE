@@ -67,6 +67,7 @@
 - [Instagram](https://www.instagram.com) - Instagram.
 - [Introcave](https://intromaker.com/) - The easiest way to make a YouTube intro video.
 - [Ivipid](https://ivipid.com) - Ivipid Video Maker.
+- [Jitter](https://jitter.video/) - The simplest motion design tool on the web.
 - [JSFiddle](https://jsfiddle.net) - Code Playground.
 - [Kahoot](https://kahoot.com) - Make learning awesome.
 - [Karan PC](https://karanpc.com) - Download free software full.
@@ -83,8 +84,8 @@
 - [Moovly](https://www.moovly.com) - Easily make stunning videos in any style.
 - [Moveast](https://moveast.me) - This is a journey of a Portuguese guy moving that decided that every photo should be used for free.
 - [MyFonts](https://www.myfonts.com/) - Fonts for Print, Products & Screens.
-- [New in Levels](https://www.newsinlevels.com) - Worlds News for Students of English.
 - [Netlify](https://www.netlify.com/) - Develop & deploy the best web experiences in record time.
+- [New in Levels](https://www.newsinlevels.com) - Worlds News for Students of English.
 - [One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.
 - [Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.
 - [Overleaf](https://www.overleaf.com) - The easy to use, online, collaborative LaTeX editor.
@@ -124,6 +125,7 @@
 - [TeleDrive](https://teledriveapp.com/) - The Free Unlimited Cloud Storage.
 - [The Stocks 2](http://thestocks.im) - Best royalty free photos, videos, mockups, icons and fonts.
 - [timeanddate.com](https://www.timeanddate.com) - Current Time (World Clock) and online and printable Calendars for countries worldwide.
+- [TinyWow](https://tinywow.com/) - Free PDF, Video, Image & Other Online Tools.
 - [Travel Coffee Book](https://travelcoffeebook.com) - Sharing beautiful travel moments.
 - [Treehouse](https://teamtreehouse.com) - Learn Web Design, Coding & Much More.
 - [Twitter](https://twitter.com) - Connect with your friends — and other fascinating people.
