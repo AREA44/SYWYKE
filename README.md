@@ -28,6 +28,7 @@
 - [Deep Image](https://deep-image.ai/) - Upscale & enhance images.
 - [den4b.com](http://www.den4b.com/tools) - These free online tools might come in handy for software developers and technology enthusiasts.
 - [DocTranslator](https://www.onlinedoctranslator.com/en/) - Instantly translate and preserve the layout of any document format into any language.
+- [Download GitHub Directory](https://download-directory.github.io/) - Download GitHub Directory.
 - [Dropbox](https://www.dropbox.com) - Bring your photos, docs, and videos anywhere and keep your files safe.
 - [Duolingo](https://www.duolingo.com) - Learn a language for free. Forever.
 - [edX](https://www.edx.org) - Best Courses. Top Institutions. Learn anytime, anywhere.
