@@ -1,5 +1,28 @@
 title: WYWYKE
-description: Websites You Wish You Knew Earlier!
-show_downloads: false
+description: "Websites You Wish You Knew Earlier!"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://github.com/AREA44/WYWYKE"
+favicon: favicon.ico
+banner: https://raw.githubusercontent.com/AREA44/.github/main/images/banner.jpg
+twitter_username:
+github_username: AREA44
+repository: https://github.com/AREA44/WYWYKE
 google_analytics:
-theme: jekyll-theme-slate
+exclude: [readme.md]
+
+sass:
+  #style: compressed
+
+# Build settings
+markdown: kramdown
+
+# Compress HTML
+compress_html:
+  clippings: all
+  comments: []
+  endings: [p, li, td]
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
