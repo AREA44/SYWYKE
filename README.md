@@ -1,4 +1,3 @@
-🚀[10 Minute Mail](https://10minutemail.com/) - Temporary E-Mail.<br>
 🚀[750 Words](https://750words.com) - Write every day.<br>
 🚀[Adobe Creative Cloud Express](https://www.adobe.com/express/) - Make Images, Videos and Web Stories for Free in Minutes.<br>
 🚀[Aeon](https://aeon.co) - A world of ideas.<br>
@@ -35,6 +34,7 @@
 🚀[edX](https://www.edx.org) - Best Courses. Top Institutions. Learn anytime, anywhere.<br>
 🚀[ELLO](https://elllo.org) - English Listening Lesson Library Online.<br>
 🚀[ESL Fast](https://www.eslfast.com) - Free Online English Teaching and Learning Materials.<br>
+🚀[Excalidraw](https://excalidraw.com/) - Virtual whiteboard for sketching hand-drawn like diagrams.<br>
 🚀[Facebook](https://www.facebook.com) - Facebook helps you connect and share with the people in your life.<br>
 🚀[Filebin](https://filebin.net) - Convenient file sharing on the web, without registration. The files will expire automatically 1 week.<br>
 🚀[Flaticon](https://www.flaticon.com) - Download free icons and stickers for your projects.<br>
