@@ -122,6 +122,7 @@
 🚀[Startup Stock Photos](https://startupstockphotos.com) - Best Free Tech Photos.<br>
 🚀[Storynory](https://www.storynory.com) - Free Audio Stories.<br>
 🚀[SurveyMonkey](https://www.surveymonkey.com) - The World's Most Popular Free Online Survey Tool.<br>
+🚀[SyncTube](https://sync-tube.de/) - Watch YouTube Videos together.
 🚀[SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.<br>
 🚀[TechBench by WZT](https://tb.rg-adguard.net/public.php) - Help you without tedious search and registration to download Windows OS, Office directly from Microsoft servers.<br>
 🚀[TeleDrive](https://teledriveapp.com/) - The Free Unlimited Cloud Storage.<br>
