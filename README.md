@@ -28,7 +28,7 @@
 🚀[Creatopy](https://www.creatopy.com) - Online Graphic Design Platform.<br>
 🚀[Deep Image](https://deep-image.ai/) - Upscale & enhance images.<br>
 🚀[den4b.com](http://www.den4b.com/tools) - These free online tools might come in handy for software developers and technology enthusiasts.<br>
-🚀[Diffchecker](https://www.diffchecker.com/) - Compare text, images, PDF, Excel online to find the difference between two text files.
+🚀[Diffchecker](https://www.diffchecker.com/) - Compare text, images, PDF, Excel online to find the difference between two text files.<br>
 🚀[DocTranslator](https://www.onlinedoctranslator.com/en/) - Instantly translate and preserve the layout of any document format into any language.<br>
 🚀[Download GitHub Directory](https://download-directory.github.io/) - Download GitHub Directory.<br>
 🚀[Dropbox](https://www.dropbox.com) - Bring your photos, docs, and videos anywhere and keep your files safe.<br>
@@ -124,7 +124,7 @@
 🚀[Startup Stock Photos](https://startupstockphotos.com) - Best Free Tech Photos.<br>
 🚀[Storynory](https://www.storynory.com) - Free Audio Stories.<br>
 🚀[SurveyMonkey](https://www.surveymonkey.com) - The World's Most Popular Free Online Survey Tool.<br>
-🚀[SyncTube](https://sync-tube.de/) - Watch YouTube Videos together.
+🚀[SyncTube](https://sync-tube.de/) - Watch YouTube Videos together.<br>
 🚀[SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.<br>
 🚀[TechBench by WZT](https://tb.rg-adguard.net/public.php) - Help you without tedious search and registration to download Windows OS, Office directly from Microsoft servers.<br>
 🚀[TeleDrive](https://teledriveapp.com/) - The Free Unlimited Cloud Storage.<br>
