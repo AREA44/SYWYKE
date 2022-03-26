@@ -78,7 +78,6 @@
 🚀[LaTeX Base](https://latexbase.com) - Online LaTeX Editor and Compiler.<br>
 🚀[Listen A Minute](https://listenaminute.com) - Very short listenings (less than a minute). Free printable handouts, downloads plus MP3 listening and quizzes.<br>
 🚀[LRepacks](https://lrepacks.net) - A Russian site includes software repack by Elchupacabra.<br>
-🚀[Lumen5](https://lumen5.com/) - Easily make videos for content marketing, thought leadership, and brand awareness in a snap.<br>
 🚀[Maskable.app](https://maskable.app) - Preview your maskable PWA icons before adding them to your web app manifest.<br>
 🚀[MediaFire](https://www.mediafire.com) - File sharing and storage made simple.<br>
 🚀[Medium](https://medium.com) - A place to write, read, and connect.<br>
