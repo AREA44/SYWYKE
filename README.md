@@ -100,6 +100,7 @@
 🚀[PicWish](https://picwish.com/) - More than just a background remover. Pick a solid color, pre-designed template, or go with a customized background.<br>
 🚀[Piktochart](https://piktochart.com) - Infographics, presentations, and reports maker.<br>
 🚀[Pixeldrain](https://pixeldrain.com) - Free file sharing service.<br>
+🚀[Plagiarism Detector](https://plagiarismdetector.net/) - Plagiarism Checker Free.<br>
 🚀[Poll Everywhere](https://www.polleverywhere.com) - Host interactive remote meetings, anywhere.<br>
 🚀[Postimages](https://postimages.org) - Free image hosting / image upload.<br>
 🚀[Prezi](https://prezi.com) - Presenting a better way to present.<br>
