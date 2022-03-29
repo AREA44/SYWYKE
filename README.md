@@ -26,7 +26,6 @@
 🚀[Contentful](https://www.contentful.com) - API-first content platform to build digital experiences.<br>
 🚀[Coursena](https://www.coursera.org) - Take the world's best courses, online.<br>
 🚀[Creatopy](https://www.creatopy.com) - Online Graphic Design Platform.<br>
-🚀[Deep Image](https://deep-image.ai/) - Upscale & enhance images.<br>
 🚀[den4b.com](http://www.den4b.com/tools) - These free online tools might come in handy for software developers and technology enthusiasts.<br>
 🚀[Diffchecker](https://www.diffchecker.com/) - Compare text, images, PDF, Excel online to find the difference between two text files.<br>
 🚀[DocTranslator](https://www.onlinedoctranslator.com/en/) - Instantly translate and preserve the layout of any document format into any language.<br>
