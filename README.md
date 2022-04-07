@@ -16,6 +16,7 @@
 🚀[BugMeNot](http://bugmenot.com) - BugMeNot: share logins.<br>
 🚀[Calmly Writer](https://www.calmlywriter.com) - The Ultimate Ditraction-Free Writing Tool.<br>
 🚀[Canva](https://www.canva.com) - Canva makes design simple for everyone.<br>
+🚀[Cleanup.pictures](https://cleanup.pictures/) - Remove unwanted objects, people, text and defects from any picture for free.<br>
 🚀[Code.org](https://code.org) - Anybody can learn.<br>
 🚀[Codebeautify](https://codebeautify.org) - JSON Beautifier, XML Viewer, JSON Converters, Hex Converters and More.<br>
 🚀[Codecademy](https://www.codecademy.com) - Learn to code interactively, for free.<br>
