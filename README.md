@@ -43,6 +43,7 @@
 🚀[Flickr](https://www.flickr.com) - Find your inspiration.<br>
 🚀[Flixpress](https://flixpress.com) - CREATE VIDEOS ONLINE IN MINUTES.<br>
 🚀[FotoJet](https://www.fotojet.com) - Turn Your Ideas into Stunning Artworks.<br>
+🚀[Free Tarot Card Reading](https://www.free-tarot-reading.net/free) - This is a good reading to simply 'get a snapshot' of how things are with you generally, at this moment in time.<br>
 🚀[freeCodeCamp](https://www.freecodecamp.org/) - Learn to Code and Help Nonprofits.<br>
 🚀[FreeConvert.com](https://www.freeconvert.com) - Free Online File Converter.<br>
 🚀[FreeLogoDesign](https://www.freelogodesign.org) - Create a free logo in seconds.<br>
