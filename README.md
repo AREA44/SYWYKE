@@ -30,7 +30,7 @@
 🚀[den4b.com](http://www.den4b.com/tools) - These free online tools might come in handy for software developers and technology enthusiasts.<br>
 🚀[Diffchecker](https://www.diffchecker.com/) - Compare text, images, PDF, Excel online to find the difference between two text files.<br>
 🚀[DocTranslator](https://www.onlinedoctranslator.com/en/) - Instantly translate and preserve the layout of any document format into any language.<br>
-🚀[Download GitHub Directory](https://download-directory.github.io/) - Download GitHub Directory.<br>
+🚀[DownGit](https://downgit.github.io/#/home) - Create GitHub Resource Download Link.<br>
 🚀[Dropbox](https://www.dropbox.com) - Bring your photos, docs, and videos anywhere and keep your files safe.<br>
 🚀[Duolingo](https://www.duolingo.com) - Learn a language for free. Forever.<br>
 🚀[edX](https://www.edx.org) - Best Courses. Top Institutions. Learn anytime, anywhere.<br>
