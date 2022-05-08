@@ -119,6 +119,7 @@
 🚀[Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.<br>
 🚀[Simple Icons](https://simpleicons.org) - Free SVG icons for popular brands.<br>
 🚀[SmallDev.tools](https://smalldev.tools/) - FREE tools for developers.<br>
+🚀[SnapEdit](https://snapedit.app/) - Remove object faster & better with poweful AI technology.<br>
 🚀[SoundCloud](https://soundcloud.com) - Hear the world's Sound.<br>
 🚀[StackEdit](https://stackedit.io) - In-browser Markdown editor.<br>
 🚀[Standard Resume](https://standardresume.co) - Make a good first impression with a professional resume template.<br>
