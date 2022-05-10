@@ -93,7 +93,7 @@
 🚀[One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.<br>
 🚀[Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.<br>
 🚀[Overleaf](https://www.overleaf.com) - The easy to use, online, collaborative LaTeX editor.<br>
-🚀[PadLet](https://padlet.com/) - It's a starry night. Make something stellar.<br>
+🚀[Padlet](https://padlet.com/) - It's a starry night. Make something stellar.<br>
 🚀[Pastebin](https://pastebin.com/) - #1 paste tool since 2002!<br>
 🚀[PDF Archive](https://www.pdf-archive.com) - Host, share, publish and archive your PDF documents.<br>
 🚀[Pexels](https://www.pexels.com) - Free Stock Photos.<br>
