@@ -121,6 +121,7 @@
 🚀[Send.cm](https://send.cm) - Unlimited data hosting.<br>
 🚀[Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.<br>
 🚀[Simple Icons](https://simpleicons.org) - Free SVG icons for popular brands.<br>
+🚀[Slidesgo](https://slidesgo.com/) - Free Google Slides and PowerPoint templates
 🚀[SmallDev.tools](https://smalldev.tools/) - FREE tools for developers.<br>
 🚀[SnapEdit](https://snapedit.app/) - Remove object faster & better with poweful AI technology.<br>
 🚀[SoundCloud](https://soundcloud.com) - Hear the world's Sound.<br>
@@ -163,3 +164,4 @@
 🚀[Yout](https://yout.com) - Download video from Youtube.<br>
 🚀[YouTube to mp3](https://ytmp3.cc) - YouTube to mp3.<br>
 🚀[YouTube](https://www.youtube.com) - Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.<br>
+to boost your presentations. <br>
