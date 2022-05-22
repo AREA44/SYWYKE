@@ -130,6 +130,7 @@
 🚀[Startup Stock Photos](https://startupstockphotos.com) - Best Free Tech Photos.<br>
 🚀[Storynory](https://www.storynory.com) - Free Audio Stories.<br>
 🚀[SurveyMonkey](https://www.surveymonkey.com) - The World's Most Popular Free Online Survey Tool.<br>
+🚀[SVG Repo](https://www.svgrepo.com/) - Free SVG Vectors and Icons.<br>
 🚀[SyncTube](https://sync-tube.de/) - Watch YouTube Videos together.<br>
 🚀[SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.<br>
 🚀[TechBench by WZT](https://tb.rg-adguard.net/public.php) - Help you without tedious search and registration to download Windows OS, Office directly from Microsoft servers.<br>
@@ -164,4 +165,4 @@
 🚀[Yout](https://yout.com) - Download video from Youtube.<br>
 🚀[YouTube to mp3](https://ytmp3.cc) - YouTube to mp3.<br>
 🚀[YouTube](https://www.youtube.com) - Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.<br>
-to boost your presentations. <br>
+to boost your presentations.<br>
