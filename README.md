@@ -14,6 +14,7 @@
 🚀[Brandmark](https://brandmark.io/) - Create a unique, professional logo for your business.<br>
 🚀[British Council](https://www.britishcouncil.org) - The British Council builds connections, understanding and trust between people in the UK and other countries.<br>
 🚀[BugMeNot](http://bugmenot.com) - BugMeNot: share logins.<br>
+🚀[Caesium](https://caesium.app/) - An image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats.<br>
 🚀[Calmly Writer](https://www.calmlywriter.com) - The Ultimate Ditraction-Free Writing Tool.<br>
 🚀[Canva](https://www.canva.com) - Canva makes design simple for everyone.<br>
 🚀[Cleanup.pictures](https://cleanup.pictures/) - Remove unwanted objects, people, text and defects from any picture for free.<br>
@@ -125,6 +126,7 @@
 🚀[SmallDev.tools](https://smalldev.tools/) - FREE tools for developers.<br>
 🚀[SnapEdit](https://snapedit.app/) - Remove object faster & better with poweful AI technology.<br>
 🚀[SoundCloud](https://soundcloud.com) - Hear the world's Sound.<br>
+🚀[Squoosh](https://squoosh.app/) - An image compression web app that reduces image sizes through numerous formats.<br>
 🚀[StackEdit](https://stackedit.io) - In-browser Markdown editor.<br>
 🚀[Standard Resume](https://standardresume.co) - Make a good first impression with a professional resume template.<br>
 🚀[Startup Stock Photos](https://startupstockphotos.com) - Best Free Tech Photos.<br>
