@@ -1,4 +1,4 @@
-# Websites You Wish You Knew Earlier!
+# Sites You Wish You Knew Earlier
 
 🚀[750 Words](https://750words.com) - Write every day.<br>
 🚀[Adobe Creative Cloud Express](https://www.adobe.com/express/) - Make Images, Videos and Web Stories for Free in Minutes.<br>
@@ -125,7 +125,7 @@
 🚀[Send.cm](https://send.cm) - Unlimited data hosting.<br>
 🚀[Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.<br>
 🚀[Simple Icons](https://simpleicons.org) - Free SVG icons for popular brands.<br>
-🚀[Slidesgo](https://slidesgo.com/) - Free Google Slides and PowerPoint templates
+🚀[Slidesgo](https://slidesgo.com/) - Free Google Slides and PowerPoint templates.<br>
 🚀[SmallDev.tools](https://smalldev.tools/) - FREE tools for developers.<br>
 🚀[SnapEdit](https://snapedit.app/) - Remove object faster & better with poweful AI technology.<br>
 🚀[SoundCloud](https://soundcloud.com) - Hear the world's Sound.<br>
@@ -135,7 +135,7 @@
 🚀[Startup Stock Photos](https://startupstockphotos.com) - Best Free Tech Photos.<br>
 🚀[Storynory](https://www.storynory.com) - Free Audio Stories.<br>
 🚀[SurveyMonkey](https://www.surveymonkey.com) - The World's Most Popular Free Online Survey Tool.<br>
-🚀[SVG Repo](https://www.svgrepo.com/) - Free SVG Vectors and Icons.<br>
+🚀[SVGRepo](https://www.svgrepo.com/) - Free SVG Vectors and Icons.<br>
 🚀[SyncTube](https://sync-tube.de/) - Watch YouTube Videos together.<br>
 🚀[SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.<br>
 🚀[TechBench by WZT](https://tb.rg-adguard.net/public.php) - Help you without tedious search and registration to download Windows OS, Office directly from Microsoft servers.<br>
