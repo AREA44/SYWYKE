@@ -1,3 +1,5 @@
+# Websites You Wish You Knew Earlier!
+
 🚀[750 Words](https://750words.com) - Write every day.<br>
 🚀[Adobe Creative Cloud Express](https://www.adobe.com/express/) - Make Images, Videos and Web Stories for Free in Minutes.<br>
 🚀[Aeon](https://aeon.co) - A world of ideas.<br>
@@ -61,7 +63,7 @@
 🚀[Happy Hues](https://www.happyhues.co) - Curated colors in context.<br>
 🚀[HEICtoJPEG](https://heictojpg.com) - Convert HEIC photos to JPEGs without harming the quality.<br>
 🚀[HERE WeGo](https://wego.here.com) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.<br>
-🚀[HexEd.it](https://hexed.it) - The client-side Javascript based hex editor.<br>
+🚀[HexEd.it](https://hexed.it) - The client-side JavaScript based hex editor.<br>
 🚀[Hotpot.ai](https://hotpot.ai/) - Hotpot makes graphic design and image editing easier with AI tools.<br>
 🚀[Icomoon](https://icomoon.io) - Pixel perfect icon solutions.<br>
 🚀[Icons8](https://icons8.com) - Icons, illustrations, photos, music, and design tools.<br>
@@ -86,7 +88,7 @@
 🚀[Medium](https://medium.com) - A place to write, read, and connect.<br>
 🚀[Mega](https://mega.io) - Secure Cloud Storage and Communication Privacy by Design.<br>
 🚀[Microsoft Learn](https://docs.microsoft.com/en-us/learn/) - Free Microsoft training delivered by experts.<br>
-🚀[Mini IELTS](https://mini-ielts.com/) - The best free website for IELTS test preparation.<br>
+🚀[Mini IELTS](https://mini-ielts.com/) - The best free site for IELTS test preparation.<br>
 🚀[Moovly](https://www.moovly.com) - Easily make stunning videos in any style.<br>
 🚀[Moveast](https://moveast.me) - This is a journey of a Portuguese guy moving that decided that every photo should be used for free.<br>
 🚀[MyFonts](https://www.myfonts.com/) - Fonts for Print, Products & Screens.<br>
@@ -94,13 +96,14 @@
 🚀[New in Levels](https://www.newsinlevels.com) - Worlds News for Students of English.<br>
 🚀[One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.<br>
 🚀[Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.<br>
+🚀[Open Source Agenda (OSA)](https://www.opensourceagenda.com/) - Discover the best free open source software projects.<br>
 🚀[Overleaf](https://www.overleaf.com) - The easy to use, online, collaborative LaTeX editor.<br>
 🚀[Padlet](https://padlet.com/) - It's a starry night. Make something stellar.<br>
 🚀[Pastebin](https://pastebin.com/) - #1 paste tool since 2002!<br>
 🚀[PDF Archive](https://www.pdf-archive.com) - Host, share, publish and archive your PDF documents.<br>
 🚀[Pexels](https://www.pexels.com) - Free Stock Photos.<br>
 🚀[PFP](https://pfpmaker.com/) - Make an awesome profile picture from any photo.<br>
-🚀[PicResize](https://picresize.com/) - The Internet's Original Picture Resizing Tool.<br>
+🚀[PicResize](https://picresize.com/) - The internet's Original Picture Resizing Tool.<br>
 🚀[Picsart](https://picsart.com/) - Picsart Creative Platform: Photo, Video Editing and Design Tools.<br>
 🚀[PicWish](https://picwish.com/) - More than just a background remover. Pick a solid color, pre-designed template, or go with a customized background.<br>
 🚀[Piktochart](https://piktochart.com) - Infographics, presentations, and reports maker.<br>
@@ -117,7 +120,7 @@
 🚀[RealFaviconGenerator](https://realfavicongenerator.net/) - Favicon Generator for perfect icons on all browsers.<br>
 🚀[Remix Icon](https://remixicon.com) - Simply Delightful Icon System.<br>
 🚀[removebg](https://www.remove.bg) - Remove Image Background.<br>
-🚀[Sci-Hub](https://sci-hub.hkvisa.net/) - The first website in the world to provide mass & public access to research papers.<br>
+🚀[Sci-Hub](https://sci-hub.hkvisa.net/) - The first site in the world to provide mass & public access to research papers.<br>
 🚀[Send anywhere](https://send-anywhere.com) - Send whatever you want, wherever you want.<br>
 🚀[Send.cm](https://send.cm) - Unlimited data hosting.<br>
 🚀[Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.<br>
@@ -149,7 +152,7 @@
 🚀[VEED](https://www.veed.io) - Video editing made simple.<br>
 🚀[Vercel](https://vercel.com/) - Develop. Preview. Ship. For the best frontend teams.<br>
 🚀[Vimeo](https://vimeo.com/) - The world's only all-in-one video solution.<br>
-🚀[Virus total](https://www.virustotal.com/gui/) - Scan virus, malware, url online.<br>
+🚀[Virus total](https://www.virustotal.com/gui/) - Scan virus, malware, URL online.<br>
 🚀[Watch2Gether](https://w2g.tv/) - Watch videos, listen to music together.<br>
 🚀[WATERMARKLY](https://watermarkly.com/) - Watermark Photos Online For Free – Make & Add Watermark.<br>
 🚀[web.dev](https://web.dev) - Let's build the future of the web.<br>
@@ -157,14 +160,14 @@
 🚀[Western Overseas](https://western-overseas.com) - IELTS Coaching.<br>
 🚀[WeVideo](https://www.wevideo.com) - Easily create outstanding videos.<br>
 🚀[Wolfram Alpha](https://www.wolframalpha.com) - Computational knowledge engine.<br>
-🚀[WordPress](https://wordpress.com) - Create a Free Website or Blog.<br>
+🚀[WordPress](https://wordpress.com) - Create a Free site or Blog.<br>
 🚀[wrinting9](https://writing9.com) - Check your IELTS essay online.<br>
 🚀[Write & Improve](https://writeandimprove.com/) - Write & Improve is a FREE tool that helps every learner to improve their English writing.<br>
 🚀[Y2mate](https://www.y2mate.com/) - Download Video and Audio from YouTube.<br>
 🚀[Yandex.Translate](https://translate.yandex.com/) - Dictionary an online translation.<br>
 🚀[YIFY movies](https://yts.mx) - Movies Torrent Download.<br>
 🚀[Yopmail](https://yopmail.com/en/) - Disposable and Free email address.<br>
-🚀[Yout](https://yout.com) - Download video from Youtube.<br>
+🚀[Yout](https://yout.com) - Download video from YouTube.<br>
 🚀[YouTube to mp3](https://ytmp3.cc) - YouTube to mp3.<br>
 🚀[YouTube](https://www.youtube.com) - Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.<br>
 to boost your presentations.<br>
