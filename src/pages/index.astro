@@ -1,0 +1,59 @@
+---
+import {Content as Content} from '../content/Content.md';
+import '../styles/global.css';
+import '../styles/home.css';
+
+let title = 'Sites You Wish You Knew Earlier | AREA44';
+---
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>{title}</title>
+
+	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+
+	<style>
+		header {
+			display: flex;
+			flex-direction: column;
+			gap: 1em;
+			max-width: min(100%, 68ch);
+		}
+		article {
+			padding-top: 2em;
+			line-height: 1.5;
+			display: flex;
+			flex-direction: column;
+			gap: 1em;
+			max-width: 70ch;
+		}
+		.banner {
+			text-align: center;
+			font-size: 1.2rem;
+			background: var(--color-light);
+			padding: 1em 1.5em;
+			padding-left: 0.75em;
+			border-radius: 4px;
+		}
+	</style>
+	<style is:global>
+		pre {
+			padding: 1rem;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<div>
+				<h1>Sites You Wish You Knew Earlier</h1>
+			</div>
+		</header>
+
+		<article>
+			<Content />
+		</article>
+	</main>
+</body>
+</html>
