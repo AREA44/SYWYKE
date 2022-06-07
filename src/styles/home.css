@@ -26,6 +26,10 @@ a {
   color: #f26903;
 }
 
+a:hover {
+  background: #fff5e3;
+}
+
 header > div {
   font-size: clamp(2rem, -0.4742rem + 6.1856vw, 2.75rem);
   display: flex;
