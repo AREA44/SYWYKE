@@ -137,6 +137,7 @@
 - [SyncTube](https://sync-tube.de/) - Watch YouTube Videos together.
 - [SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.
 - [TechBench by WZT](https://tb.rg-adguard.net/public.php) - Help you without tedious search and registration to download Windows OS, Office directly from Microsoft servers.
+- [TED](https://www.ted.com/) - Ideas worth spreading.
 - [TeleDrive](https://teledriveapp.com/) - The Free Unlimited Cloud Storage.
 - [The Stocks 2](http://thestocks.im) - Best royalty free photos, videos, mockups, icons and fonts.
 - [timeanddate.com](https://www.timeanddate.com) - Current Time (World Clock) and online and printable Calendars for countries worldwide.
@@ -168,4 +169,3 @@
 - [Yout](https://yout.com) - Download video from YouTube.
 - [YouTube to mp3](https://ytmp3.cc) - YouTube to mp3.
 - [YouTube](https://www.youtube.com) - Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
-to boost your presentations.
