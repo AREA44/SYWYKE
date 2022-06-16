@@ -105,6 +105,7 @@
 - <a href="https://picsart.com/" target="_blank">Picsart</a> - Picsart Creative Platform: Photo, Video Editing and Design Tools.
 - <a href="https://picwish.com/" target="_blank">PicWish</a> - More than just a background remover. Pick a solid color, pre-designed template, or go with a customized background.
 - <a href="https://piktochart.com" target="_blank">Piktochart</a> - Infographics, presentations, and reports maker.
+- <a href="https://pixabay.com/" target="_blank">Pixabay</a> - Stunning free images & royalty free stock.
 - <a href="https://pixeldrain.com" target="_blank">Pixeldrain</a> - Free file sharing service.
 - <a href="https://plagiarismdetector.net/" target="_blank">Plagiarism Detector</a> - Plagiarism Checker Free.
 - <a href="https://www.polleverywhere.com" target="_blank">Poll Everywhere</a> - Host interactive remote meetings, anywhere.
