@@ -1,171 +1,171 @@
-- [750 Words](https://750words.com) - Write every day.
-- [Adobe Creative Cloud Express](https://www.adobe.com/express/) - Make Images, Videos and Web Stories for Free in Minutes.
-- [Aeon](https://aeon.co) - A world of ideas.
-- [AirDroid](https://www.airdroid.com/) - Delight Your Multi-Screen Life.
-- [Alison](https://alison.com) - Free Online Courses from the World’s Top Publishers.
-- [Apkdone](https://apkdone.com) - Apkdone is the #1 place for the newest and best Android game Mods.
-- [APKMODY](https://apkmody.io) - Premium APK Downloader – Modded Games & Apps.
-- [Beautiful.ai](https://www.beautiful.ai/) - The first presentation maker that designs for you.
-- [BeFunky](https://www.befunky.com/) - Photo Editing and Graphic Design Made for Everyone.
-- [Bigjpg](https://bigjpg.com/) - AI Image Enlarger.
-- [Birme](https://www.birme.net/) - Bulk Image Resizing Made.
-- [Bitly](https://bitly.com/) - A URL shortener built with powerful tools to help you grow and protect your brand.
-- [Bitwarden](https://bitwarden.com) - Open Source Password Manager.
-- [Brandmark](https://brandmark.io/) - Create a unique, professional logo for your business.
-- [British Council](https://www.britishcouncil.org) - The British Council builds connections, understanding and trust between people in the UK and other countries.
-- [BugMeNot](http://bugmenot.com) - BugMeNot: share logins.
-- [Caesium](https://caesium.app/) - An image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats.
-- [Calmly Writer](https://www.calmlywriter.com) - The Ultimate Ditraction-Free Writing Tool.
-- [Canva](https://www.canva.com) - Canva makes design simple for everyone.
-- [Cleanup.pictures](https://cleanup.pictures/) - Remove unwanted objects, people, text and defects from any picture for free.
-- [Code.org](https://code.org) - Anybody can learn.
-- [Codebeautify](https://codebeautify.org) - JSON Beautifier, XML Viewer, JSON Converters, Hex Converters and More.
-- [Codecademy](https://www.codecademy.com) - Learn to code interactively, for free.
-- [CodeForces](http://codeforces.com) - Programming competitions and contests, programming community.
-- [CodePen](https://codepen.io) - Online Code Editor & Font End Web Developer Community.
-- [CodeSandbox](https://codesandbox.io) - Online Code Editor & IDE for Rapid Web Development.
-- [Compress.com](https://www.compresss.com) - Compress image, document, video and audio files online.
-- [Contentful](https://www.contentful.com) - API-first content platform to build digital experiences.
-- [Coursena](https://www.coursera.org) - Take the world's best courses, online.
-- [Creatopy](https://www.creatopy.com) - Online Graphic Design Platform.
-- [den4b.com](http://www.den4b.com/tools) - These free online tools might come in handy for software developers and technology enthusiasts.
-- [Diffchecker](https://www.diffchecker.com/) - Compare text, images, PDF, Excel online to find the difference between two text files.
-- [DocTranslator](https://www.onlinedoctranslator.com/en/) - Instantly translate and preserve the layout of any document format into any language.
-- [DownGit](https://downgit.github.io/#/home) - Create GitHub Resource Download Link.
-- [Dropbox](https://www.dropbox.com) - Bring your photos, docs, and videos anywhere and keep your files safe.
-- [Duolingo](https://www.duolingo.com) - Learn a language for free. Forever.
-- [edX](https://www.edx.org) - Best Courses. Top Institutions. Learn anytime, anywhere.
-- [ELLO](https://elllo.org) - English Listening Lesson Library Online.
-- [ESL Fast](https://www.eslfast.com) - Free Online English Teaching and Learning Materials.
-- [Excalidraw](https://excalidraw.com/) - Virtual whiteboard for sketching hand-drawn like diagrams.
-- [Facebook](https://www.facebook.com) - Facebook helps you connect and share with the people in your life.
-- [Filebin](https://filebin.net) - Convenient file sharing on the web, without registration. The files will expire automatically 1 week.
-- [Flaticon](https://www.flaticon.com) - Download free icons and stickers for your projects.
-- [Flickr](https://www.flickr.com) - Find your inspiration.
-- [Flixpress](https://flixpress.com) - CREATE VIDEOS ONLINE IN MINUTES.
-- [FotoJet](https://www.fotojet.com) - Turn Your Ideas into Stunning Artworks.
-- [Free Tarot Card Reading](https://www.free-tarot-reading.net/free) - This is a good reading to simply 'get a snapshot' of how things are with you generally, at this moment in time.
-- [freeCodeCamp](https://www.freecodecamp.org/) - Learn to Code and Help Nonprofits.
-- [FreeConvert.com](https://www.freeconvert.com) - Free Online File Converter.
-- [FreeLogoDesign](https://www.freelogodesign.org) - Create a free logo in seconds.
-- [FreePik](https://www.freepik.com) - Find Free Vectors, Stock Photos and PSD.
-- [Gates Notes](https://www.gatesnotes.com) - The Blog of Bill Gates.
-- [GIPHY](https://giphy.com) - Search All the GIFs & Make Your Own Animated GIF.
-- [Git.io](https://git.io) - Shorten URL by GitHub.
-- [Gofile](https://gofile.io) - File sharing platform, anonymous and free.
-- [Google Drive](https://www.google.com/drive/) - Cloud Storage for Work and Home.
-- [Google Maps](https://www.google.com/maps/@?dg=dbrw&newdg=1) - Find local businesses, view maps and get driving directions in Google Maps.
-- [Google Photos](https://www.google.com/photos/about/) - Free storage and automatic organization for all your memories.
-- [Google Translate](https://translate.google.com) - Translate languages.
-- [HackerEarth](https://www.hackerearth.com) - Be a Better Programmer.
-- [Happy Hues](https://www.happyhues.co) - Curated colors in context.
-- [HEICtoJPEG](https://heictojpg.com) - Convert HEIC photos to JPEGs without harming the quality.
-- [HERE WeGo](https://wego.here.com) - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
-- [HexEd.it](https://hexed.it) - The client-side JavaScript based hex editor.
-- [Hotpot.ai](https://hotpot.ai/) - Hotpot makes graphic design and image editing easier with AI tools.
-- [Icomoon](https://icomoon.io) - Pixel perfect icon solutions.
-- [Icons8](https://icons8.com) - Icons, illustrations, photos, music, and design tools.
-- [IDP IELTS](https://ielts.idp.com/uae/prepare/ielts-test-preparation-material/free) - Free IELTS practice test.
-- [IELTS Exam](https://www.english-exam.org/IELTS/) - Preparation for IELTS Exam.
-- [IELTS Liz](https://ieltsliz.com) - IELTS Writing Task 1 Tips, Model & More.
-- [IELTS Online Test](https://ieltsonlinetests.com) - IELTS Online Practice Test.
-- [IELTSbuddy](https://www.ieltsbuddy.com) - Free exam preparation to improve your test score.
-- [Imgur](https://imgur.com/) - Where you’ll find the funniest, most informative and inspiring images, memes, GIFs, and visual stories served up in an endless stream of bite-sized fun.
-- [Instagram](https://www.instagram.com) - Instagram.
-- [Introcave](https://intromaker.com/) - The easiest way to make a YouTube intro video.
-- [Ivipid](https://ivipid.com) - Ivipid Video Maker.
-- [Jitter](https://jitter.video/) - The simplest motion design tool on the web.
-- [JSFiddle](https://jsfiddle.net) - Code Playground.
-- [Kahoot](https://kahoot.com) - Make learning awesome.
-- [Karan PC](https://karanpc.com) - Download free software full.
-- [LaTeX Base](https://latexbase.com) - Online LaTeX Editor and Compiler.
-- [Listen A Minute](https://listenaminute.com) - Very short listenings (less than a minute). Free printable handouts, downloads plus MP3 listening and quizzes.
-- [LRepacks](https://lrepacks.net) - A Russian site includes software repack by Elchupacabra.
-- [Maskable.app](https://maskable.app) - Preview your maskable PWA icons before adding them to your web app manifest.
-- [MediaFire](https://www.mediafire.com) - File sharing and storage made simple.
-- [Medium](https://medium.com) - A place to write, read, and connect.
-- [Mega](https://mega.io) - Secure Cloud Storage and Communication Privacy by Design.
-- [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) - Free Microsoft training delivered by experts.
-- [Mini IELTS](https://mini-ielts.com/) - The best free site for IELTS test preparation.
-- [Moovly](https://www.moovly.com) - Easily make stunning videos in any style.
-- [Moveast](https://moveast.me) - This is a journey of a Portuguese guy moving that decided that every photo should be used for free.
-- [MyFonts](https://www.myfonts.com/) - Fonts for Print, Products & Screens.
-- [Netlify](https://www.netlify.com/) - Develop & deploy the best web experiences in record time.
-- [New in Levels](https://www.newsinlevels.com) - Worlds News for Students of English.
-- [One Drive](https://onedrive.live.com) - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.
-- [Online Converter](https://www.onlineconverter.com) - Free Online Conversion Services.
-- [Open Source Agenda (OSA)](https://www.opensourceagenda.com/) - Discover the best free open source software projects.
-- [Overleaf](https://www.overleaf.com) - The easy to use, online, collaborative LaTeX editor.
-- [Padlet](https://padlet.com/) - It's a starry night. Make something stellar.
-- [Pastebin](https://pastebin.com/) - #1 paste tool since 2002!
-- [PDF Archive](https://www.pdf-archive.com) - Host, share, publish and archive your PDF documents.
-- [Pexels](https://www.pexels.com) - Free Stock Photos.
-- [PFP](https://pfpmaker.com/) - Make an awesome profile picture from any photo.
-- [PicResize](https://picresize.com/) - The internet's Original Picture Resizing Tool.
-- [Picsart](https://picsart.com/) - Picsart Creative Platform: Photo, Video Editing and Design Tools.
-- [PicWish](https://picwish.com/) - More than just a background remover. Pick a solid color, pre-designed template, or go with a customized background.
-- [Piktochart](https://piktochart.com) - Infographics, presentations, and reports maker.
-- [Pixeldrain](https://pixeldrain.com) - Free file sharing service.
-- [Plagiarism Detector](https://plagiarismdetector.net/) - Plagiarism Checker Free.
-- [Poll Everywhere](https://www.polleverywhere.com) - Host interactive remote meetings, anywhere.
-- [Postimages](https://postimages.org) - Free image hosting / image upload.
-- [Prezi](https://prezi.com) - Presenting a better way to present.
-- [Project Naptha](https://projectnaptha.com) - Highlight, copy, and translate text from any image.
-- [ProxySite.com](https://www.proxysite.com) - Free Web Proxy Site.
-- [Quizlet](https://quizlet.com) - Learning tools & flashcards, for free.
-- [Readable](https://readable.com) - Readable will quickly test the readability, spelling and grammar of your text and show you how and where to make improvements.
-- [readme.so](https://readme.so) - The easiest way to create a README.
-- [RealFaviconGenerator](https://realfavicongenerator.net/) - Favicon Generator for perfect icons on all browsers.
-- [Remix Icon](https://remixicon.com) - Simply Delightful Icon System.
-- [removebg](https://www.remove.bg) - Remove Image Background.
-- [Sci-Hub](https://sci-hub.hkvisa.net/) - The first site in the world to provide mass & public access to research papers.
-- [Send anywhere](https://send-anywhere.com) - Send whatever you want, wherever you want.
-- [Send.cm](https://send.cm) - Unlimited data hosting.
-- [Serial & keys](https://www.serials.ws) - Serials & keys - unlocks the world.
-- [Simple Icons](https://simpleicons.org) - Free SVG icons for popular brands.
-- [Slidesgo](https://slidesgo.com/) - Free Google Slides and PowerPoint templates.
-- [SmallDev.tools](https://smalldev.tools/) - FREE tools for developers.
-- [SnapEdit](https://snapedit.app/) - Remove object faster & better with poweful AI technology.
-- [SoundCloud](https://soundcloud.com) - Hear the world's Sound.
-- [Squoosh](https://squoosh.app/) - An image compression web app that reduces image sizes through numerous formats.
-- [StackEdit](https://stackedit.io) - In-browser Markdown editor.
-- [Standard Resume](https://standardresume.co) - Make a good first impression with a professional resume template.
-- [Startup Stock Photos](https://startupstockphotos.com) - Best Free Tech Photos.
-- [Storynory](https://www.storynory.com) - Free Audio Stories.
-- [SurveyMonkey](https://www.surveymonkey.com) - The World's Most Popular Free Online Survey Tool.
-- [SVGRepo](https://www.svgrepo.com/) - Free SVG Vectors and Icons.
-- [SyncTube](https://sync-tube.de/) - Watch YouTube Videos together.
-- [SyntaxDB](https://syntaxdb.com) - Programming Syntax Database.
-- [TechBench by WZT](https://tb.rg-adguard.net/public.php) - Help you without tedious search and registration to download Windows OS, Office directly from Microsoft servers.
-- [TED](https://www.ted.com/) - Ideas worth spreading.
-- [TeleDrive](https://teledriveapp.com/) - The Free Unlimited Cloud Storage.
-- [The Stocks 2](http://thestocks.im) - Best royalty free photos, videos, mockups, icons and fonts.
-- [timeanddate.com](https://www.timeanddate.com) - Current Time (World Clock) and online and printable Calendars for countries worldwide.
-- [TinyWow](https://tinywow.com/) - Free PDF, Video, Image & Other Online Tools.
-- [Travel Coffee Book](https://travelcoffeebook.com) - Sharing beautiful travel moments.
-- [Treehouse](https://teamtreehouse.com) - Learn Web Design, Coding & Much More.
-- [Twitter](https://twitter.com) - Connect with your friends — and other fascinating people.
-- [Udacity](https://www.udacity.com) - Free Online Classes & Nanodegrees.
-- [Unsplash](https://unsplash.com) - Photos for everyone.
-- [Uplevo](https://www.uplevo.com/get-started) - Online Design Platform.
-- [VEED](https://www.veed.io) - Video editing made simple.
-- [Vercel](https://vercel.com/) - Develop. Preview. Ship. For the best frontend teams.
-- [Vimeo](https://vimeo.com/) - The world's only all-in-one video solution.
-- [Virus total](https://www.virustotal.com/gui/) - Scan virus, malware, URL online.
-- [Watch2Gether](https://w2g.tv/) - Watch videos, listen to music together.
-- [WATERMARKLY](https://watermarkly.com/) - Watermark Photos Online For Free – Make & Add Watermark.
-- [web.dev](https://web.dev) - Let's build the future of the web.
-- [WeCompress](https://www.wecompress.com/en) - Compress PDF, PowerPoint, Word, Excel, JPEG, PNG & TIFF files online.
-- [Western Overseas](https://western-overseas.com) - IELTS Coaching.
-- [WeVideo](https://www.wevideo.com) - Easily create outstanding videos.
-- [Wolfram Alpha](https://www.wolframalpha.com) - Computational knowledge engine.
-- [WordPress](https://wordpress.com) - Create a Free site or Blog.
-- [wrinting9](https://writing9.com) - Check your IELTS essay online.
-- [Write & Improve](https://writeandimprove.com/) - Write & Improve is a FREE tool that helps every learner to improve their English writing.
-- [Y2mate](https://www.y2mate.com/) - Download Video and Audio from YouTube.
-- [Yandex.Translate](https://translate.yandex.com/) - Dictionary an online translation.
-- [YIFY movies](https://yts.mx) - Movies Torrent Download.
-- [Yopmail](https://yopmail.com/en/) - Disposable and Free email address.
-- [Yout](https://yout.com) - Download video from YouTube.
-- [YouTube to mp3](https://ytmp3.cc) - YouTube to mp3.
-- [YouTube](https://www.youtube.com) - Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+- <a href="https://750words.com" target="_blank">750 Words</a> - Write every day.
+- <a href="https://www.adobe.com/express/" target="_blank">Adobe Creative Cloud Express</a> - Make Images, Videos and Web Stories for Free in Minutes.
+- <a href="https://aeon.co" target="_blank">Aeon</a> - A world of ideas.
+- <a href="https://www.airdroid.com/" target="_blank">AirDroid</a> - Delight Your Multi-Screen Life.
+- <a href="https://alison.com" target="_blank">Alison</a> - Free Online Courses from the World’s Top Publishers.
+- <a href="https://apkdone.com" target="_blank">Apkdone</a> - Apkdone is the #1 place for the newest and best Android game Mods.
+- <a href="https://apkmody.io" target="_blank">APKMODY</a> - Premium APK Downloader – Modded Games & Apps.
+- <a href="https://www.beautiful.ai/" target="_blank">Beautiful.ai</a> - The first presentation maker that designs for you.
+- <a href="https://www.befunky.com/" target="_blank">BeFunky</a> - Photo Editing and Graphic Design Made for Everyone.
+- <a href="https://bigjpg.com/" target="_blank">Bigjpg</a> - AI Image Enlarger.
+- <a href="https://www.birme.net/" target="_blank">Birme</a> - Bulk Image Resizing Made.
+- <a href="https://bitly.com/" target="_blank">Bitly</a> - A URL shortener built with powerful tools to help you grow and protect your brand.
+- <a href="https://bitwarden.com" target="_blank">Bitwarden</a> - Open Source Password Manager.
+- <a href="https://brandmark.io/" target="_blank">Brandmark</a> - Create a unique, professional logo for your business.
+- <a href="https://www.britishcouncil.org" target="_blank">British Council</a> - The British Council builds connections, understanding and trust between people in the UK and other countries.
+- <a href="http://bugmenot.com" target="_blank">BugMeNot</a> - BugMeNot: share logins.
+- <a href="https://caesium.app/" target="_blank">Caesium</a> - An image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats.
+- <a href="https://www.calmlywriter.com" target="_blank">Calmly Writer</a> - The Ultimate Ditraction-Free Writing Tool.
+- <a href="https://www.canva.com" target="_blank">Canva</a> - Canva makes design simple for everyone.
+- <a href="https://cleanup.pictures/" target="_blank">Cleanup.pictures</a> - Remove unwanted objects, people, text and defects from any picture for free.
+- <a href="https://code.org" target="_blank">Code.org</a> - Anybody can learn.
+- <a href="https://codebeautify.org" target="_blank">Codebeautify</a> - JSON Beautifier, XML Viewer, JSON Converters, Hex Converters and More.
+- <a href="https://www.codecademy.com" target="_blank">Codecademy</a> - Learn to code interactively, for free.
+- <a href="http://codeforces.com" target="_blank">CodeForces</a> - Programming competitions and contests, programming community.
+- <a href="https://codepen.io" target="_blank">CodePen</a> - Online Code Editor & Font End Web Developer Community.
+- <a href="https://codesandbox.io" target="_blank">CodeSandbox</a> - Online Code Editor & IDE for Rapid Web Development.
+- <a href="https://www.compresss.com" target="_blank">Compress.com</a> - Compress image, document, video and audio files online.
+- <a href="https://www.contentful.com" target="_blank">Contentful</a> - API-first content platform to build digital experiences.
+- <a href="https://www.coursera.org" target="_blank">Coursena</a> - Take the world’s best courses, online.
+- <a href="https://www.creatopy.com" target="_blank">Creatopy</a> - Online Graphic Design Platform.
+- <a href="http://www.den4b.com/tools" target="_blank">den4b.com</a> - These free online tools might come in handy for software developers and technology enthusiasts.
+- <a href="https://www.diffchecker.com/" target="_blank">Diffchecker</a> - Compare text, images, PDF, Excel online to find the difference between two text files.
+- <a href="https://www.onlinedoctranslator.com/en/" target="_blank">DocTranslator</a> - Instantly translate and preserve the layout of any document format into any language.
+- <a href="https://downgit.github.io/#/home" target="_blank">DownGit</a> - Create GitHub Resource Download Link.
+- <a href="https://www.dropbox.com" target="_blank">Dropbox</a> - Bring your photos, docs, and videos anywhere and keep your files safe.
+- <a href="https://www.duolingo.com" target="_blank">Duolingo</a> - Learn a language for free. Forever.
+- <a href="https://www.edx.org" target="_blank">edX</a> - Best Courses. Top Institutions. Learn anytime, anywhere.
+- <a href="https://elllo.org" target="_blank">ELLO</a> - English Listening Lesson Library Online.
+- <a href="https://www.eslfast.com" target="_blank">ESL Fast</a> - Free Online English Teaching and Learning Materials.
+- <a href="https://excalidraw.com/" target="_blank">Excalidraw</a> - Virtual whiteboard for sketching hand-drawn like diagrams.
+- <a href="https://www.facebook.com" target="_blank">Facebook</a> - Facebook helps you connect and share with the people in your life.
+- <a href="https://filebin.net" target="_blank">Filebin</a> - Convenient file sharing on the web, without registration. The files will expire automatically 1 week.
+- <a href="https://www.flaticon.com" target="_blank">Flaticon</a> - Download free icons and stickers for your projects.
+- <a href="https://www.flickr.com" target="_blank">Flickr</a> - Find your inspiration.
+- <a href="https://flixpress.com" target="_blank">Flixpress</a> - CREATE VIDEOS ONLINE IN MINUTES.
+- <a href="https://www.fotojet.com" target="_blank">FotoJet</a> - Turn Your Ideas into Stunning Artworks.
+- <a href="https://www.free-tarot-reading.net/free" target="_blank">Free Tarot Card Reading</a> - This is a good reading to simply ‘get a snapshot’ of how things are with you generally, at this moment in time.
+- <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a> - Learn to Code and Help Nonprofits.
+- <a href="https://www.freeconvert.com" target="_blank">FreeConvert.com</a> - Free Online File Converter.
+- <a href="https://www.freelogodesign.org" target="_blank">FreeLogoDesign</a> - Create a free logo in seconds.
+- <a href="https://www.freepik.com" target="_blank">FreePik</a> - Find Free Vectors, Stock Photos and PSD.
+- <a href="https://www.gatesnotes.com" target="_blank">Gates Notes</a> - The Blog of Bill Gates.
+- <a href="https://giphy.com" target="_blank">GIPHY</a> - Search All the GIFs & Make Your Own Animated GIF.
+- <a href="https://git.io" target="_blank">Git.io</a> - Shorten URL by GitHub.
+- <a href="https://gofile.io" target="_blank">Gofile</a> - File sharing platform, anonymous and free.
+- <a href="https://www.google.com/drive/" target="_blank">Google Drive</a> - Cloud Storage for Work and Home.
+- <a href="https://www.google.com/maps/@?dg=dbrw&newdg=1" target="_blank">Google Maps</a> - Find local businesses, view maps and get driving directions in Google Maps.
+- <a href="https://www.google.com/photos/about/" target="_blank">Google Photos</a> - Free storage and automatic organization for all your memories.
+- <a href="https://translate.google.com" target="_blank">Google Translate</a> - Translate languages.
+- <a href="https://www.hackerearth.com" target="_blank">HackerEarth</a> - Be a Better Programmer.
+- <a href="https://www.happyhues.co" target="_blank">Happy Hues</a> - Curated colors in context.
+- <a href="https://heictojpg.com" target="_blank">HEICtoJPEG</a> - Convert HEIC photos to JPEGs without harming the quality.
+- <a href="https://wego.here.com" target="_blank">HERE WeGo</a> - HERE WeGo - Maps - Routes - Directions - All ways from A to B in one.
+- <a href="https://hexed.it" target="_blank">HexEd.it</a> - The client-side JavaScript based hex editor.
+- <a href="https://hotpot.ai/" target="_blank">Hotpot.ai</a> - Hotpot makes graphic design and image editing easier with AI tools.
+- <a href="https://icomoon.io" target="_blank">Icomoon</a> - Pixel perfect icon solutions.
+- <a href="https://icons8.com" target="_blank">Icons8</a> - Icons, illustrations, photos, music, and design tools.
+- <a href="https://ielts.idp.com/uae/prepare/ielts-test-preparation-material/free" target="_blank">IDP IELTS</a> - Free IELTS practice test.
+- <a href="https://www.english-exam.org/IELTS/" target="_blank">IELTS Exam</a> - Preparation for IELTS Exam.
+- <a href="https://ieltsliz.com" target="_blank">IELTS Liz</a> - IELTS Writing Task 1 Tips, Model & More.
+- <a href="https://ieltsonlinetests.com" target="_blank">IELTS Online Test</a> - IELTS Online Practice Test.
+- <a href="https://www.ieltsbuddy.com" target="_blank">IELTSbuddy</a> - Free exam preparation to improve your test score.
+- <a href="https://imgur.com/" target="_blank">Imgur</a> - Where you’ll find the funniest, most informative and inspiring images, memes, GIFs, and visual stories served up in an endless stream of bite-sized fun.
+- <a href="https://www.instagram.com" target="_blank">Instagram</a> - Instagram.
+- <a href="https://intromaker.com/" target="_blank">Introcave</a> - The easiest way to make a YouTube intro video.
+- <a href="https://ivipid.com" target="_blank">Ivipid</a> - Ivipid Video Maker.
+- <a href="https://jitter.video/" target="_blank">Jitter</a> - The simplest motion design tool on the web.
+- <a href="https://jsfiddle.net" target="_blank">JSFiddle</a> - Code Playground.
+- <a href="https://kahoot.com" target="_blank">Kahoot</a> - Make learning awesome.
+- <a href="https://karanpc.com" target="_blank">Karan PC</a> - Download free software full.
+- <a href="https://latexbase.com" target="_blank">LaTeX Base</a> - Online LaTeX Editor and Compiler.
+- <a href="https://listenaminute.com" target="_blank">Listen A Minute</a> - Very short listenings (less than a minute). Free printable handouts, downloads plus MP3 listening and quizzes.
+- <a href="https://lrepacks.net" target="_blank">LRepacks</a> - A Russian site includes software repack by Elchupacabra.
+- <a href="https://maskable.app" target="_blank">Maskable.app</a> - Preview your maskable PWA icons before adding them to your web app manifest.
+- <a href="https://www.mediafire.com" target="_blank">MediaFire</a> - File sharing and storage made simple.
+- <a href="https://medium.com" target="_blank">Medium</a> - A place to write, read, and connect.
+- <a href="https://mega.io" target="_blank">Mega</a> - Secure Cloud Storage and Communication Privacy by Design.
+- <a href="https://docs.microsoft.com/en-us/learn/" target="_blank">Microsoft Learn</a> - Free Microsoft training delivered by experts.
+- <a href="https://mini-ielts.com/" target="_blank">Mini IELTS</a> - The best free site for IELTS test preparation.
+- <a href="https://www.moovly.com" target="_blank">Moovly</a> - Easily make stunning videos in any style.
+- <a href="https://moveast.me" target="_blank">Moveast</a> - This is a journey of a Portuguese guy moving that decided that every photo should be used for free.
+- <a href="https://www.myfonts.com/" target="_blank">MyFonts</a> - Fonts for Print, Products & Screens.
+- <a href="https://www.netlify.com/" target="_blank">Netlify</a> - Develop & deploy the best web experiences in record time.
+- <a href="https://www.newsinlevels.com" target="_blank">New in Levels</a> - Worlds News for Students of English.
+- <a href="https://onedrive.live.com" target="_blank">One Drive</a> - Get to your files and photos from anywhere, on any device. Share and work together with anyone in your work and life.
+- <a href="https://www.onlineconverter.com" target="_blank">Online Converter</a> - Free Online Conversion Services.
+- <a href="https://www.opensourceagenda.com/" target="_blank">Open Source Agenda (OSA)</a> - Discover the best free open source software projects.
+- <a href="https://www.overleaf.com" target="_blank">Overleaf</a> - The easy to use, online, collaborative LaTeX editor.
+- <a href="https://padlet.com/" target="_blank">Padlet</a> - It’s a starry night. Make something stellar.
+- <a href="https://pastebin.com/" target="_blank">Pastebin</a> - #1 paste tool since 2002!
+- <a href="https://www.pdf-archive.com" target="_blank">PDF Archive</a> - Host, share, publish and archive your PDF documents.
+- <a href="https://www.pexels.com" target="_blank">Pexels</a> - Free Stock Photos.
+- <a href="https://pfpmaker.com/" target="_blank">PFP</a> - Make an awesome profile picture from any photo.
+- <a href="https://picresize.com/" target="_blank">PicResize</a> - The internet’s Original Picture Resizing Tool.
+- <a href="https://picsart.com/" target="_blank">Picsart</a> - Picsart Creative Platform: Photo, Video Editing and Design Tools.
+- <a href="https://picwish.com/" target="_blank">PicWish</a> - More than just a background remover. Pick a solid color, pre-designed template, or go with a customized background.
+- <a href="https://piktochart.com" target="_blank">Piktochart</a> - Infographics, presentations, and reports maker.
+- <a href="https://pixeldrain.com" target="_blank">Pixeldrain</a> - Free file sharing service.
+- <a href="https://plagiarismdetector.net/" target="_blank">Plagiarism Detector</a> - Plagiarism Checker Free.
+- <a href="https://www.polleverywhere.com" target="_blank">Poll Everywhere</a> - Host interactive remote meetings, anywhere.
+- <a href="https://postimages.org" target="_blank">Postimages</a> - Free image hosting / image upload.
+- <a href="https://prezi.com" target="_blank">Prezi</a> - Presenting a better way to present.
+- <a href="https://projectnaptha.com" target="_blank">Project Naptha</a> - Highlight, copy, and translate text from any image.
+- <a href="https://www.proxysite.com" target="_blank">ProxySite.com</a> - Free Web Proxy Site.
+- <a href="https://quizlet.com" target="_blank">Quizlet</a> - Learning tools & flashcards, for free.
+- <a href="https://readable.com" target="_blank">Readable</a> - Readable will quickly test the readability, spelling and grammar of your text and show you how and where to make improvements.
+- <a href="https://readme.so" target="_blank">readme.so</a> - The easiest way to create a README.
+- <a href="https://realfavicongenerator.net/" target="_blank">RealFaviconGenerator</a> - Favicon Generator for perfect icons on all browsers.
+- <a href="https://remixicon.com" target="_blank">Remix Icon</a> - Simply Delightful Icon System.
+- <a href="https://www.remove.bg" target="_blank">removebg</a> - Remove Image Background.
+- <a href="https://sci-hub.hkvisa.net/" target="_blank">Sci-Hub</a> - The first site in the world to provide mass & public access to research papers.
+- <a href="https://send-anywhere.com" target="_blank">Send anywhere</a> - Send whatever you want, wherever you want.
+- <a href="https://send.cm" target="_blank">Send.cm</a> - Unlimited data hosting.
+- <a href="https://www.serials.ws" target="_blank">Serial & keys</a> - Serials & keys - unlocks the world.
+- <a href="https://simpleicons.org" target="_blank">Simple Icons</a> - Free SVG icons for popular brands.
+- <a href="https://slidesgo.com/" target="_blank">Slidesgo</a> - Free Google Slides and PowerPoint templates.
+- <a href="https://smalldev.tools/" target="_blank">SmallDev.tools</a> - FREE tools for developers.
+- <a href="https://snapedit.app/" target="_blank">SnapEdit</a> - Remove object faster & better with poweful AI technology.
+- <a href="https://soundcloud.com" target="_blank">SoundCloud</a> - Hear the world’s Sound.
+- <a href="https://squoosh.app/" target="_blank">Squoosh</a> - An image compression web app that reduces image sizes through numerous formats.
+- <a href="https://stackedit.io" target="_blank">StackEdit</a> - In-browser Markdown editor.
+- <a href="https://standardresume.co" target="_blank">Standard Resume</a> - Make a good first impression with a professional resume template.
+- <a href="https://startupstockphotos.com" target="_blank">Startup Stock Photos</a> - Best Free Tech Photos.
+- <a href="https://www.storynory.com" target="_blank">Storynory</a> - Free Audio Stories.
+- <a href="https://www.surveymonkey.com" target="_blank">SurveyMonkey</a> - The World’s Most Popular Free Online Survey Tool.
+- <a href="https://www.svgrepo.com/" target="_blank">SVGRepo</a> - Free SVG Vectors and Icons.
+- <a href="https://sync-tube.de/" target="_blank">SyncTube</a> - Watch YouTube Videos together.
+- <a href="https://syntaxdb.com" target="_blank">SyntaxDB</a> - Programming Syntax Database.
+- <a href="https://tb.rg-adguard.net/public.php" target="_blank">TechBench by WZT</a> - Help you without tedious search and registration to download Windows OS, Office directly from Microsoft servers.
+- <a href="https://www.ted.com/" target="_blank">TED</a> - Ideas worth spreading.
+- <a href="https://teledriveapp.com/" target="_blank">TeleDrive</a> - The Free Unlimited Cloud Storage.
+- <a href="http://thestocks.im" target="_blank">The Stocks 2</a> - Best royalty free photos, videos, mockups, icons and fonts.
+- <a href="https://www.timeanddate.com" target="_blank">timeanddate.com</a> - Current Time (World Clock) and online and printable Calendars for countries worldwide.
+- <a href="https://tinywow.com/" target="_blank">TinyWow</a> - Free PDF, Video, Image & Other Online Tools.
+- <a href="https://travelcoffeebook.com" target="_blank">Travel Coffee Book</a> - Sharing beautiful travel moments.
+- <a href="https://teamtreehouse.com" target="_blank">Treehouse</a> - Learn Web Design, Coding & Much More.
+- <a href="https://twitter.com" target="_blank">Twitter</a> - Connect with your friends — and other fascinating people.
+- <a href="https://www.udacity.com" target="_blank">Udacity</a> - Free Online Classes & Nanodegrees.
+- <a href="https://unsplash.com" target="_blank">Unsplash</a> - Photos for everyone.
+- <a href="https://www.uplevo.com/get-started" target="_blank">Uplevo</a> - Online Design Platform.
+- <a href="https://www.veed.io" target="_blank">VEED</a> - Video editing made simple.
+- <a href="https://vercel.com/" target="_blank">Vercel</a> - Develop. Preview. Ship. For the best frontend teams.
+- <a href="https://vimeo.com/" target="_blank">Vimeo</a> - The world’s only all-in-one video solution.
+- <a href="https://www.virustotal.com/gui/" target="_blank">Virus total</a> - Scan virus, malware, URL online.
+- <a href="https://w2g.tv/" target="_blank">Watch2Gether</a> - Watch videos, listen to music together.
+- <a href="https://watermarkly.com/" target="_blank">WATERMARKLY</a> - Watermark Photos Online For Free – Make & Add Watermark.
+- <a href="https://web.dev" target="_blank">web.dev</a> - Let’s build the future of the web.
+- <a href="https://www.wecompress.com/en" target="_blank">WeCompress</a> - Compress PDF, PowerPoint, Word, Excel, JPEG, PNG & TIFF files online.
+- <a href="https://western-overseas.com" target="_blank">Western Overseas</a> - IELTS Coaching.
+- <a href="https://www.wevideo.com" target="_blank">WeVideo</a> - Easily create outstanding videos.
+- <a href="https://www.wolframalpha.com" target="_blank">Wolfram Alpha</a> - Computational knowledge engine.
+- <a href="https://wordpress.com" target="_blank">WordPress</a> - Create a Free site or Blog.
+- <a href="https://writing9.com" target="_blank">wrinting9</a> - Check your IELTS essay online.
+- <a href="https://writeandimprove.com/" target="_blank">Write & Improve</a> - Write & Improve is a FREE tool that helps every learner to improve their English writing.
+- <a href="https://www.y2mate.com/" target="_blank">Y2mate</a> - Download Video and Audio from YouTube.
+- <a href="https://translate.yandex.com/" target="_blank">Yandex.Translate</a> - Dictionary an online translation.
+- <a href="https://yts.mx" target="_blank">YIFY movies</a> - Movies Torrent Download.
+- <a href="https://yopmail.com/en/" target="_blank">Yopmail</a> - Disposable and Free email address.
+- <a href="https://yout.com" target="_blank">Yout</a> - Download video from YouTube.
+- <a href="https://ytmp3.cc" target="_blank">YouTube to mp3</a> - YouTube to mp3.
+- <a href="https://www.youtube.com" target="_blank">YouTube</a> - Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.

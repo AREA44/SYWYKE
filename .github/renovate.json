@@ -1,6 +1,6 @@
 {
-    "extends": ["config:base"],
-    "dependencyDashboard": true,
-    "labels": ["renovate"],
-    "automerge": false
-  }
+  "extends": ["config:base"],
+  "dependencyDashboard": false,
+  "labels": ["renovate"],
+  "automerge": false
+}
