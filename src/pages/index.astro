@@ -11,7 +11,6 @@ let title = 'Sites You Wish You Knew Earlier | AREA44';
 	<meta name="viewport" content="width=device-width">
 	<meta name="description" content="Sites You Wish You Knew Earlier by AREA44">
 	<title>{title}</title>
-
 	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
 
 	<style>
@@ -28,6 +27,11 @@ let title = 'Sites You Wish You Knew Earlier | AREA44';
 			flex-direction: column;
 			gap: 1em;
 			max-width: 70ch;
+		}
+
+		footer {
+  		margin-top: calc(var(1rem) * 5);
+			text-align: center;
 		}
 	</style>
 	<style is:global>
@@ -47,6 +51,10 @@ let title = 'Sites You Wish You Knew Earlier | AREA44';
 		<article>
 			<Content />
 		</article>
+
+		<footer>
+			made with love by <strong>AREA44</strong> and <a href="https://github.com/AREA44/SYWYKE" target="_blank">GitHub</a>.
+		</footer>
 	</main>
 </body>
 </html>
