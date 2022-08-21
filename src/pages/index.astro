@@ -1,24 +1,28 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
 const allSites = await Astro.glob("../data/*.md");
 allSites.sort(
-  (a, b) => +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date)
+	(a, b) => +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date)
 );
 ---
 
 <Layout title="Welcome to SYWYKE">
 	<main>
-		<h1><span class="text-gradient">SYWYKE</span> - Sites you wish you know earlier</h1>
-		
+		<h1>
+			<span class="text-gradient">SYWYKE</span> - Sites you wish you know earlier
+		</h1>
+
 		<ul role="list" class="link-card-grid">
-			{allSites.map((site) => (
-				<Card 
-					url={site.frontmatter.url}
-					title={site.frontmatter.title}
-					description={site.frontmatter.description}
-				/>
-			))}
+			{
+				allSites.map((site) => (
+					<Card
+						url={site.frontmatter.url}
+						title={site.frontmatter.title}
+						description={site.frontmatter.description}
+					/>
+				))
+			}
 		</ul>
 	</main>
 </Layout>
