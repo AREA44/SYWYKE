@@ -1,4 +1,4 @@
-- <a href="https://arc.tencent.com/en/ai-demos/imgRestore">ARC Demo</a> - Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.
+- <a href="https://arc.tencent.com/en/ai-demos/imgRestore" target="_blank">ARC Demo</a> - Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.
 - <a href="http://bugmenot.com" target="_blank">BugMeNot</a> - BugMeNot: share logins.
 - <a href="http://codeforces.com" target="_blank">CodeForces</a> - Programming competitions and contests, programming community.
 - <a href="http://thestocks.im" target="_blank">The Stocks 2</a> - Best royalty free photos, videos, mockups, icons and fonts.
