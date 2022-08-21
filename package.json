@@ -1,17 +1,15 @@
 {
   "name": "@area44/sywyke",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Sites You Wish You Know Earlier",
-  "author": {
-    "name": "AREA44"
-  },
-  "license": "CC0-1.0",
-  "private": true,
+  "license": "MIT",
+  "author": "AREA44",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "devDependencies": {
     "astro": "1.0.6"

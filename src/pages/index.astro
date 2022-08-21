@@ -1,61 +1,67 @@
 ---
-import {Content as Content} from '../content/Content.md';
-import '../styles/global.css';
-import '../styles/home.css';
-
-let title = 'Sites You Wish You Knew Earlier | AREA44';
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+const allSites = await Astro.glob("../data/*.md");
+allSites.sort(
+  (a, b) => +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date)
+);
 ---
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="Sites You Wish You Knew Earlier by AREA44">
-	<title>{title}</title>
-	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
 
-	<style>
-		header {
-			display: flex;
-			flex-direction: column;
-			gap: 1em;
-			max-width: min(100%, 68ch);
-		}
-		article {
-			padding-top: 2em;
-			line-height: 1.5;
-			display: flex;
-			flex-direction: column;
-			gap: 1em;
-			max-width: 70ch;
-		}
-
-		footer {
-  		margin: 1rem 0 0 0;
-    	text-align: center;
-    	font: inherit;
-    	font-size: 0.8em;
-		}
-
-		pre {
-			padding: 1rem;
-		}
-	</style>
-</head>
-<body>
+<Layout title="Welcome to SYWYKE">
 	<main>
-		<header>
-			<div>
-				<h1>Sites You Wish You Knew Earlier</h1>
-			</div>
-		</header>
-
-		<article>
-			<Content />
-		</article>
-
-		<footer>
-			made with love by <strong>AREA44</strong> and <a href="https://github.com/AREA44/SYWYKE" target="_blank">GitHub</a>.
-		</footer>
+		<h1><span class="text-gradient">SYWYKE</span> - Sites you wish you know earlier</h1>
+		
+		<ul role="list" class="link-card-grid">
+			{allSites.map((site) => (
+				<Card 
+					url={site.frontmatter.url}
+					title={site.frontmatter.title}
+					description={site.frontmatter.description}
+				/>
+			))}
+		</ul>
 	</main>
-</body>
-</html>
+</Layout>
+
+<style>
+	:root {
+		--astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
+	}
+
+	h1 {
+		margin: 2rem 0;
+	}
+
+	main {
+		margin: auto;
+		padding: 1em;
+		max-width: 60ch;
+	}
+
+	.text-gradient {
+		font-weight: 900;
+		background-image: var(--astro-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 100% 200%;
+		background-position-y: 100%;
+		border-radius: 0.4rem;
+		animation: pulse 4s ease-in-out infinite;
+	}
+
+	@keyframes pulse {
+		0%,
+		100% {
+			background-position-y: 0%;
+		}
+		50% {
+			background-position-y: 80%;
+		}
+	}
+
+	.link-card-grid {
+		display: grid;
+		gap: 1rem;
+		padding: 0;
+	}
+</style>
