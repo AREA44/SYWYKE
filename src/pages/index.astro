@@ -1,14 +1,14 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import OutlineHeading from '../components/OutlineHeading.astro';
-import Section from '../components/Section.astro';
-import NoteListItem from '../components/NoteListItem.astro';
-import Layout from '../components/Layout.astro';
-import { notesAndTags } from '../helps/notes';
+import BaseHead from "../components/BaseHead.astro";
+import OutlineHeading from "../components/OutlineHeading.astro";
+import Section from "../components/Section.astro";
+import NoteListItem from "../components/NoteListItem.astro";
+import Layout from "../components/Layout.astro";
+import { notesAndTags } from "../helps/notes";
 
 let title = `SYWYKE | Sites You Wish You Know Earlier!`;
 let description = `Sites You Wish You Know Earlier! by AREA44`;
-let permalink = 'https://sywyke.netlify.app';
+let permalink = "https://sywyke.netlify.app";
 
 let notes = await Astro.glob(`../notes/*.md`);
 const { allNotes, allTags } = await notesAndTags(notes);

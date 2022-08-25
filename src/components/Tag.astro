@@ -1,4 +1,4 @@
---- 
+---
 const { tag, number, small } = Astro.props;
 ---
 
@@ -26,7 +26,7 @@ const { tag, number, small } = Astro.props;
   .tag::before {
     width: 100%;
     height: 100%;
-    content: '';
+    content: "";
     left: 0;
     top: 0;
     transform: translate3d(0.1em, 0.1em, -1px);
@@ -44,6 +44,8 @@ const { tag, number, small } = Astro.props;
   .tag:hover::before {
     transform: translate3d(-0.1em, -0.1em, -1px);
   }
+
+  /*============== Tag custom ========================*/
 
   .tag.books {
     /* text-shadow: 1px -1px 0 #ff1900; */
@@ -71,28 +73,28 @@ const { tag, number, small } = Astro.props;
     border: 2px solid #ff8800;
   }
 
-  .tag.miscellany {
+  .tag.photos {
     /* text-shadow: 1px -1px 0 #d8ff00; */
   }
 
-  .tag.miscellany:hover {
+  .tag.photos:hover {
     background: #d8ff00;
   }
 
-  .tag.miscellany::before {
+  .tag.photos::before {
     background: #d8ff00;
     border: 2px solid #d8ff00;
   }
 
-  .tag.mothering {
+  .tag.tools {
     /* text-shadow: 1px -1px 0 #00ff2e; */
   }
 
-  .tag.mothering:hover {
+  .tag.tools:hover {
     background: #00ff2e;
   }
 
-  .tag.mothering::before {
+  .tag.tools::before {
     background: #00ff2e;
     border: 2px solid #00ff2e;
   }
@@ -123,15 +125,15 @@ const { tag, number, small } = Astro.props;
     border: 2px solid #057dff;
   }
 
-  .tag.wellbeing {
+  .tag.online {
     /* text-shadow: 1px -1px 0 #d400ff; */
   }
 
-  .tag.wellbeing:hover {
+  .tag.online:hover {
     background: #d400ff;
   }
 
-  .tag.wellbeing::before {
+  .tag.online::before {
     background: #d400ff;
     border: 2px solid #d400ff;
   }
@@ -150,7 +152,6 @@ const { tag, number, small } = Astro.props;
   }
 </style>
 
-
-<a href={`/tag/${tag}/`} class={`tag ${tag} ${small ? 'small' : '' }`}>
+<a href={`/tag/${tag}/`} class={`tag ${tag} ${small ? "small" : ""}`}>
   {tag}{number && <span>{number}</span>}
 </a>

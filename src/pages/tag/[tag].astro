@@ -1,9 +1,9 @@
 ---
-import BaseHead from '../../components/BaseHead.astro';
-import NoteListItem from '../../components/NoteListItem.astro';
-import Section from '../../components/Section.astro';
-import Layout from '../../components/Layout.astro';
-import { notesAndTags } from '../../helps/notes';
+import BaseHead from "../../components/BaseHead.astro";
+import NoteListItem from "../../components/NoteListItem.astro";
+import Section from "../../components/Section.astro";
+import Layout from "../../components/Layout.astro";
+import { notesAndTags } from "../../helps/notes";
 
 export async function getStaticPaths() {
   let notes = await Astro.glob(`../../notes/*.md`);
@@ -15,10 +15,10 @@ export async function getStaticPaths() {
 }
 
 export function formatDate(date) {
-  return new Date(date.replace(/-/g, '/')).toLocaleDateString('en-US', {
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric',
+  return new Date(date.replace(/-/g, "/")).toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
   });
 }
 
@@ -27,7 +27,7 @@ const { notes } = Astro.props;
 const allNotes = await Astro.glob(`../../notes/*.md`);
 const { allTags } = notesAndTags(allNotes);
 const tagHeader = `${notes.length} post${
-  notes.length === 1 ? '' : 's'
+  notes.length === 1 ? "" : "s"
 } tagged with "${tag}"`;
 const title = `${tagHeader} | Sites You Wish You Know Earlier!`;
 const description = tagHeader;
@@ -62,5 +62,6 @@ const permalink = `https://sywyke.netlify.app/tag/${tag}`;
       padding: 0;
     }
   </style>
+
 
 </html>

@@ -1,9 +1,9 @@
 ---
-import Tag from './Tag.astro';
+import Tag from "./Tag.astro";
 
 const { tags } = Astro.props;
 const tagsSorted = tags ? Object.keys(tags).sort() : [];
----  
+---
 
 <style>
   .tags {
@@ -18,9 +18,11 @@ const tagsSorted = tags ? Object.keys(tags).sort() : [];
 </style>
 
 <ul class="tags">
-  {tagsSorted.map(tag =>
-  <li>
-    <Tag {tag} number={tags[tag].length} />
-  </li>
-  )}
+  {
+    tagsSorted.map((tag) => (
+      <li>
+        <Tag {tag} number={tags[tag].length} />
+      </li>
+    ))
+  }
 </ul>

@@ -1,4 +1,4 @@
-import 'astro/jsx-runtime';
+import "astro/jsx-runtime";
 
 export function notesAndTags(allNotes) {
   const notes = sortedPosts(allNotes);
@@ -8,7 +8,7 @@ export function notesAndTags(allNotes) {
 
 function sortedPosts(allNotes) {
   allNotes = allNotes.sort((a, b) => {
-    return +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date)
+    return +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date);
   });
   return allNotes;
 }

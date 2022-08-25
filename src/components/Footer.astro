@@ -1,19 +1,21 @@
 ---
-import OutlineHeading from './OutlineHeading.astro';
-import Section from './Section.astro';
-import Tags from './Tags.astro';
+import OutlineHeading from "./OutlineHeading.astro";
+import Section from "./Section.astro";
+import Tags from "./Tags.astro";
 
 const { tags } = Astro.props;
 ---
 
 <footer>
   <section>
-    <OutlineHeading>Browse Notes by tag</OutlineHeading>
+    <OutlineHeading>Browse Sites by tag</OutlineHeading>
     <Section>
       <Tags {tags} />
     </Section>
   </section>
   <section>
-    © {new Date().getFullYear()} AREA44 - Powered by <a href="https://github.com/rachsmithcodes/rachsmith.com">Rachel Smith</a>
+    © {new Date().getFullYear()} AREA44 - Powered by <a
+      href="https://github.com/rachsmithcodes/rachsmith.com">Rachel Smith</a
+    >
   </section>
 </footer>
