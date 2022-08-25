@@ -1,71 +1,38 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
-const allSites = await Astro.glob("../data/*.md");
-allSites.sort(
-	(a, b) => +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date)
-);
+import BaseHead from '../components/BaseHead.astro';
+import OutlineHeading from '../components/OutlineHeading.astro';
+import Section from '../components/Section.astro';
+import NoteListItem from '../components/NoteListItem.astro';
+import Layout from '../components/Layout.astro';
+import { notesAndTags } from '../helps/notes';
+
+let title = `SYWYKE | Sites You Wish You Know Earlier!`;
+let description = `Sites You Wish You Know Earlier! by AREA44`;
+let permalink = 'https://sywyke.netlify.app';
+
+let notes = await Astro.glob(`../notes/*.md`);
+const { allNotes, allTags } = await notesAndTags(notes);
 ---
 
-<Layout title="Welcome to SYWYKE">
-	<main>
-		<h1>
-			<span class="text-gradient">SYWYKE</span> - Sites you wish you know earlier
-		</h1>
+<html lang="en">
+  <head>
+    <BaseHead {title} {description} {permalink} />
+  </head>
 
-		<ul role="list" class="link-card-grid">
-			{
-				allSites.map((site) => (
-					<Card
-						url={site.frontmatter.url}
-						title={site.frontmatter.title}
-						description={site.frontmatter.description}
-					/>
-				))
-			}
-		</ul>
-	</main>
-</Layout>
-
-<style>
-	:root {
-		--astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
-	}
-
-	h1 {
-		margin: 2rem 0;
-	}
-
-	main {
-		margin: auto;
-		padding: 1em;
-		max-width: 60ch;
-	}
-
-	.text-gradient {
-		font-weight: 900;
-		background-image: var(--astro-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 100% 200%;
-		background-position-y: 100%;
-		border-radius: 0.4rem;
-		animation: pulse 4s ease-in-out infinite;
-	}
-
-	@keyframes pulse {
-		0%,
-		100% {
-			background-position-y: 0%;
-		}
-		50% {
-			background-position-y: 80%;
-		}
-	}
-
-	.link-card-grid {
-		display: grid;
-		gap: 1rem;
-		padding: 0;
-	}
-</style>
+  <body>
+    <Layout tags={allTags}>
+      <OutlineHeading>Sites You Wish You Know Earlier!</OutlineHeading>
+      <Section>
+        <ul>
+          {
+            allNotes.map(
+              ({ url, frontmatter: { excerpt, slug, title, tags } }) => (
+                <NoteListItem {url} {excerpt} {slug} {title} {tags} />
+              )
+            )
+          }
+        </ul>
+      </Section>
+    </Layout>
+  </body>
+</html>

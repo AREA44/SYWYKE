@@ -1,17 +1,17 @@
 {
   "name": "@area44/sywyke",
-  "version": "2.0.0",
-  "description": "Sites You Wish You Know Earlier",
+  "version": "3.0.0",
+  "description": "Sites You Wish You Know Earlier!",
   "license": "MIT",
   "author": "AREA44",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "preview": "astro preview"
   },
   "devDependencies": {
+    "@astrojs/sitemap": "0.1.0",
     "astro": "1.0.9"
   }
 }
