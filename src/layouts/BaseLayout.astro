@@ -5,43 +5,46 @@ import "../styles/custom.css";
 const { title, description, permalink } = Astro.props;
 ---
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" href="/favicon.ico" />
-  <meta name="msapplication-TileColor" content="#da532c" />
-  <meta name="theme-color" content="#ffffff" />
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="RSS Feed for SYWYKE"
-    href="/rss/"
-  />
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS Feed for SYWYKE"
+      href="/rss/"
+    />
 
-  <!-- Primary Meta Tags -->
-  <title>{title}</title>
-  <meta name="title" content={title} />
-  <meta name="description" content={description} />
+    <!-- Primary Meta Tags -->
+    <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
 
-  <meta name="twitter:card" content="summary" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content={title} />
-  <meta property="og:description" content={description} />
-  <meta property="og:url" content={permalink} />
-  <meta property="og:site_name" content={title} />
-</head>
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={permalink} />
+    <meta property="og:site_name" content={title} />
+  </head>
 
-<body>
-  <div class="container">
-    <main>
-      <slot />
-    </main>
-    <footer>
-      <section>
-        © {new Date().getFullYear()} AREA44 - Powered by <a
-          href="https://github.com/rachsmithcodes/rachsmith.com">Rachel Smith</a
-        >
-      </section>
-    </footer>
-  </div>
-</body>
+  <body>
+    <div class="container">
+      <main>
+        <slot />
+      </main>
+      <footer>
+        <section>
+          © {new Date().getFullYear()} AREA44 - Powered by <a
+            href="https://github.com/rachsmithcodes/rachsmith.com"
+            >Rachel Smith</a
+          >
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
