@@ -1,36 +1,56 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import OutlineHeading from "../components/OutlineHeading.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 import Section from "../components/Section.astro";
+import OutlineHeading from "../components/OutlineHeading.astro";
 import NoteListItem from "../components/NoteListItem.astro";
-import Layout from "../layouts/Layout.astro";
 import { notesAndTags } from "../helps/notes";
 
-let title = "SYWYKE | Sites You Wish You Know Earlier!";
-let description = "Sites You Wish You Know Earlier! by AREA44";
-let permalink = "https://sywyke.netlify.app";
-
-let notes = await Astro.glob(`../notes/*.md`);
+const notes = await Astro.glob(`../notes/*.md`);
 const { allNotes, allTags } = notesAndTags(notes);
+const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
+
+let title = `SYWYKE | Sites You Wish You Know Earlier!`;
+let description = `Sites You Wish You Know Earlier! by AREA44`;
+let permalink = `https://sywyke.netlify.app`;
 ---
 
-<html lang="en">
-  <BaseHead title={title} description={description} permalink={permalink} />
+<style>
+  .tags {
+    text-align: center;
+    padding: 0;
+  }
+  .tags li {
+    display: inline-block;
+    margin-bottom: 0.5em;
+  }
+</style>
 
-  <body>
-    <Layout tags={allTags}>
-      <OutlineHeading>Sites You Wish You Know Earlier!</OutlineHeading>
-      <Section>
-        <ul>
-          {
-            allNotes.map(
-              ({ url, frontmatter: { excerpt, slug, title, tags } }) => (
-                <NoteListItem {url} {excerpt} {slug} {title} {tags} />
-              )
-            )
-          }
-        </ul>
-      </Section>
-    </Layout>
-  </body>
-</html>
+<BaseLayout title={title} description={description} permalink={permalink}>
+  <section>
+    <OutlineHeading>Browse Sites by tag</OutlineHeading>
+    <Section>
+      <ul class="tags">
+        {
+          tagsSorted.map((tag) => (
+            <li>
+              <a href={`/tag/${tag}/`} class={`tag ${tag}`}>
+                {tag}
+                <span>{allTags[tag].length}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </Section>
+  </section>
+  <OutlineHeading>Sites You Wish You Know Earlier!</OutlineHeading>
+  <Section>
+    <ul>
+      {
+        allNotes.map(({ url, frontmatter: { excerpt, slug, title, tags } }) => (
+          <NoteListItem {url} {excerpt} {slug} {title} {tags} />
+        ))
+      }
+    </ul>
+  </Section>
+</BaseLayout>

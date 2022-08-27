@@ -1,9 +1,8 @@
 ---
-import BaseHead from "../../components/BaseHead.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 import Section from "../../components/Section.astro";
 import OutlineHeading from "../../components/OutlineHeading.astro";
 import NoteListItem from "../../components/NoteListItem.astro";
-import Layout from "../../layouts/Layout.astro";
 import { notesAndTags } from "../../helps/notes";
 
 export async function getStaticPaths() {
@@ -15,50 +14,26 @@ export async function getStaticPaths() {
   }));
 }
 
-export function formatDate(date) {
-  return new Date(date.replace(/-/g, "/")).toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
-}
-
 const { tag } = Astro.params;
 const { notes } = Astro.props;
-const allNotes = await Astro.glob(`../../notes/*.md`);
-const { allTags } = notesAndTags(allNotes);
-const tagHeader = `${notes.length} post${
+
+let tagHeader = `${notes.length} note${
   notes.length === 1 ? "" : "s"
 } tagged with "${tag}"`;
-const title = `${tagHeader} | Sites You Wish You Know Earlier!`;
-const description = tagHeader;
-const permalink = `https://sywyke.netlify.app/tag/${tag}`;
+let title = `${tagHeader} | Sites You Wish You Know Earlier!`;
+let description = tagHeader;
+let permalink = `https://sywyke.netlify.app/tag/${tag}`;
 ---
 
-<style>
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-</style>
-
-<html lang="en">
-  <BaseHead title={title} description={description} permalink={permalink} />
-
-  <Layout tags={allTags}>
-    <div>
-      <OutlineHeading>{tagHeader}</OutlineHeading>
-      <Section>
-        <ul>
-          {
-            notes.map(
-              ({ url, frontmatter: { excerpt, slug, title, tags } }) => (
-                <NoteListItem {url} {excerpt} {slug} {title} {tags} />
-              )
-            )
-          }
-        </ul>
-      </Section>
-    </div>
-  </Layout>
-</html>
+<BaseLayout title={title} description={description} permalink={permalink}>
+  <OutlineHeading>{tagHeader}</OutlineHeading>
+  <Section>
+    <ul>
+      {
+        notes.map(({ url, frontmatter: { excerpt, slug, title, tags } }) => (
+          <NoteListItem {url} {excerpt} {slug} {title} {tags} />
+        ))
+      }
+    </ul>
+  </Section>
+</BaseLayout>

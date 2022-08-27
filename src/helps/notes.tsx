@@ -1,23 +1,23 @@
 import "astro/jsx-runtime";
 
 export function notesAndTags(allNotes) {
-  const notes = sortedPosts(allNotes);
-  const tags = postTags(notes);
+  const notes = sortedNotes(allNotes);
+  const tags = noteTags(notes);
   return { allNotes: notes, allTags: tags };
 }
 
-function sortedPosts(allNotes) {
+function sortedNotes(allNotes) {
   allNotes = allNotes.sort((a, b) => {
     return +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date);
   });
   return allNotes;
 }
 
-function postTags(notes) {
+function noteTags(notes) {
   return notes.reduce((allTags, note) => {
-    const noteTags = note.frontmatter.tags;
-    if (noteTags) {
-      noteTags.forEach((tag) => {
+    const Tags = note.frontmatter.tags;
+    if (Tags) {
+      Tags.forEach((tag) => {
         if (!allTags[tag]) {
           allTags[tag] = [];
         }
