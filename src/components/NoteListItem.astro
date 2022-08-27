@@ -1,6 +1,4 @@
 ---
-import Tag from "./Tag.astro";
-
 const { slug, title, tags, excerpt } = Astro.props;
 ---
 
@@ -31,12 +29,10 @@ const { slug, title, tags, excerpt } = Astro.props;
     list-style: none;
     display: block;
   }
-
-  .tag {
+  .taglist {
     display: inline-block;
     margin-bottom: 0.3em;
   }
-
   .cta {
     font-family: var(--mono-font);
     text-decoration: none;
@@ -84,12 +80,14 @@ const { slug, title, tags, excerpt } = Astro.props;
 
 <li class="cta">
   <a href={slug} target="_blank" class="title">{title}</a><br />
-  {excerpt && <span class="excerpt">{excerpt}</span>}
+  <span class="excerpt">{excerpt}</span>
   <ul>
     {
-      tags.map((tag: astroHTML.JSX.IntrinsicAttributes) => (
-        <li class="tag">
-          <Tag {tag} small />
+      tags.map((tag) => (
+        <li class="taglist">
+          <a href={`/tag/${tag}/`} class={`tag ${tag}`}>
+            {tag}
+          </a>
         </li>
       ))
     }

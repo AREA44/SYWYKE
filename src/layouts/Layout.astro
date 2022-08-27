@@ -1,0 +1,48 @@
+---
+import OutlineHeading from "../components/OutlineHeading.astro";
+import Section from "../components/Section.astro";
+
+const { tags } = Astro.props;
+const tagsSorted = tags ? Object.keys(tags).sort() : [];
+---
+
+<style>
+  .tags {
+    text-align: center;
+    padding: 0;
+  }
+
+  .tags li {
+    display: inline-block;
+    margin-bottom: 0.5em;
+  }
+</style>
+
+<div class="container">
+  <main>
+    <slot />
+  </main>
+  <section>
+    <OutlineHeading>Browse Sites by tag</OutlineHeading>
+    <Section>
+      <ul class="tags">
+        {
+          tagsSorted.map((tag) => (
+            <li>
+              <a href={`/tag/${tag}/`} class={`tag ${tag}`}>
+                {tag}<span>{tags[tag].length}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </Section>
+  </section>
+  <footer>
+    <section>
+      © {new Date().getFullYear()} AREA44 - Powered by <a
+        href="https://github.com/rachsmithcodes/rachsmith.com">Rachel Smith</a
+      >
+    </section>
+  </footer>  
+</div>

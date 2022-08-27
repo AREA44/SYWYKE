@@ -1,8 +1,9 @@
 ---
 import BaseHead from "../../components/BaseHead.astro";
-import NoteListItem from "../../components/NoteListItem.astro";
 import Section from "../../components/Section.astro";
-import Layout from "../../components/Layout.astro";
+import OutlineHeading from "../../components/OutlineHeading.astro";
+import NoteListItem from "../../components/NoteListItem.astro";
+import Layout from "../../layouts/Layout.astro";
 import { notesAndTags } from "../../helps/notes";
 
 export async function getStaticPaths() {
@@ -34,14 +35,19 @@ const description = tagHeader;
 const permalink = `https://sywyke.netlify.app/tag/${tag}`;
 ---
 
+<style>
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+</style>
+
 <html lang="en">
-  <head>
-    <BaseHead {title} {description} {permalink} />
-  </head>
+  <BaseHead title={title} description={description} permalink={permalink} />
 
   <Layout tags={allTags}>
     <div>
-      <h1>{tagHeader}</h1>
+      <OutlineHeading>{tagHeader}</OutlineHeading>
       <Section>
         <ul>
           {
@@ -55,13 +61,4 @@ const permalink = `https://sywyke.netlify.app/tag/${tag}`;
       </Section>
     </div>
   </Layout>
-
-  <style>
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-  </style>
-
-
 </html>

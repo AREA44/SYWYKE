@@ -3,21 +3,19 @@ import BaseHead from "../components/BaseHead.astro";
 import OutlineHeading from "../components/OutlineHeading.astro";
 import Section from "../components/Section.astro";
 import NoteListItem from "../components/NoteListItem.astro";
-import Layout from "../components/Layout.astro";
+import Layout from "../layouts/Layout.astro";
 import { notesAndTags } from "../helps/notes";
 
-let title = `SYWYKE | Sites You Wish You Know Earlier!`;
-let description = `Sites You Wish You Know Earlier! by AREA44`;
+let title = "SYWYKE | Sites You Wish You Know Earlier!";
+let description = "Sites You Wish You Know Earlier! by AREA44";
 let permalink = "https://sywyke.netlify.app";
 
 let notes = await Astro.glob(`../notes/*.md`);
-const { allNotes, allTags } = await notesAndTags(notes);
+const { allNotes, allTags } = notesAndTags(notes);
 ---
 
 <html lang="en">
-  <head>
-    <BaseHead {title} {description} {permalink} />
-  </head>
+  <BaseHead title={title} description={description} permalink={permalink} />
 
   <body>
     <Layout tags={allTags}>
