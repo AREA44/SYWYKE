@@ -34,8 +34,7 @@ let permalink = `https://sywyke.netlify.app`;
           tagsSorted.map((tag) => (
             <li>
               <a href={`/tag/${tag}/`} class={`tag ${tag}`}>
-                {tag}
-                <span>{allTags[tag].length}</span>
+                {tag}|{allTags[tag].length}
               </a>
             </li>
           ))

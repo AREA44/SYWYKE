@@ -2,5 +2,5 @@
 title: Postimages
 slug: https://postimages.org
 excerpt: Free image hosting / image upload.
-tags: [online]
+tags: [share, photo]
 ---

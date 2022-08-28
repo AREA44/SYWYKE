@@ -47,65 +47,120 @@
   border: 2px solid #ff1900;
 }
 
-.tag.development:hover {
+.tag.news:hover {
   background: #ff8800;
 }
 
-.tag.development::before {
+.tag.news::before {
   background: #ff8800;
   border: 2px solid #ff8800;
 }
 
-.tag.photos:hover {
+.tag.photo:hover {
   background: #d8ff00;
 }
 
-.tag.photos::before {
+.tag.photo::before {
   background: #d8ff00;
   border: 2px solid #d8ff00;
 }
 
-.tag.tools:hover {
+.tag.video:hover {
+  background: #98ad1f;
+}
+
+.tag.video::before {
+  background: #98ad1f;
+  border: 2px solid #98ad1f;
+}
+
+
+.tag.english:hover {
   background: #00ff2e;
 }
 
-.tag.tools::before {
+.tag.english::before {
   background: #00ff2e;
   border: 2px solid #00ff2e;
 }
 
-.tag.podcasts:hover {
+.tag.learn:hover {
   background: #00ddff;
 }
 
-.tag.podcasts::before {
+.tag.learn::before {
   background: #00ddff;
   border: 2px solid #00ddff;
 }
 
-.tag.productivity:hover {
+.tag.download:hover {
   background: #057dff;
 }
 
-.tag.productivity::before {
+.tag.download::before {
   background: #057dff;
   border: 2px solid #057dff;
 }
 
-.tag.online:hover {
+.tag.design:hover {
   background: #d400ff;
 }
 
-.tag.online::before {
+.tag.design::before {
   background: #d400ff;
   border: 2px solid #d400ff;
 }
 
-.tag.work:hover {
+.tag.opensource:hover {
   background: #ff008c;
 }
 
-.tag.work::before {
+.tag.opensource::before {
   background: #ff008c;
   border: 2px solid #ff008c;
+}
+
+.tag.develop:hover {
+  background: #ffee00;
+}
+
+.tag.develop::before {
+  background: #ffee00;
+  border: 2px solid #ffee00;
+}
+
+.tag.share:hover {
+  background: #00ff37;
+}
+
+.tag.share::before {
+  background: #00ff37;
+  border: 2px solid #00ff37;
+}
+
+.tag.hack:hover {
+  background: #4f835a;
+}
+
+.tag.hack::before {
+  background: #4f835a;
+  border: 2px solid #4f835a;
+}
+
+.tag.relax:hover {
+  background: #479da0;
+}
+
+.tag.relax::before {
+  background: #479da0;
+  border: 2px solid #479da0;
+}
+
+.tag.tool:hover {
+  background: #b34848;
+}
+
+.tag.tool::before {
+  background: #b34848;
+  border: 2px solid #b34848;
 }

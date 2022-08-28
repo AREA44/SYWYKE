@@ -1,6 +1,6 @@
 ---
-title: Sentence dictionary online
+title: Sentence dictionary design
 slug: https://sentencedict.com
 excerpt: Good sentence examples for every word.
-tags: [online]
+tags: [english]
 ---

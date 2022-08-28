@@ -1,6 +1,6 @@
 ---
 title: den4b.com
-slug: https://den4b.com/online
-excerpt: These free online online might come in handy for software developers and technology enthusiasts.
-tags: [online]
+slug: https://den4b.com/design
+excerpt: These free design design might come in handy for software developers and technology enthusiasts.
+tags: [develop, download]
 ---

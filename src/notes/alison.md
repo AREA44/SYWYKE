@@ -1,6 +1,6 @@
 ---
 title: Alison
 slug: https://alison.com
-excerpt: Free Online Courses from the World’s Top Publishers.
-tags: [online]
+excerpt: Free design Courses from the World’s Top Publishers.
+tags: [learn]
 ---
