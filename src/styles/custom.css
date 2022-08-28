@@ -47,11 +47,11 @@
   border: 2px solid #ff1900;
 }
 
-.tag.news:hover {
+.tag.explore:hover {
   background: #ff8800;
 }
 
-.tag.news::before {
+.tag.explore::before {
   background: #ff8800;
   border: 2px solid #ff8800;
 }
@@ -147,11 +147,11 @@
   border: 2px solid #4f835a;
 }
 
-.tag.relax:hover {
+.tag.ms-office:hover {
   background: #479da0;
 }
 
-.tag.relax::before {
+.tag.ms-office::before {
   background: #479da0;
   border: 2px solid #479da0;
 }
