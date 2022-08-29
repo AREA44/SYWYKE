@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Section from "../components/Section.astro";
 import OutlineHeading from "../components/OutlineHeading.astro";
 import NoteListItem from "../components/NoteListItem.astro";
-import { notesAndTags } from "../helpers/notes.tsx";
+import { notesAndTags } from "../helpers/notes";
 
 const notes = await Astro.glob(`../notes/*.md`);
 const { allNotes, allTags } = notesAndTags(notes);
@@ -26,22 +26,20 @@ let permalink = `https://sywyke.netlify.app`;
 </style>
 
 <BaseLayout title={title} description={description} permalink={permalink}>
-  <section>
-    <OutlineHeading>Browse Sites by tag</OutlineHeading>
-    <Section>
-      <ul class="tags">
-        {
-          tagsSorted.map((tag) => (
-            <li>
-              <a href={`/tag/${tag}/`} class={`tag ${tag}`}>
-                {tag}|{allTags[tag].length}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-    </Section>
-  </section>
+  <OutlineHeading>Browse Sites by tag</OutlineHeading>
+  <Section>
+    <ul class="tags">
+      {
+        tagsSorted.map((tag) => (
+          <li>
+            <a href={`/tag/${tag}/`} class={`tag ${tag}`}>
+              {tag}|{allTags[tag].length}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </Section>
   <OutlineHeading>Sites You Wish You Know Earlier!</OutlineHeading>
   <Section>
     <ul>
