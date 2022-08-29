@@ -37,12 +37,12 @@ const { title, description, permalink } = Astro.props;
       <main>
         <slot />
       </main>
+
       <footer>
         <section>
-          © {new Date().getFullYear()} AREA44 - Powered by <a
-            href="https://github.com/rachsmithcodes/rachsmith.com"
-            >Rachel Smith</a
-          >
+          © {new Date().getFullYear()} <a href="https://github.com/AREA44">AREA44</a> 
+          | Powered by <a href="https://astro.build">Astro</a> 
+          | Styled by <a href="https://rachsmith.com/">Rach Smith</a>
         </section>
       </footer>
     </div>
