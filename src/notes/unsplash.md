@@ -1,6 +1,6 @@
 ---
 title: Unsplash
-slug: https://unsplash.com
-excerpt: Photos for everyone.
+site: https://unsplash.com
+description: Photos for everyone.
 tags: [photo, download]
 ---

@@ -1,6 +1,6 @@
 ---
 title: 750 Words
-slug: https://www.750words.com
-excerpt: Write every day.
+site: https://www.750words.com
+description: Write every day.
 tags: [english]
 ---

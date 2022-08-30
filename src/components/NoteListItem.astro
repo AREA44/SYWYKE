@@ -1,5 +1,5 @@
 ---
-const { slug, title, tags, excerpt } = Astro.props;
+const { site, title, tags, description } = Astro.props;
 ---
 
 <style>
@@ -13,7 +13,7 @@ const { slug, title, tags, excerpt } = Astro.props;
     text-decoration: underline;
   }
 
-  .excerpt {
+  .description {
     font-size: 0.9em;
     line-height: 1;
     color: #333;
@@ -80,8 +80,8 @@ const { slug, title, tags, excerpt } = Astro.props;
 </style>
 
 <li class="cta">
-  <a href={slug} target="_blank" class="title">{title}</a><br />
-  <span class="excerpt">{excerpt}</span>
+  <a href={site} target="_blank" class="title">{title}</a><br />
+  <span class="description">{description}</span>
   <ul>
     {
       tags.map((tag) => (

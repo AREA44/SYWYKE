@@ -1,6 +1,6 @@
 ---
 title: Codebeautify
-slug: https://codebeautify.org
-excerpt: JSON Beautifier, XML Viewer, JSON Converters, Hex Converters and More.
+site: https://codebeautify.org
+description: JSON Beautifier, XML Viewer, JSON Converters, Hex Converters and More.
 tags: [develop, tool]
 ---

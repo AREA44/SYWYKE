@@ -1,6 +1,6 @@
 ---
 title: Aeon
-slug: https://aeon.co
-excerpt: A world of ideas.
+site: https://aeon.co
+description: A world of ideas.
 tags: [explore]
 ---

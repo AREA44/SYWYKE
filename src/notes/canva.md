@@ -1,6 +1,6 @@
 ---
 title: Canva
-slug: https://www.canva.com
-excerpt: Canva makes design simple for everyone.
+site: https://www.canva.com
+description: Canva makes design simple for everyone.
 tags: [design, tool, photo, video]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Plagiarism Detector
-slug: https://plagiarismdetector.net
-excerpt: Plagiarism Checker Free.
+site: https://plagiarismdetector.net
+description: Plagiarism Checker Free.
 tags: [tool, develop]
 ---

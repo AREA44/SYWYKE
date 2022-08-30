@@ -1,6 +1,6 @@
 ---
 title: YIFY movies
-slug: https://yts.mx
-excerpt: Movies Torrent Download.
+site: https://yts.mx
+description: Movies Torrent Download.
 tags: [download, tool]
 ---

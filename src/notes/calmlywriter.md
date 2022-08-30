@@ -1,6 +1,6 @@
 ---
 title: Calmly Writer
-slug: https://www.calmlywriter.com
-excerpt: The Ultimate Ditraction-Free Writing Tool.
+site: https://www.calmlywriter.com
+description: The Ultimate Ditraction-Free Writing Tool.
 tags: [tool]
 ---

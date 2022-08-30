@@ -1,6 +1,6 @@
 ---
 title: Happy Hues
-slug: https://www.happyhues.co
-excerpt: Curated colors in context.
+site: https://www.happyhues.co
+description: Curated colors in context.
 tags: [design, develop]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Git.io
-slug: https://git.io
-excerpt: "Shorten slug: by GitHub."
+site: https://git.io
+description: "Shorten site: by GitHub."
 tags: [develop, tool]
 ---

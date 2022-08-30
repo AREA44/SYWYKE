@@ -1,6 +1,6 @@
 ---
 title: Padlet
-slug: https://padlet.com
-excerpt: It’s a starry night. Make something stellar.
+site: https://padlet.com
+description: It’s a starry night. Make something stellar.
 tags: [share]
 ---

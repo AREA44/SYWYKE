@@ -1,6 +1,6 @@
 ---
 title: HexEd.it
-slug: https://hexed.it
-excerpt: The client-side JavaScript based hex editor.
+site: https://hexed.it
+description: The client-side JavaScript based hex editor.
 tags: [develop, tool]
 ---

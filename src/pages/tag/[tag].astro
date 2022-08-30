@@ -30,8 +30,8 @@ let permalink = `https://sywyke.netlify.app/tag/${tag}`;
   <Section>
     <ul>
       {
-        notes.map(({ url, frontmatter: { excerpt, slug, title, tags } }) => (
-          <NoteListItem {url} {excerpt} {slug} {title} {tags} />
+        notes.map(({ url, frontmatter: { description, site, title, tags } }) => (
+          <NoteListItem {url} {description} {site} {title} {tags} />
         ))
       }
     </ul>

@@ -1,6 +1,6 @@
 ---
 title: Wolfram Alpha
-slug: https://www.wolframalpha.com
-excerpt: Computational knowledge engine.
+site: https://www.wolframalpha.com
+description: Computational knowledge engine.
 tags: [learn, tool]
 ---

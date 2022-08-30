@@ -24,8 +24,8 @@ Add a `md` file in `src/notes`.
 ```md
 ---
 title: GitHub
-slug: https://github.com
-excerpt: Where the world builds software.
+site: https://github.com
+description: Where the world builds software.
 tags: [design]
 
 ---

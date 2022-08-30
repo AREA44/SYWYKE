@@ -1,6 +1,6 @@
 --- 
 title: Bigjpg 
-slug: https://bigjpg.com
-excerpt:  AI Image Enlarger.
+site: https://bigjpg.com
+description:  AI Image Enlarger.
 tags: [ai, design, photo, tool]
 ---

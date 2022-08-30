@@ -1,6 +1,6 @@
 ---
 title: Send anywhere
-slug: https://send-anywhere.com
-excerpt: Send whatever you want, wherever you want.
+site: https://send-anywhere.com
+description: Send whatever you want, wherever you want.
 tags: [share]
 ---

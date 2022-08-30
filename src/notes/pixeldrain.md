@@ -1,6 +1,6 @@
 ---
 title: Pixeldrain
-slug: https://pixeldrain.com
-excerpt: Free file sharing service.
+site: https://pixeldrain.com
+description: Free file sharing service.
 tags: [share]
 ---

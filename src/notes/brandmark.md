@@ -1,6 +1,6 @@
 ---
 title: Brandmark
-slug: https://brandmark.io/
-excerpt: Create a unique, professional logo for your business.
+site: https://brandmark.io/
+description: Create a unique, professional logo for your business.
 tags: [design, tool]
 ---
