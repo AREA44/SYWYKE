@@ -5,7 +5,7 @@ import OutlineHeading from "../components/OutlineHeading.astro";
 import NoteListItem from "../components/NoteListItem.astro";
 import { notesAndTags } from "../helpers/notes";
 
-const notes = await Astro.glob(`../notes/*.md`);
+const notes = await Astro.glob("../notes/*.md");
 const { allNotes, allTags } = notesAndTags(notes);
 const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
 
@@ -41,6 +41,7 @@ let permalink = `https://sywyke.netlify.app`;
         }
       </ul>
     </Section>
+
     <OutlineHeading>Sites You Wish You Know Earlier!</OutlineHeading>
     <Section>
       <ul>

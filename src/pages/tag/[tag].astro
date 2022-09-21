@@ -5,6 +5,10 @@ import OutlineHeading from "../../components/OutlineHeading.astro";
 import NoteListItem from "../../components/NoteListItem.astro";
 import { notesAndTags } from "../../helpers/notes";
 
+const tags = await Astro.glob("../../notes/*.md");
+const { allTags } = notesAndTags(tags);
+const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
+
 export async function getStaticPaths() {
   let notes = await Astro.glob(`../../notes/*.md`);
   const { allTags } = notesAndTags(notes);
@@ -17,23 +21,49 @@ export async function getStaticPaths() {
 const { tag } = Astro.params;
 const { notes } = Astro.props;
 
-let tagHeader = `${notes.length} note${
-  notes.length === 1 ? "" : "s"
-} tagged with "${tag}"`;
+let tagHeader = `${notes.length} note${notes.length === 1 ? "" : "s"} tagged with "${tag}"`;
 let title = `${tagHeader} | Sites You Wish You Know Earlier!`;
 let description = tagHeader;
 let permalink = `https://sywyke.netlify.app/tag/${tag}`;
 ---
 
+<style>
+  .tags {
+    text-align: center;
+    padding: 0;
+  }
+  .tags li {
+    display: inline-block;
+    margin-bottom: 0.5em;
+  }
+</style>
+
 <BaseLayout title={title} description={description} permalink={permalink}>
-  <OutlineHeading>{tagHeader}</OutlineHeading>
-  <Section>
-    <ul>
-      {
-        notes.map(({ url, frontmatter: { description, site, title, tags } }) => (
-          <NoteListItem {url} {description} {site} {title} {tags} />
-        ))
-      }
-    </ul>
-  </Section>
+  <section>
+    <OutlineHeading>Browse Sites by tag</OutlineHeading>
+    <Section>
+      <ul class="tags">
+        {
+          tagsSorted.map((tag) => (
+            <li>
+              <a href={`/tag/${tag}/`} class={`tag ${tag}`}>
+                {tag}|{allTags[tag].length}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </Section>
+
+    <OutlineHeading>{tagHeader}</OutlineHeading>
+    <Section>
+      <ul>
+        {
+          notes.map(({ url, frontmatter: { description, site, title, tags } }) => (
+            <NoteListItem {url} {description} {site} {title} {tags} />
+          ))
+        }
+      </ul>
+    </Section>
+  </section>
 </BaseLayout>
