@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/sitemap': 1.0.0
-  astro: 1.4.5
+  astro: 1.4.6
 
 devDependencies:
   '@astrojs/sitemap': 1.0.0
-  astro: 1.4.5
+  astro: 1.4.6
 
 packages:
 
@@ -693,8 +693,8 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /astro/1.4.5:
-    resolution: {integrity: sha512-7uflNdFMsAONkEdtNRqP1XgtgdUhiiFfYd3DjtaoaskYhcnfKKYy8Lht0stIQaMtAqITIy0LLTDvDM/j8SfuUw==}
+  /astro/1.4.6:
+    resolution: {integrity: sha512-zGi3uCl+VwBYwbmccyo9M4xI68gx+M7jJdP7kFSR3UCdmDbCoCY6u85ixAAjbkMUSNsuxsrBrhH9HW/X5SGTzQ==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
