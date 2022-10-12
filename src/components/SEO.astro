@@ -23,11 +23,11 @@ const { title, description } = Astro.props;
   <meta property="og:url" content={Astro.url}>
   <meta property="og:title" content={title}>
   <meta property="og:description" content={description}>
-  <meta property="og:image" content={new URL('banner.png', Astro.url)}>
+  <meta property="og:image" content="/banner.png" >
 
   <!-- Twitter -->
   <meta name="twitter:url" content={Astro.url}>
   <meta name="twitter:title" content={title}>
   <meta name="twitter:description" content={description}>
-  <meta name="twitter:image" content={new URL('banner.png', Astro.url)}>
+  <meta name="twitter:image" content="/banner.png">
 </head>
