@@ -24,7 +24,6 @@ const { notes } = Astro.props;
 let tagHeader = `${notes.length} note${notes.length === 1 ? "" : "s"} tagged with "${tag}"`;
 let title = `${tagHeader} | Sites You Wish You Know Earlier!`;
 let description = tagHeader;
-let permalink = `https://sywyke.netlify.app/tag/${tag}`;
 ---
 
 <style>
@@ -38,7 +37,7 @@ let permalink = `https://sywyke.netlify.app/tag/${tag}`;
   }
 </style>
 
-<BaseLayout title={title} description={description} permalink={permalink}>
+<BaseLayout title={title} description={description}>
   <section>
     <OutlineHeading>Browse Sites by tag</OutlineHeading>
     <Section>
