@@ -6,8 +6,12 @@ const { title, description } = Astro.props;
   <!-- Global Metadata -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="icon" type="image/svg+xml" href="favicon.png">
+  <link rel="icon" type="image/svg+xml" href="/favicon.png">
   <meta name="generator" content={Astro.generator} />
+
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for SYWYKE" href="/rss/" />
 
   <!-- Primary Meta Tags -->
   <title>{title}</title>
