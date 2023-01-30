@@ -1,11 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/sitemap': 1.0.0
+  '@astrojs/sitemap': 1.0.1
   astro: 2.0.2
 
 devDependencies:
-  '@astrojs/sitemap': 1.0.0
+  '@astrojs/sitemap': 1.0.1
   astro: 2.0.2
 
 packages:
@@ -74,8 +74,8 @@ packages:
       prismjs: 1.29.0
     dev: true
 
-  /@astrojs/sitemap/1.0.0:
-    resolution: {integrity: sha512-42GxuF5FP7RaKXZrwGLBLOX3hPv+Wl7ExJC43O0J5e34ojJkLeKf7QfwN1UwrJlqH0Ywi0Fm4/xGe482G09+wg==}
+  /@astrojs/sitemap/1.0.1:
+    resolution: {integrity: sha512-qexepZPH6/dLToI/njxr2FjvyxJU0HBAnQRNzEggF0ok811oSNC6su1DkyW2VKp0TNPbWoujuSbcb1yFOjnAqA==}
     dependencies:
       sitemap: 7.1.1
       zod: 3.19.1
