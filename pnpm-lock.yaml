@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/sitemap': 1.0.1
-  astro: 2.0.6
+  astro: 2.0.8
 
 devDependencies:
   '@astrojs/sitemap': 1.0.1
-  astro: 2.0.6
+  astro: 2.0.8
 
 packages:
 
@@ -22,8 +22,8 @@ packages:
     resolution: {integrity: sha512-vicPD8oOPNkcFZvz71Uz/nJcadovurUQ3L0yMZNPb6Nn6T1nHhlSHt5nAKaurB2pYU9DrxOFWZS2/RdV+JsWmQ==}
     dev: true
 
-  /@astrojs/compiler/1.0.1:
-    resolution: {integrity: sha512-77aacobLKcL98NmhK3OBS5EHIrX9gs1ckB/vGSIdkVZuB7u51V4jh05I6W0tSvG7/86tALv6QtHTRZ8rLhFTbQ==}
+  /@astrojs/compiler/1.1.0:
+    resolution: {integrity: sha512-C4kTwirys+HafufMqaxCbML2wqkGaXJM+5AekXh/v1IIOnMIdcEON9GBYsG6qa8aAmLhZ58aUZGPhzcA3Dx7Uw==}
     dev: true
 
   /@astrojs/language-server/0.28.3:
@@ -44,13 +44,13 @@ packages:
       vscode-uri: 3.0.6
     dev: true
 
-  /@astrojs/markdown-remark/2.0.1_astro@2.0.6:
+  /@astrojs/markdown-remark/2.0.1_astro@2.0.8:
     resolution: {integrity: sha512-xQF1rXGJN18m+zZucwRRtmNehuhPMMhZhi6HWKrtpEAKnHSPk8lqf1GXgKH7/Sypglu8ivdECZ+EGs6kOYVasQ==}
     peerDependencies:
       astro: ^2.0.2
     dependencies:
       '@astrojs/prism': 2.0.0
-      astro: 2.0.6
+      astro: 2.0.8
       github-slugger: 1.4.0
       import-meta-resolve: 2.1.0
       rehype-raw: 6.1.1
@@ -778,14 +778,14 @@ packages:
     resolution: {integrity: sha512-sNRaPGh9nnmdC8Zf+pT3UqP8rnWj5Hf9wiFGsX3wUQ2yVSIhO2ShFwCoceIPpB41QF6i2OEmrHmCo36xronCVA==}
     dev: true
 
-  /astro/2.0.6:
-    resolution: {integrity: sha512-aI8Ijy2EpMyP5SpjmDJpEUdNL6CUAxnja6IeaBC1BokD/mNAnijtmMnTyWVI3UeEZ727wYLISQMyqCfEUq8VNA==}
+  /astro/2.0.8:
+    resolution: {integrity: sha512-Rbp/6MfxzSVp8qJXjWWja555ZxdqS7Nk/IYg90VKvLNbDsnnBobZZ6vJp21T2e/my4sqJ6PZIOPVnxXr7OeQLQ==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 1.0.1
+      '@astrojs/compiler': 1.1.0
       '@astrojs/language-server': 0.28.3
-      '@astrojs/markdown-remark': 2.0.1_astro@2.0.6
+      '@astrojs/markdown-remark': 2.0.1_astro@2.0.8
       '@astrojs/telemetry': 2.0.0
       '@astrojs/webapi': 2.0.0
       '@babel/core': 7.19.1
