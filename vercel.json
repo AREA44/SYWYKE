@@ -1,0 +1,7 @@
+{
+  "buildCommand": "astro build",
+  "outputDirectory": "dist",
+  "github": {
+    "silent": true
+  }
+}
