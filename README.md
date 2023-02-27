@@ -2,8 +2,6 @@
 
 List of sites maybe you need to explore.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/29fb5801-c988-4cea-b31a-ad3c96bdbad6/deploy-status)](https://app.netlify.com/sites/sywyke/deploys)
-
 ## Commands
 
 | Command        | Action                                       |
