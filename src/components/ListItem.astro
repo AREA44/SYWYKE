@@ -1,0 +1,96 @@
+---
+const { site, title, tags, description } = Astro.props;
+---
+
+<style>
+  .title {
+    font-weight: bold;
+    color: #222;
+    text-decoration: none;
+  }
+
+  .title:hover {
+    text-decoration: underline;
+  }
+
+  .description {
+    font-size: 0.9em;
+    line-height: 1;
+    color: #333;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 1.2em;
+    list-style: none;
+    display: block;
+  }
+  
+  .taglist {
+    display: inline-block;
+    margin-bottom: 0.3em;
+  }
+  .cta {
+    font-family: var(--mono-font);
+    text-decoration: none;
+    color: #222;
+    font-size: 0.9em;
+    border: 4px solid #222;
+    border-image: var(--rainbow-gradient-45);
+    border-image-slice: 1 1 1 1;
+    padding: 16px;
+    position: relative;
+    transition: transform 0.1s ease-in-out;
+    transform: translate3d(0px, 0px, 0);
+    transform-style: preserve-3d;
+    padding: 14px 10px 10px 14px;
+    transition: transform 0.2s ease-in-out, padding 0.2s ease-in-out;
+    background-image: none;
+    box-sizing: border-box;
+    margin-right: 1em;
+    margin-top: 1em;
+  }
+  .cta:hover {
+    position: relative;
+    transform: translate3d(3px, 3px, 0);
+    padding: 12px;
+  }
+  .cta::before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    transform: translate3d(3px, 3px, -1px);
+    background: #222;
+    border: 4px solid #222;
+    transition: transform 0.2s ease-in-out;
+    background: none;
+    box-sizing: content-box;
+  }
+  .cta:hover::before {
+    transform: translate3d(-4px, -4px, -1px);
+  }
+</style>
+
+<li class="cta">
+  <a href={site} target="_blank" class="title">{title}</a><br />
+  <span class="description">{description}</span>
+  <ul>
+    {
+      tags.map((tag) => (
+        <li class="taglist">
+          <a href={`/tag/${tag}/`} class={`tag ${tag}`}>
+            {tag}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</li>
