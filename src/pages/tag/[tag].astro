@@ -5,12 +5,12 @@ import OutlineHeading from "../../components/OutlineHeading.astro";
 import ListItem from "../../components/ListItem.astro";
 import { sitesAndTags } from "../../helpers/sites";
 
-const tags = await Astro.glob("../../sites/*.md");
+const tags = await Astro.glob("../../data/*.md");
 const { allTags } = sitesAndTags(tags);
 const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
 
 export async function getStaticPaths() {
-  let sites = await Astro.glob(`../../sites/*.md`);
+  let sites = await Astro.glob(`../../data/*.md`);
   const { allTags } = sitesAndTags(sites);
   return Object.keys(allTags).map((tag) => ({
     params: { tag: tag },
