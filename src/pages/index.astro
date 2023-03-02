@@ -45,7 +45,7 @@ let description = `Sites You Wish You Know Earlier by AREA44`;
     <Section>
       <ul>
         {
-          allsites.map(
+          allSites.map(
             ({ url, frontmatter: { description, site, title, tags } }) => (
               <ListItem {url} {description} {site} {title} {tags} />
             )
