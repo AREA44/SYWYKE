@@ -2,26 +2,26 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Section from "../../components/Section.astro";
 import OutlineHeading from "../../components/OutlineHeading.astro";
-import NoteListItem from "../../components/NoteListItem.astro";
-import { notesAndTags } from "../../helpers/notes";
+import ListItem from "../../components/ListItem.astro";
+import { sitesAndTags } from "../../helpers/sites";
 
-const tags = await Astro.glob("../../notes/*.md");
-const { allTags } = notesAndTags(tags);
+const tags = await Astro.glob("../../sites/*.md");
+const { allTags } = sitesAndTags(tags);
 const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
 
 export async function getStaticPaths() {
-  let notes = await Astro.glob(`../../notes/*.md`);
-  const { allTags } = notesAndTags(notes);
+  let sites = await Astro.glob(`../../sites/*.md`);
+  const { allTags } = sitesAndTags(sites);
   return Object.keys(allTags).map((tag) => ({
     params: { tag: tag },
-    props: { notes: allTags[tag] },
+    props: { sites: allTags[tag] },
   }));
 }
 
 const { tag } = Astro.params;
-const { notes } = Astro.props;
+const { sites } = Astro.props;
 
-let tagHeader = `${notes.length} note${notes.length === 1 ? "" : "s"} tagged with "${tag}"`;
+let tagHeader = `${sites.length} site${sites.length === 1 ? "" : "s"} tagged with "${tag}"`;
 let title = `${tagHeader} | Sites You Wish You Know Earlier!`;
 let description = tagHeader;
 ---
@@ -58,8 +58,8 @@ let description = tagHeader;
     <Section>
       <ul>
         {
-          notes.map(({ url, frontmatter: { description, site, title, tags } }) => (
-            <NoteListItem {url} {description} {site} {title} {tags} />
+          sites.map(({ url, frontmatter: { description, site, title, tags } }) => (
+            <ListItem {url} {description} {site} {title} {tags} />
           ))
         }
       </ul>

@@ -2,15 +2,15 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Section from "../components/Section.astro";
 import OutlineHeading from "../components/OutlineHeading.astro";
-import NoteListItem from "../components/NoteListItem.astro";
-import { notesAndTags } from "../helpers/notes";
+import ListItem from "../components/ListItem.astro";
+import { sitesAndTags } from "../helpers/sites";
 
-const notes = await Astro.glob("../notes/*.md");
-const { allNotes, allTags } = notesAndTags(notes);
+const sites = await Astro.glob("../sites/*.md");
+const { allSites, allTags } = sitesAndTags(sites);
 const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
 
-let title = `SYWYKE | Sites You Wish You Know Earlier!`;
-let description = `Sites You Wish You Know Earlier! by AREA44`;
+let title = `Sites You Wish You Know Earlier!`;
+let description = `Sites You Wish You Know Earlier by AREA44`;
 ---
 
 <style>
@@ -45,9 +45,9 @@ let description = `Sites You Wish You Know Earlier! by AREA44`;
     <Section>
       <ul>
         {
-          allNotes.map(
+          allsites.map(
             ({ url, frontmatter: { description, site, title, tags } }) => (
-              <NoteListItem {url} {description} {site} {title} {tags} />
+              <ListItem {url} {description} {site} {title} {tags} />
             )
           )
         }
