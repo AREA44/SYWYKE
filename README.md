@@ -1,8 +1,8 @@
 # SYWYKE - Sites You Wish You Knew Earlier!
 
-List of sites maybe you need to explore.
+**SYWYKE** is a free and open-source site to find awesome websites in Internet using [Astro](https://astro.build).
 
-## Commands
+## Runing locally
 
 | Command        | Action                                       |
 | :------------- | :------------------------------------------- |
@@ -11,26 +11,34 @@ List of sites maybe you need to explore.
 | `pnpm build`   | Build your production site to `./dist/`      |
 | `pnpm preview` | Preview your build locally, before deploying |
 
-## Usage
+## Getting started
 
-### Adding content
+It's simple to insert a new site to this project. Just create a `md` file in `src/data` and follow this:
 
-Add a `md` file in `src/notes`.
+  ```md
+  ---
+  title: GitHub
+  site: https://github.com
+  description: Where the world builds software.
+  tags: [design]
+  ---
+  ```
 
-### Fronmatter reference
+You can find all `tag` at [tag.css](./src/styles/tag.css). If you have a new `tag`, you can add it to that file like this:
+  ```css
+  .tag.ai:hover {
+    background: #ff1900;
+  }
 
-```md
----
-title: GitHub
-site: https://github.com
-description: Where the world builds software.
-tags: [design]
----
-```
+  .tag.ai::before {
+    background: #ff1900;
+    border: 2px solid #ff1900;
+  }
+  ```
 
-### Open the code and start customizing!
+## References
 
-Add new `tag` style in [custom.css](./src/styles/custom.css).
+- [The code for rachsmith.com](https://github.com/rachsmithcodes/rachsmith.com)
 
 ## License
 
