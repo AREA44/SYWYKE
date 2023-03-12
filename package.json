@@ -1,6 +1,6 @@
 {
   "name": "@area44/sywyke",
-  "version": "4.0.0",
+  "version": "2023.03.12",
   "description": "Sites You Wish You Know Earlier!",
   "license": "MIT",
   "author": "AREA44",
@@ -11,7 +11,7 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "^1.1.0",
-    "astro": "^2.0.16"
+    "@astrojs/sitemap": "^1.2.0",
+    "astro": "^2.1.2"
   }
 }

@@ -24,7 +24,7 @@ It's simple to insert a new site to this project. Just create a `md` file in `sr
   ---
   ```
 
-You can find all `tag` at [tag.css](./src/styles/tag.css). If you have a new `tag`, you can add it to that file like this:
+You can find all `tag` at [`tag.css`](./src/styles/tag.css). If you have a new `tag`, you can add it to that file like this:
   ```css
   .tag.ai:hover {
     background: #ff1900;
@@ -38,7 +38,7 @@ You can find all `tag` at [tag.css](./src/styles/tag.css). If you have a new `ta
 
 ## References
 
-- [The code for rachsmith.com](https://github.com/rachsmithcodes/rachsmith.com)
+[The code for rachsmith.com](https://github.com/rachsmithcodes/rachsmith.com)
 
 ## License
 
