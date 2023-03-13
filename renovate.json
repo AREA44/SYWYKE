@@ -3,6 +3,13 @@
   "dependencyDashboard": false,
   "labels": ["renovate"],
   "automerge": true,
-  "rangeStrategy": "bump",
-  "schedule": ["before 3am on Monday"]
+  "schedule": ["before 3am on Monday"],
+  "packageRules": [
+    {
+      "groupName": "astro",
+      "labels": ["astro"],
+      "matchPackageNames": ["astro"],
+      "matchPackagePatterns": ["^@astro", "^astro"]
+    }
+  ]
 }
