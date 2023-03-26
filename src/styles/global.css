@@ -20,8 +20,8 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
+ul[role='list'],
+ol[role='list'] {
   list-style: none;
 }
 
@@ -79,7 +79,7 @@ select {
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/chivo-v17-latin-700.woff2') format('woff2'),
+  src: url('/fonts/chivo-v17-latin-700.woff2') format('woff2');
 }
 
 /* chivo-900 - latin */
@@ -88,28 +88,30 @@ select {
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url('/fonts/chivo-v17-latin-900.woff2') format('woff2'),
+  src: url('/fonts/chivo-v17-latin-900.woff2') format('woff2');
 }
-
 
 :root {
   --off-white-color: #fdfdfc;
   --black-pearl-color: #1c232a;
-  --mono-font: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-  --rainbow-gradient-45: linear-gradient(45deg,
-      hsl(6deg 100% 50%) 0%,
-      hsl(29deg 100% 50%) 12%,
-      hsl(45deg 100% 50%) 20%,
-      hsl(59deg 100% 50%) 28%,
-      hsl(80deg 100% 64%) 35%,
-      hsl(117deg 100% 73%) 41%,
-      hsl(159deg 100% 50%) 48%,
-      hsl(183deg 100% 47%) 55%,
-      hsl(197deg 100% 50%) 62%,
-      hsl(211deg 100% 51%) 70%,
-      hsl(266deg 77% 66%) 78%,
-      hsl(310deg 70% 55%) 88%,
-      hsl(327deg 100% 50%) 100%);
+  --mono-font: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
+    monospace;
+  --rainbow-gradient-45: linear-gradient(
+    45deg,
+    hsl(6deg 100% 50%) 0%,
+    hsl(29deg 100% 50%) 12%,
+    hsl(45deg 100% 50%) 20%,
+    hsl(59deg 100% 50%) 28%,
+    hsl(80deg 100% 64%) 35%,
+    hsl(117deg 100% 73%) 41%,
+    hsl(159deg 100% 50%) 48%,
+    hsl(183deg 100% 47%) 55%,
+    hsl(197deg 100% 50%) 62%,
+    hsl(211deg 100% 51%) 70%,
+    hsl(266deg 77% 66%) 78%,
+    hsl(310deg 70% 55%) 88%,
+    hsl(327deg 100% 50%) 100%
+  );
 }
 
 html,
@@ -124,7 +126,8 @@ body {
     sans-serif;
   background-color: var(--off-white-color);
   opacity: 1;
-  background-image: linear-gradient(#eeece9 1.1px, transparent 1.1px), linear-gradient(to right, #eeece9 1.1px, var(--off-white-color) 1.1px);
+  background-image: linear-gradient(#eeece9 1.1px, transparent 1.1px),
+    linear-gradient(to right, #eeece9 1.1px, var(--off-white-color) 1.1px);
   background-size: 22px 22px;
 }
 
@@ -155,7 +158,7 @@ h5 {
   margin: 0;
   border-left: 6px solid #eee;
   color: #555;
-  background: #FAFAFA;
+  background: #fafafa;
   padding-left: 1em;
   padding-top: 0.3em;
 }

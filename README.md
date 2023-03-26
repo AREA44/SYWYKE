@@ -13,7 +13,6 @@
   </a>
 </p>
 
-
 ## Runing locally
 
 | Command        | Action                                       |
@@ -28,26 +27,27 @@
 
 It's simple to insert a new site to this project. Just create a `md` file in `src/data` and follow this:
 
-  ```md
-  ---
-  title: GitHub
-  site: https://github.com
-  description: Where the world builds software.
-  tags: [design]
-  ---
-  ```
+```md
+---
+title: GitHub
+site: https://github.com
+description: Where the world builds software.
+tags: [design]
+---
+```
 
 You can find all `tag` at [`tag.css`](./src/styles/tag.css). If you have a new `tag`, you can add it to that file like this:
-  ```css
-  .tag.ai:hover {
-    background: #ff1900;
-  }
 
-  .tag.ai::before {
-    background: #ff1900;
-    border: 2px solid #ff1900;
-  }
-  ```
+```css
+.tag.ai:hover {
+  background: #ff1900;
+}
+
+.tag.ai::before {
+  background: #ff1900;
+  border: 2px solid #ff1900;
+}
+```
 
 ## Credits
 
