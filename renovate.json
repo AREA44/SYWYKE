@@ -10,6 +10,13 @@
       "labels": ["astro"],
       "matchPackageNames": ["astro"],
       "matchPackagePatterns": ["^@astro", "^astro"]
+    },
+    {
+      "groupName": "formatting & linting",
+      "labels": ["linting"],
+      "matchPackageNames": ["eslint", "prettier"],
+      "matchPackagePatterns": ["^eslint"],
+      "automerge": true
     }
   ]
 }
