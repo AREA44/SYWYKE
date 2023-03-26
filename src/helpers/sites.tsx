@@ -1,4 +1,4 @@
-import "astro/jsx-runtime";
+import 'astro/jsx-runtime';
 
 export function sitesAndTags(allSites) {
   const sites = sortedSites(allSites);
