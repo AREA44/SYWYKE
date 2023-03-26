@@ -1,5 +1,5 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
+import MainHead from "../components/MainHead.astro";
 
 import "../styles/global.css";
 import "../styles/tag.css";
@@ -8,7 +8,7 @@ const { title, description } = Astro.props;
 ---
 
 <html lang="en">
-  <BaseHead title={title} description={description} />
+  <MainHead title={title} description={description} />
 
   <body>
     <div class="container">

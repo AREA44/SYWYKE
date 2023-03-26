@@ -1,6 +1,18 @@
-# SYWYKE - Sites You Wish You Knew Earlier!
+![banner](./public/og.svg)
 
-**SYWYKE** is a free and open-source site to find awesome websites in Internet using [Astro](https://astro.build).
+<p align="center">
+  <b>SYWYKE</b> - An open-source site to find awesome websites in Internet.
+</p>
+
+<p align="center">
+  <a href="https://astro.build">
+    <img src="https://astro.badg.es/v1/built-with-astro.svg" alt="Built with Astro" height="21">
+  </a>
+  <a href="https://github.com/AREA44/SYWYKE/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="@area44/sywyke is released under the MIT license." />
+  </a>
+</p>
+
 
 ## Runing locally
 
@@ -10,6 +22,7 @@
 | `pnpm dev`     | Starts local dev server at `localhost:3000`  |
 | `pnpm build`   | Build your production site to `./dist/`      |
 | `pnpm preview` | Preview your build locally, before deploying |
+| `pnpm format ` | Format code with Prettier                    |
 
 ## Getting started
 
@@ -36,9 +49,9 @@ You can find all `tag` at [`tag.css`](./src/styles/tag.css). If you have a new `
   }
   ```
 
-## References
+## Credits
 
-[The code for rachsmith.com](https://github.com/rachsmithcodes/rachsmith.com)
+Design based on [rachsmith.com](https://github.com/rachsmithcodes/rachsmith.com)
 
 ## License
 
