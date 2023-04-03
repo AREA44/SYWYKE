@@ -51,7 +51,7 @@ You can find all `tag` at [`tag.css`](./src/styles/tag.css). If you have a new `
 
 ## Credits
 
-Design based on [rachsmith.com](https://github.com/rachsmithcodes/rachsmith.com)
+This theme is based off of the lovely [rachsmith.com](https://github.com/rachsmithcodes/rachsmith.com)
 
 ## License
 
