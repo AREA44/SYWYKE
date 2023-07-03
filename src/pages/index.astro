@@ -5,7 +5,7 @@ import OutlineHeading from "@/components/OutlineHeading.astro";
 import ListItem from "@/components/ListItem.astro";
 import { sitesAndTags } from "@/helpers/sites";
 
-const sites = await Astro.glob("@/data/*.md");
+const sites = await Astro.glob("../data/*.md");
 const { allSites, allTags } = sitesAndTags(sites);
 const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
 
