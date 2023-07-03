@@ -10,7 +10,7 @@ const { allTags } = sitesAndTags(tags);
 const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
 
 export async function getStaticPaths() {
-  let sites = await Astro.glob(`@/data/*.md`);
+  let sites = await Astro.glob(`../../data/*.md`);
   const { allTags } = sitesAndTags(sites);
   return Object.keys(allTags).map((tag) => ({
     params: { tag: tag },
