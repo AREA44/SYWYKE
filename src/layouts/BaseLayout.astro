@@ -1,8 +1,9 @@
 ---
-import MainHead from "../components/MainHead.astro";
+import MainHead from "@/components/MainHead.astro";
+import Search from "astro-pagefind/components/Search";
 
-import "../styles/global.css";
-import "../styles/tag.css";
+import "@/styles/global.css";
+import "@/styles/tag.css";
 
 const { title, description } = Astro.props;
 ---
@@ -13,6 +14,7 @@ const { title, description } = Astro.props;
   <body>
     <div class="container">
       <main>
+        <Search />
         <slot />
       </main>
 
