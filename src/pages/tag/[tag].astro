@@ -1,9 +1,9 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import Section from "../../components/Section.astro";
-import OutlineHeading from "../../components/OutlineHeading.astro";
-import ListItem from "../../components/ListItem.astro";
-import { sitesAndTags } from "../../helpers/sites";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Section from "@/components/Section.astro";
+import OutlineHeading from "@/components/OutlineHeading.astro";
+import ListItem from "@/components/ListItem.astro";
+import { sitesAndTags } from "@/helpers/sites";
 
 const tags = await Astro.glob("../../data/*.md");
 const { allTags } = sitesAndTags(tags);
