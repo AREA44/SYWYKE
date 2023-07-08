@@ -9,7 +9,7 @@
     <img src="https://astro.badg.es/v1/built-with-astro.svg" alt="Built with Astro" height="20">
   </a>
   <a href="https://github.com/AREA44/SYWYKE/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="@area44/sywyke is released under the MIT license." />
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="@area44/sywyke is released under the MIT license.">
   </a>
 </p>
 
