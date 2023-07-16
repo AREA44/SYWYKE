@@ -14,16 +14,19 @@ function sortedSites(allSites: any) {
 }
 
 function siteTags(sites: any[]) {
-  return sites.reduce((allTags: { [x: string]: any[]; }, site: { frontmatter: { tags: any; }; }) => {
-    const Tags = site.frontmatter.tags;
-    if (Tags) {
-      Tags.forEach((tag: string | number) => {
-        if (!allTags[tag]) {
-          allTags[tag] = [];
-        }
-        allTags[tag].push(site);
-      });
-    }
-    return allTags;
-  }, {});
+  return sites.reduce(
+    (allTags: { [x: string]: any[] }, site: { frontmatter: { tags: any } }) => {
+      const Tags = site.frontmatter.tags;
+      if (Tags) {
+        Tags.forEach((tag: string | number) => {
+          if (!allTags[tag]) {
+            allTags[tag] = [];
+          }
+          allTags[tag].push(site);
+        });
+      }
+      return allTags;
+    },
+    {},
+  );
 }

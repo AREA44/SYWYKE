@@ -1,10 +1,10 @@
-module.exports = {
+export default {
+  tabWidth: 2,
+  printWidth: 80,
   semi: true,
   singleQuote: true,
-  tabWidth: 2,
-  trailingComma: 'es5',
-  useTabs: false,
-  plugins: [require.resolve('prettier-plugin-astro')],
+  endOfLine: 'lf',
+  plugins: ['prettier-plugin-astro'],
   overrides: [
     {
       files: '*.astro',
