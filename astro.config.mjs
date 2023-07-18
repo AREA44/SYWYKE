@@ -4,9 +4,6 @@ import compress from 'astro-compress';
 import critters from 'astro-critters';
 
 export default defineConfig({
-  build: {
-    format: 'file',
-  },
   site: 'https://sywyke.vercel.app',
   integrations: [sitemap(), compress(), critters()],
 });
