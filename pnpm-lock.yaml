@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^2.0.2
     version: 2.0.2
   astro-critters:
-    specifier: ^2.0.0
-    version: 2.0.0
+    specifier: ^2.0.2
+    version: 2.0.2
   prettier:
     specifier: ^3.0.1
     version: 3.0.1
@@ -1030,8 +1030,11 @@ packages:
       terser: 5.19.2
     dev: true
 
-  /astro-critters@2.0.0:
-    resolution: {integrity: sha512-S635xqrwnGrWBLXKzUDI3yvFDZJlft0JAg7hkfwUP/7c/3fz/dS5ng7YHn7fxsRzT2U7jxPdRml1jiZQrUeWRw==}
+  /astro-critters@2.0.2:
+    resolution: {integrity: sha512-ItZ2cDtuTSUACCbMxMmS2pDVa29zKH/TrpopSJiRUkcpQx0dst3h+N4IEVieJZajxoQEH5XDDvtIRBw1O+xZGw==}
+    dependencies:
+      critters: 0.0.20
+      files-pipe: 2.0.5
     dev: true
 
   /astro@2.8.3:
