@@ -1,8 +1,9 @@
 import { z, defineCollection } from 'astro:content'
 const sitesCollection = defineCollection({
+  type: 'content',
   schema: z.object({
     title: z.string(),
-    site: z.url(),
+    site: z.string().url(),
     description: z.string(),
     tags: z.array(z.string()),
   }),
