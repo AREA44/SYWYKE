@@ -3,14 +3,15 @@ import BaseLayout from '@/layouts/BaseLayout.astro'
 import Section from '@/components/Section.astro'
 import OutlineHeading from '@/components/OutlineHeading.astro'
 import ListItem from '@/components/ListItem.astro'
+import { getCollection } from 'astro:content'
 import { sitesAndTags } from '@/utils/sites'
 
-const tags = await Astro.glob('../../data/*.md')
+const tags = await getCollection('sites')
 const { allTags } = sitesAndTags(tags)
 const tagsSorted = allTags ? Object.keys(allTags).sort() : []
 
 export async function getStaticPaths() {
-  let sites = await Astro.glob(`../../data/*.md`)
+  const sites = await getCollection('sites')
   const { allTags } = sitesAndTags(sites)
   return Object.keys(allTags).map((tag) => ({
     params: { tag: tag },
@@ -60,11 +61,9 @@ let description = tagHeader
     <Section>
       <ul>
         {
-          sites.map(
-            ({ url, frontmatter: { description, site, title, tags } }) => (
-              <ListItem {url} {description} {site} {title} {tags} />
-            ),
-          )
+          sites.map(({ url, data: { description, site, title, tags } }) => (
+            <ListItem {url} {description} {site} {title} {tags} />
+          ))
         }
       </ul>
     </Section>
