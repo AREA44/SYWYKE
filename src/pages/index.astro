@@ -1,16 +1,16 @@
 ---
-import BaseLayout from "@/layouts/BaseLayout.astro";
-import Section from "@/components/Section.astro";
-import OutlineHeading from "@/components/OutlineHeading.astro";
-import ListItem from "@/components/ListItem.astro";
-import { sitesAndTags } from "@/helpers/sites";
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import Section from '@/components/Section.astro'
+import OutlineHeading from '@/components/OutlineHeading.astro'
+import ListItem from '@/components/ListItem.astro'
+import { sitesAndTags } from '@/utils/sites'
 
-const sites = await Astro.glob("../data/*.md");
-const { allSites, allTags } = sitesAndTags(sites);
-const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
+const sites = await Astro.glob('../data/*.md')
+const { allSites, allTags } = sitesAndTags(sites)
+const tagsSorted = allTags ? Object.keys(allTags).sort() : []
 
-let title = `Sites You Wish You Know Earlier!`;
-let description = `Sites You Wish You Know Earlier by AREA44`;
+let title = `Sites You Wish You Know Earlier!`
+let description = `Sites You Wish You Know Earlier by AREA44`
 ---
 
 <style>
@@ -48,7 +48,7 @@ let description = `Sites You Wish You Know Earlier by AREA44`;
           allSites.map(
             ({ url, frontmatter: { description, site, title, tags } }) => (
               <ListItem {url} {description} {site} {title} {tags} />
-            )
+            ),
           )
         }
       </ul>

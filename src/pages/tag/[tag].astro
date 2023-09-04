@@ -1,29 +1,31 @@
 ---
-import BaseLayout from "@/layouts/BaseLayout.astro";
-import Section from "@/components/Section.astro";
-import OutlineHeading from "@/components/OutlineHeading.astro";
-import ListItem from "@/components/ListItem.astro";
-import { sitesAndTags } from "@/helpers/sites";
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import Section from '@/components/Section.astro'
+import OutlineHeading from '@/components/OutlineHeading.astro'
+import ListItem from '@/components/ListItem.astro'
+import { sitesAndTags } from '@/utils/sites'
 
-const tags = await Astro.glob("../../data/*.md");
-const { allTags } = sitesAndTags(tags);
-const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
+const tags = await Astro.glob('../../data/*.md')
+const { allTags } = sitesAndTags(tags)
+const tagsSorted = allTags ? Object.keys(allTags).sort() : []
 
 export async function getStaticPaths() {
-  let sites = await Astro.glob(`../../data/*.md`);
-  const { allTags } = sitesAndTags(sites);
+  let sites = await Astro.glob(`../../data/*.md`)
+  const { allTags } = sitesAndTags(sites)
   return Object.keys(allTags).map((tag) => ({
     params: { tag: tag },
     props: { sites: allTags[tag] },
-  }));
+  }))
 }
 
-const { tag } = Astro.params;
-const { sites } = Astro.props;
+const { tag } = Astro.params
+const { sites } = Astro.props
 
-let tagHeader = `${sites.length} site${sites.length === 1 ? "" : "s"} tagged with "${tag}"`;
-let title = `${tagHeader} | Sites You Wish You Know Earlier!`;
-let description = tagHeader;
+let tagHeader = `${sites.length} site${
+  sites.length === 1 ? '' : 's'
+} tagged with "${tag}"`
+let title = `${tagHeader} | Sites You Wish You Know Earlier!`
+let description = tagHeader
 ---
 
 <style>
@@ -58,9 +60,11 @@ let description = tagHeader;
     <Section>
       <ul>
         {
-          sites.map(({ url, frontmatter: { description, site, title, tags } }) => (
-            <ListItem {url} {description} {site} {title} {tags} />
-          ))
+          sites.map(
+            ({ url, frontmatter: { description, site, title, tags } }) => (
+              <ListItem {url} {description} {site} {title} {tags} />
+            ),
+          )
         }
       </ul>
     </Section>
