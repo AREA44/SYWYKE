@@ -1,58 +1,43 @@
-![banner](./public/og.svg)
+# SYWYKE - An Open-Source Site to Find Awesome Websites on the Internet
 
-<p align="center">
-  <b>SYWYKE</b> - An open-source site to find awesome websites in Internet.
-</p>
+![SYWYKE Banner](./public/og.svg)
 
-<p align="center">
-  <a href="https://astro.build">
-    <img src="https://astro.badg.es/v1/built-with-astro.svg" alt="Built with Astro" height="20">
-  </a>
-  <a href="https://github.com/AREA44/SYWYKE/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="@area44/sywyke is released under the MIT license.">
-  </a>
-</p>
+SYWYKE is an open-source project that aims to gather and showcase awesome websites on the internet. It provides a platform for users to discover and explore websites based on their interests and preferences.
 
-## Runing locally
+## Features
 
-| Command        | Action                                       |
-| :------------- | :------------------------------------------- |
-| `pnpm install` | Installs dependencies                        |
-| `pnpm dev`     | Starts local dev server at `localhost:3000`  |
-| `pnpm build`   | Build your production site to `./dist/`      |
-| `pnpm preview` | Preview your build locally, before deploying |
-| `pnpm format ` | Format code with Prettier                    |
+**Astro:** SYWYKE is built using Astro, a modern front-end framework for building websites. Astro combines the best of static site generation and server-side rendering to deliver fast, performant websites.
 
-## Getting started
+**Tagging System:** Each website in SYWYKE is associated with one or more tags, allowing users to filter websites based on their interests. The tags are beautifully styled using the tag.css file, and new tags can be easily added.
 
-It's simple to insert a new site to this project. Just create a `md` file in `src/data` and follow this:
+**Easy Contribution:** Adding a new website to SYWYKE is simple. Just create a Markdown (.md) file in the src/data directory and provide the necessary details like title, site URL, description, and tags.
 
-```md
----
-title: GitHub
-site: https://github.com
-description: Where the world builds software.
-tags: [design]
----
-```
+**Responsive Design:** SYWYKE is designed to be responsive, ensuring that it looks great and functions well on different devices and screen sizes.
 
-You can find all `tag` at [`tag.css`](./src/styles/tag.css). If you have a new `tag`, you can add it to that file like this:
+## Getting Started
 
-```css
-.tag.ai:hover {
-  background: #ff1900;
-}
+To run SYWYKE locally, follow these steps:
 
-.tag.ai::before {
-  background: #ff1900;
-  border: 2px solid #ff1900;
-}
-```
+1. Clone the repository: `git clone https://github.com/AREA44/SYWYKE.git`
+2. Navigate to the project directory: `cd SYWYKE`
+3. Install dependencies: `pnpm install`
+4. Start the local development server: `pnpm dev`
+5. Open your browser and visit [http://localhost:4321](http://localhost:4321) to view the SYWYKE site.
+
+## Contributing
+
+If you would like to contribute to SYWYKE, feel free to follow these steps:
+
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bug fix.
+3. Make the necessary changes and commit your changes.
+4. Push the branch to your forked repository.
+5. Open a pull request on the main SYWYKE repository.
 
 ## Credits
 
-This theme is based off of the lovely [rachsmith.com](https://github.com/rachsmithcodes/rachsmith.com)
+SYWYKE is inspired by the design and layout of [rachsmith.com](https://rachsmith.com).
 
 ## License
 
-Licensed under the [MIT](LICENSE) license.
+SYWYKE is licensed under the MIT License.

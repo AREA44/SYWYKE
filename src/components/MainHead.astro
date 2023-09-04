@@ -1,39 +1,65 @@
 ---
 export type Props = {
-	title?: string
-	description?: string
+  title?: string
+  description?: string
 }
 
-const { title, description } = Astro.props;
+const { title, description } = Astro.props
 ---
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="icon" type="image/png" href="/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" type="image/png" href="/favicon.ico" />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="192x192"
+    href="/android-chrome-192x192.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="512x512"
+    href="/android-chrome-512x512.png"
+  />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
   <meta name="theme-color" content="#ffffff" />
   <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
   <meta name="generator" content={Astro.generator} />
   <title>{title}</title>
-  <meta name="title" content={title}>
-  <meta name="description" content={description}>
-  <meta property="og:type" content="website">
-  <meta property="og:url" content={Astro.url}>
-  <meta property="og:title" content={title}>
-  <meta property="og:description" content={description}>
-  <meta property="og:image" content={new URL("og.svg", Astro.site)}>
-  <meta name="twitter:url" content={Astro.url}>
-  <meta name="twitter:title" content={title}>
-  <meta name="twitter:description" content={description}>
-  <meta name="twitter:image" content={new URL("og.svg", Astro.site)}>
+  <meta name="title" content={title} />
+  <meta name="description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={Astro.url} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={new URL('og.svg', Astro.site)} />
+  <meta name="twitter:url" content={Astro.url} />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={new URL('og.svg', Astro.site)} />
 
-  <link rel="preload" href="fonts/chivo-v17-latin-700.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="fonts/chivo-v17-latin-900.woff2" as="font" type="font/woff2" crossorigin />
-  
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2837724975096238"
-     crossorigin="anonymous"></script>
+  <link
+    rel="preload"
+    href="fonts/chivo-v17-latin-700.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/chivo-v17-latin-900.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2837724975096238"
+    crossorigin="anonymous"></script>
 </head>
