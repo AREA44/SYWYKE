@@ -1,6 +1,6 @@
 # SYWYKE - An Open-Source Site to Find Awesome Websites on the Internet
 
-![SYWYKE Banner](./public/og.svg)
+![SYWYKE banner](./public/og.svg)
 
 SYWYKE is an open-source project that aims to gather and showcase awesome websites on the internet. It provides a platform for users to discover and explore websites based on their interests and preferences.
 
@@ -36,7 +36,7 @@ If you would like to contribute to SYWYKE, feel free to follow these steps:
 
 ## Credits
 
-SYWYKE is inspired by the design and layout of [rachsmith.com](https://rachsmith.com).
+Inspired of [rachsmith.com](https://rachsmith.com).
 
 ## License
 

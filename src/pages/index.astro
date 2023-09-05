@@ -1,8 +1,15 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro'
-import Section from '@/components/Section.astro'
-import OutlineHeading from '@/components/OutlineHeading.astro'
-import ListItem from '@/components/ListItem.astro'
+import Heading from '@/components/Heading.astro'
+import {
+  Card,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
+
 import { getCollection } from 'astro:content'
 import { sitesAndTags } from '@/utils/sites'
 
@@ -14,43 +21,46 @@ let title = `Sites You Wish You Know Earlier!`
 let description = `Sites You Wish You Know Earlier by AREA44`
 ---
 
-<style>
-  .tags {
-    text-align: center;
-    padding: 0;
-  }
-  .tags li {
-    display: inline-block;
-    margin-bottom: 0.5em;
-  }
-</style>
-
 <BaseLayout title={title} description={description}>
-  <section>
-    <OutlineHeading>Browse Sites by tag</OutlineHeading>
-    <Section>
-      <ul class="tags">
-        {
-          tagsSorted.map((tag) => (
-            <li>
-              <a href={`/tag/${tag}/`} class={`tag ${tag}`}>
-                {tag}|{allTags[tag].length}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-    </Section>
+  <Heading>
+    Browse Sites by Tag
+  </Heading>
+  <div class="py-4 space-x-1 space-y-1">
+    {
+      tagsSorted.map((tag) => (
+        <Badge>
+          <a href={`/tag/${tag}/`}>
+            {tag} | {allTags[tag].length}
+          </a>
+        </Badge>
+      ))
+    }
+  </div>
 
-    <OutlineHeading>Sites You Wish You Know Earlier!</OutlineHeading>
-    <Section>
-      <ul>
-        {
-          allSites.map(({ url, data: { description, site, title, tags } }) => (
-            <ListItem {url} {description} {site} {title} {tags} />
-          ))
-        }
-      </ul>
-    </Section>
-  </section>
+  <Heading>
+    Sites You Wish You Know Earlier!
+  </Heading>
+  <div class="pt-4">
+    {
+      allSites.map(({ data: { description, site, title, tags } }) => (
+      <div class="pb-2">
+        <Card>
+          <a href={site} target="_blank">
+            <CardHeader>
+              <CardTitle>{title}</CardTitle>
+              <CardDescription>{description}</CardDescription>
+            </CardHeader>
+            <CardFooter className="space-x-1 space-y-1">
+              {tags.map((tag) => (
+                <Badge>
+                  <a href={`/tag/${tag}/`}>{tag}</a>
+                </Badge>
+              ))}
+            </CardFooter>
+          </a>
+        </Card>
+      </div>
+      ))
+    }
+  </div>
 </BaseLayout>
