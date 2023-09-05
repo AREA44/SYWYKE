@@ -36,7 +36,10 @@ If you would like to contribute to SYWYKE, feel free to follow these steps:
 
 ## Credits
 
-Inspired of [rachsmith.com](https://rachsmith.com).
+We build upon the knowledge and success of these pioneers. Here are a few Open Source projects that have inspired us along the way.
+
+- [rachsmith.com](https://rachsmith.com).
+- [shadcn/ui](https://ui.shadcn.com)
 
 ## License
 
