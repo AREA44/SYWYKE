@@ -1,4 +1,6 @@
 ---
+import {ViewTransitions} from 'astro:transitions';
+
 export type Props = {
   title?: string
   description?: string
@@ -42,4 +44,5 @@ const { title, description } = Astro.props
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={new URL('og.svg', Astro.site)} />
+  <ViewTransitions />
 </head>

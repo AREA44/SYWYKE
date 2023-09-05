@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro'
+import Heading from '@/components/Heading.astro'
 import {
   Card,
   CardDescription,
@@ -21,12 +22,10 @@ let description = `Sites You Wish You Know Earlier by AREA44`
 ---
 
 <BaseLayout title={title} description={description}>
-  <h2
-    class="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
-  >
+  <Heading>
     Browse Sites by Tag
-  </h2>
-  <div class="p-2">
+  </Heading>
+  <div class="py-4 space-x-1 space-y-1">
     {
       tagsSorted.map((tag) => (
         <Badge>
@@ -38,21 +37,20 @@ let description = `Sites You Wish You Know Earlier by AREA44`
     }
   </div>
 
-  <h2
-    class="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
-  >
+  <Heading>
     Sites You Wish You Know Earlier!
-  </h2>
-  <div>
+  </Heading>
+  <div class="pt-4">
     {
-      allSites.map(({ url, data: { description, site, title, tags } }) => (
+      allSites.map(({ data: { description, site, title, tags } }) => (
+      <div class="pb-2">
         <Card>
           <a href={site} target="_blank">
             <CardHeader>
               <CardTitle>{title}</CardTitle>
               <CardDescription>{description}</CardDescription>
             </CardHeader>
-            <CardFooter>
+            <CardFooter className="space-x-1 space-y-1">
               {tags.map((tag) => (
                 <Badge>
                   <a href={`/tag/${tag}/`}>{tag}</a>
@@ -61,6 +59,7 @@ let description = `Sites You Wish You Know Earlier by AREA44`
             </CardFooter>
           </a>
         </Card>
+      </div>
       ))
     }
   </div>

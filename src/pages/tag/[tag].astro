@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro'
-import OutlineHeading from '@/components/OutlineHeading.astro'
-import ListItem from '@/components/ListItem.astro'
+import Heading from '@/components/Heading.astro'
 import {
   Card,
   CardDescription,
@@ -38,12 +37,10 @@ let description = tagHeader
 ---
 
 <BaseLayout title={title} description={description}>
-    <h2
-      class="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
-    >
-      Browse Sites by Tag
-    </h2>
-    <div class="p-2">
+  <Heading>
+    Browse Sites by Tag
+  </Heading>
+  <div class="py-4 space-x-1 space-y-1">
     {
       tagsSorted.map((tag) => (
         <Badge>
@@ -54,27 +51,30 @@ let description = tagHeader
       ))
     }
   </div>
-  <h2 class="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+
+  <Heading>
     {tagHeader}
-  </h2>
-  <div>
+  </Heading>
+  <div class="pt-4">
     {
-      sites.map(({ url, data: { description, site, title, tags } }) => (
+      sites.map(({ data: { description, site, title, tags } }) => (
+      <div class="pb-2">  
         <Card>
-          <a href={site} target="_blank">
-            <CardHeader>
-              <CardTitle>{title}</CardTitle>
-              <CardDescription>{description}</CardDescription>
-            </CardHeader>
-            <CardFooter>
-              {tags.map((tag) => (
-                <Badge>
-                  <a href={`/tag/${tag}/`}>{tag}</a>
-                </Badge>
-              ))}
-            </CardFooter>
-          </a>
-        </Card>
+            <a href={site} target="_blank">
+              <CardHeader>
+                <CardTitle>{title}</CardTitle>
+                <CardDescription>{description}</CardDescription>
+              </CardHeader>
+              <CardFooter className="space-x-1 space-y-1">
+                {tags.map((tag) => (
+                  <Badge>
+                    <a href={`/tag/${tag}/`}>{tag}</a>
+                  </Badge>
+                ))}
+              </CardFooter>
+            </a>
+          </Card>
+      </div>
       ))
     }
   </div>
