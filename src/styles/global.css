@@ -1,225 +1,77 @@
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin-bottom: 0;
-}
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
-  list-style: none;
-}
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
 
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
-}
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
 
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
 
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block;
-}
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
 
-/* Remove all animations and transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-    scroll-behavior: auto;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
   }
 
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: hsl(212.7, 26.8%, 83.9);
   }
 }
 
-/* chivo-700 - latin */
-@font-face {
-  font-family: 'Chivo';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('/fonts/chivo-v17-latin-700.woff2') format('woff2');
-}
+@layer base {
+  * {
+    @apply border-border;
+  }
 
-/* chivo-900 - latin */
-@font-face {
-  font-family: 'Chivo';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url('/fonts/chivo-v17-latin-900.woff2') format('woff2');
-}
-
-:root {
-  --off-white-color: #fdfdfc;
-  --black-pearl-color: #1c232a;
-  --mono-font: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
-    monospace;
-  --rainbow-gradient-45: linear-gradient(
-    45deg,
-    hsl(6deg 100% 50%) 0%,
-    hsl(29deg 100% 50%) 12%,
-    hsl(45deg 100% 50%) 20%,
-    hsl(59deg 100% 50%) 28%,
-    hsl(80deg 100% 64%) 35%,
-    hsl(117deg 100% 73%) 41%,
-    hsl(159deg 100% 50%) 48%,
-    hsl(183deg 100% 47%) 55%,
-    hsl(197deg 100% 50%) 62%,
-    hsl(211deg 100% 51%) 70%,
-    hsl(266deg 77% 66%) 78%,
-    hsl(310deg 70% 55%) 88%,
-    hsl(327deg 100% 50%) 100%
-  );
-}
-
-html,
-body {
-  width: 100%;
-  margin: 0;
-}
-
-body {
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    avenir next,
-    avenir,
-    segoe ui,
-    helvetica neue,
-    helvetica,
-    Cantarell,
-    Ubuntu,
-    roboto,
-    noto,
-    arial,
-    sans-serif;
-  background-color: var(--off-white-color);
-  opacity: 1;
-  background-image: linear-gradient(#eeece9 1.1px, transparent 1.1px),
-    linear-gradient(to right, #eeece9 1.1px, var(--off-white-color) 1.1px);
-  background-size: 22px 22px;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: 'Chivo', sans-serif;
-}
-
-h1 {
-  font-size: 2.4em;
-}
-
-h2 {
-  font-size: 2em;
-}
-
-h3 {
-  font-size: 1.4em;
-}
-
-h4 {
-  font-size: 1.2em;
-}
-
-h5 {
-  margin: 0;
-  border-left: 6px solid #eee;
-  color: #555;
-  background: #fafafa;
-  padding-left: 1em;
-  padding-top: 0.3em;
-}
-
-p,
-ul,
-ol,
-li {
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-p,
-ul,
-ol {
-  margin-bottom: 1.2em;
-}
-
-blockquote {
-  background: #fdfdfd;
-  border-left: 6px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  color: #333;
-}
-
-img,
-video {
-  max-width: 100%;
-}
-
-figure {
-  padding: 1em;
-  border: 5px solid #eee;
-}
-
-figcaption {
-  text-align: center;
-  color: #333;
-}
-
-pre {
-  padding: 0.3em 1em;
-  border-left: 6px solid #eee;
-  font-size: 1.2em;
-  margin-top: 0;
-}
-
-.container {
-  max-width: 75ch;
-  padding: 1em;
-  margin: 0 auto;
+  body {
+    @apply bg-background text-foreground;
+  }
 }
