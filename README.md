@@ -34,13 +34,13 @@ If you would like to contribute to SYWYKE, feel free to follow these steps:
 4. Push the branch to your forked repository.
 5. Open a pull request on the main SYWYKE repository.
 
+## License
+
+SYWYKE is licensed under the MIT License.
+
 ## Credits
 
 We build upon the knowledge and success of these pioneers. Here are a few Open Source projects that have inspired us along the way.
 
-- [rachsmith.com](https://rachsmith.com).
+- [rachsmith.com](https://rachsmith.com)
 - [shadcn/ui](https://ui.shadcn.com)
-
-## License
-
-SYWYKE is licensed under the MIT License.
