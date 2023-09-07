@@ -1,7 +1,7 @@
 ---
 import '@/styles/globals.css'
 import "cal-sans"
-import MainHead from '@/components/MainHead.astro'
+import HeadSEO from '@/components/HeadSEO.astro'
 import Header from '@/components/Header.astro'
 import Footer from '@/components/Footer.astro'
 
@@ -9,7 +9,7 @@ const { title, description } = Astro.props
 ---
 
 <html lang="en" class="dark">
-  <MainHead title={title} description={description} />
+  <HeadSEO title={title} description={description} />
 
   <body class="flex h-full flex-col bg-background font-sans antialiased">
     <div class="mx-auto max-w-2xl px-4 py-10">
