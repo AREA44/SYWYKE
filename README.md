@@ -1,6 +1,6 @@
 # SYWYKE - An Open-Source Site to Find Awesome Websites on the Internet
 
-[![Built with Astro](https://astro.badg.es/v1/built-with-astro/tiny.svg)](https://astro.build)
+[![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 
 ![SYWYKE banner](./public/og.svg)
 
