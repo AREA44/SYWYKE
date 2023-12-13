@@ -37,9 +37,7 @@ let description = tagHeader
 ---
 
 <BaseLayout title={title} description={description}>
-  <Heading>
-    Browse Sites by Tag
-  </Heading>
+  <Heading>Browse Sites by Tag</Heading>
   <div class="py-4 space-x-1 space-y-1">
     {
       tagsSorted.map((tag) => (
@@ -58,8 +56,8 @@ let description = tagHeader
   <div class="pt-4">
     {
       sites.map(({ data: { description, site, title, tags } }) => (
-      <div class="pb-2">  
-        <Card>
+        <div class="pb-2">
+          <Card>
             <a href={site} target="_blank">
               <CardHeader>
                 <CardTitle>{title}</CardTitle>
@@ -74,7 +72,7 @@ let description = tagHeader
               </CardFooter>
             </a>
           </Card>
-      </div>
+        </div>
       ))
     }
   </div>

@@ -22,9 +22,7 @@ let description = `Sites You Wish You Know Earlier by AREA44`
 ---
 
 <BaseLayout title={title} description={description}>
-  <Heading>
-    Browse Sites by Tag
-  </Heading>
+  <Heading>Browse Sites by Tag</Heading>
   <div class="py-4 space-x-1 space-y-1">
     {
       tagsSorted.map((tag) => (
@@ -37,29 +35,27 @@ let description = `Sites You Wish You Know Earlier by AREA44`
     }
   </div>
 
-  <Heading>
-    Sites You Wish You Know Earlier!
-  </Heading>
+  <Heading>Sites You Wish You Know Earlier!</Heading>
   <div class="pt-4">
     {
       allSites.map(({ data: { description, site, title, tags } }) => (
-      <div class="pb-2">
-        <Card>
-          <a href={site} target="_blank">
-            <CardHeader>
-              <CardTitle>{title}</CardTitle>
-              <CardDescription>{description}</CardDescription>
-            </CardHeader>
-            <CardFooter className="space-x-1 space-y-1">
-              {tags.map((tag) => (
-                <Badge>
-                  <a href={`/tag/${tag}/`}>{tag}</a>
-                </Badge>
-              ))}
-            </CardFooter>
-          </a>
-        </Card>
-      </div>
+        <div class="pb-2">
+          <Card>
+            <a href={site} target="_blank">
+              <CardHeader>
+                <CardTitle>{title}</CardTitle>
+                <CardDescription>{description}</CardDescription>
+              </CardHeader>
+              <CardFooter className="space-x-1 space-y-1">
+                {tags.map((tag) => (
+                  <Badge>
+                    <a href={`/tag/${tag}/`}>{tag}</a>
+                  </Badge>
+                ))}
+              </CardFooter>
+            </a>
+          </Card>
+        </div>
       ))
     }
   </div>
