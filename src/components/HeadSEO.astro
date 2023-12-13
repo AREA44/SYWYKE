@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
+import { ViewTransitions } from 'astro:transitions'
 
 export type Props = {
   title?: string
@@ -27,12 +27,30 @@ const { title, description } = Astro.props
     sizes="512x512"
     href={`${canonicalURL}android-chrome-512x512.png`}
   />
-  <link rel="apple-touch-icon" sizes="180x180" href={`${canonicalURL}apple-touch-icon.png`} />
-  <link rel="icon" type="image/png" sizes="32x32" href={`${canonicalURL}favicon-32x32.png`} />
-  <link rel="icon" type="image/png" sizes="16x16" href={`${canonicalURL}favicon-16x16.png`} />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href={`${canonicalURL}apple-touch-icon.png`}
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href={`${canonicalURL}favicon-32x32.png`}
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href={`${canonicalURL}favicon-16x16.png`}
+  />
   <link rel="manifest" href={`${canonicalURL}site.webmanifest`} />
   <meta name="theme-color" content="#ffffff" />
-  <link rel="sitemap" type="application/xml" href={`${canonicalURL}sitemap-index.xml`} />
+  <link
+    rel="sitemap"
+    type="application/xml"
+    href={`${canonicalURL}sitemap-index.xml`}
+  />
   <meta name="generator" content={Astro.generator} />
   <title>{title}</title>
   <meta name="title" content={title} />
