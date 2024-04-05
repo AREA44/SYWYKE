@@ -6,10 +6,10 @@
   "license": "MIT",
   "author": "AREA44",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
+    "dev": "bunx --bun astro dev",
+    "start": "bunx --bun astro dev",
+    "build": "bunx --bun astro build",
+    "preview": "bunx --bun astro preview",
     "format": "prettier -w . --cache"
   },
   "dependencies": {

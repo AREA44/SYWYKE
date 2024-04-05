@@ -1,6 +1,6 @@
 {
   "installCommand": "bun install",
-  "buildCommand": "astro build",
+  "buildCommand": "bunx --bun astro build",
   "outputDirectory": "dist",
   "github": {
     "silent": true
