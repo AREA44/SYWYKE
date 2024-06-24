@@ -15,11 +15,11 @@
   "dependencies": {
     "@astrojs/react": "^3.6.0",
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.10.3",
+    "astro": "^4.11.1",
     "cal-sans": "^1.0.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.395.0",
+    "lucide-react": "^0.396.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sharp": "^0.33.4",
@@ -32,6 +32,6 @@
     "@types/react-dom": "^18.3.0",
     "prettier": "^3.3.2",
     "prettier-plugin-astro": "^0.14.0",
-    "prettier-plugin-tailwindcss": "^0.6.4"
+    "prettier-plugin-tailwindcss": "^0.6.5"
   }
 }
