@@ -13,9 +13,9 @@
     "format": "prettier -w . --cache"
   },
   "dependencies": {
-    "@astrojs/react": "^3.6.1",
+    "@astrojs/react": "^3.6.2",
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.13.2",
+    "astro": "^4.13.3",
     "cal-sans": "^1.0.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
