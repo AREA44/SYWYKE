@@ -14,12 +14,12 @@
   },
   "dependencies": {
     "@astrojs/react": "^3.6.2",
-    "@astrojs/tailwind": "^5.1.1",
-    "astro": "^4.15.11",
+    "@astrojs/tailwind": "^5.1.2",
+    "astro": "^4.16.2",
     "cal-sans": "^1.0.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.447.0",
+    "lucide-react": "^0.452.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sharp": "^0.33.5",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.3.11",
-    "@types/react-dom": "^18.3.0",
+    "@types/react-dom": "^18.3.1",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.8"
