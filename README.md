@@ -22,8 +22,8 @@ To run SYWYKE locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/AREA44/SYWYKE.git`
 2. Navigate to the project directory: `cd SYWYKE`
-3. Install dependencies: `bun install`
-4. Start the local development server: `bun run dev`
+3. Install dependencies: `pnpm install`
+4. Start the local development server: `pnpm run dev`
 5. Open your browser and visit [http://localhost:4321](http://localhost:4321) to view the SYWYKE site.
 
 ## Contributing
