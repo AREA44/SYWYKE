@@ -1,13 +1,12 @@
-import { defineConfig } from 'astro/config'
-import react from '@astrojs/react'
-import tailwind from '@astrojs/tailwind'
+// @ts-check
+import { defineConfig } from "astro/config";
+import react from "@astrojs/react";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   site: 'https://sywyke.vercel.app',
-  integrations: [
-    react(),
-    tailwind({
-      applyBaseStyles: false,
-    }),
-  ],
-})
+  integrations: [react()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
+});

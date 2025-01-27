@@ -1,7 +1,6 @@
 {
-  "private": true,
   "name": "@area44/sywyke",
-  "version": "24.9.12",
+  "version": "25.01.27",
   "description": "Sites You Wish You Know Earlier!",
   "license": "MIT",
   "author": "AREA44",
@@ -10,7 +9,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "format": "prettier -w . --cache"
+    "format": "biome format --write ."
   },
   "dependencies": {
     "@astrojs/react": "^4.1.6",
@@ -33,5 +32,6 @@
     "prettier": "^3.4.2",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.11"
-  }
+  },
+  "packageManager": "pnpm@9.15.4"
 }
