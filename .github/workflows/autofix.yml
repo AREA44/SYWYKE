@@ -14,16 +14,19 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
 
-      - name: Install Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
+      - name: Install PNPM
+        uses: pnpm/action-setup@v4
 
       - name: Install dependencies
-        run: bun install
+        run: pnpm install --no-frozen-lockfile
 
-      - name: Format with Prettier
-        run: bunx prettier -w . "!.github"
+      - name: Setup Biome CLI
+        uses: biomejs/setup-biome@v2
+        with:
+          version: latest
+
+      - name: Run Biome
+        run: biome format --write .
 
       - name: Run autofix.ci
         uses: autofix-ci/action@v1.3

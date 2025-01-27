@@ -1,24 +1,24 @@
 ---
-import BaseLayout from '@/layouts/BaseLayout.astro'
-import Heading from '@/components/Heading.astro'
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Heading from "@/components/Heading.astro";
 import {
   Card,
   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
-import { getCollection } from 'astro:content'
-import { sitesAndTags } from '@/utils/sites'
+import { getCollection } from "astro:content";
+import { sitesAndTags } from "@/utils/sites";
 
-const sites = await getCollection('sites')
-const { allSites, allTags } = sitesAndTags(sites)
-const tagsSorted = allTags ? Object.keys(allTags).sort() : []
+const sites = await getCollection("sites");
+const { allSites, allTags } = sitesAndTags(sites);
+const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
 
-let title = `Sites You Wish You Know Earlier!`
-let description = `Sites You Wish You Know Earlier by AREA44`
+let title = `Sites You Wish You Know Earlier!`;
+let description = `Sites You Wish You Know Earlier by AREA44`;
 ---
 
 <BaseLayout title={title} description={description}>
