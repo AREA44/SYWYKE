@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.1.6",
-    "@astrojs/tailwind": "^5.1.5",
+    "@tailwindcss/vite": "^4.0.0",
     "astro": "^5.1.9",
     "cal-sans": "^1.0.1",
     "class-variance-authority": "^0.7.1",
