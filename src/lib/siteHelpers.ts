@@ -14,7 +14,10 @@ export interface Site {
 }
 
 // Define explicit return type for better TypeScript support
-export function sitesAndTags(allSites: Site[]): { allSites: Site[]; allTags: Record<string, Site[]> } {
+export function sitesAndTags(allSites: Site[]): {
+  allSites: Site[];
+  allTags: Record<string, Site[]>;
+} {
   const sites = sortedSites(allSites);
   const tags = siteTags(sites);
   return { allSites: sites, allTags: tags };
