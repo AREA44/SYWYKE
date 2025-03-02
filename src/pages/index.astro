@@ -15,17 +15,29 @@ import { sitesAndTags } from "@/utils/sites";
 
 const sites = await getCollection("sites");
 const { allSites, allTags } = sitesAndTags(sites);
-const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
+const tagsSorted: string[] = allTags ? Object.keys(allTags).sort() : [];
 
-let title = `Sites You Wish You Know Earlier!`;
-let description = `Sites You Wish You Know Earlier by AREA44`;
+const title = "Sites You Wish You Knew Earlier!";
+const description = "Sites You Wish You Knew Earlier by AREA44";
+
+interface SiteData {
+  description: string;
+  site: string;
+  title: string;
+  tags: string[];
+}
+
+interface Site {
+  id: string;
+  data: SiteData;
+}
 ---
 
 <BaseLayout title={title} description={description}>
   <Heading>Browse Sites by Tag</Heading>
   <div class="py-4 space-x-1 space-y-1">
     {
-      tagsSorted.map((tag) => (
+      tagsSorted.map((tag: string) => (
         <Badge>
           <a href={`/tag/${tag}/`}>
             {tag} | {allTags[tag].length}
@@ -35,19 +47,19 @@ let description = `Sites You Wish You Know Earlier by AREA44`;
     }
   </div>
 
-  <Heading>Sites You Wish You Know Earlier!</Heading>
+  <Heading>Sites You Wish You Knew Earlier!</Heading>
   <div class="pt-4">
     {
-      allSites.map(({ data: { description, site, title, tags } }) => (
+      allSites.map(({ id, data }: Site) => (
         <div class="pb-2">
-          <Card>
-            <a href={site} target="_blank">
+          <Card key={id}>
+            <a href={data.site} target="_blank">
               <CardHeader>
-                <CardTitle>{title}</CardTitle>
-                <CardDescription>{description}</CardDescription>
+                <CardTitle>{data.title}</CardTitle>
+                <CardDescription>{data.description}</CardDescription>
               </CardHeader>
-              <CardFooter className="space-x-1 space-y-1">
-                {tags.map((tag) => (
+              <CardFooter className="gap-1">
+                {data.tags.map((tag: string) => (
                   <Badge>
                     <a href={`/tag/${tag}/`}>{tag}</a>
                   </Badge>
