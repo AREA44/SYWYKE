@@ -11,34 +11,36 @@ import {
 import { Badge } from "@/components/ui/badge";
 
 import { getCollection } from "astro:content";
-import { sitesAndTags } from "@/utils/sites";
+import type { Site } from "@/lib/siteHelpers";
+import { sitesAndTags } from "@/lib/siteHelpers";
 
+// Fetch all tags
 const tags = await getCollection("sites");
 const { allTags } = sitesAndTags(tags);
-const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
+const tagsSorted: string[] = allTags ? Object.keys(allTags).sort() : [];
 
+// Generate static paths for each tag
 export async function getStaticPaths() {
   const sites = await getCollection("sites");
   const { allTags } = sitesAndTags(sites);
+
   return Object.keys(allTags).map((tag) => ({
-    params: { tag: tag },
+    params: { tag },
     props: { sites: allTags[tag] },
   }));
 }
 
 const { tag } = Astro.params;
-const { sites } = Astro.props;
+const { sites }: { sites: Site[] } = Astro.props;
 
-let tagHeader = `${sites.length} site${
-  sites.length === 1 ? "" : "s"
-} tagged with "${tag}"`;
-let title = `${tagHeader} | Sites You Wish You Know Earlier!`;
-let description = tagHeader;
+const tagHeader = `${sites.length} site${sites.length === 1 ? "" : "s"} tagged with "${tag}"`;
+const title = `${tagHeader} | Sites You Wish You Knew Earlier!`;
+const description = tagHeader;
 ---
 
 <BaseLayout title={title} description={description}>
   <Heading>Browse Sites by Tag</Heading>
-  <div class="py-4 space-x-1 space-y-1">
+  <div class="flex flex-wrap gap-1">
     {
       tagsSorted.map((tag) => (
         <Badge>
@@ -50,21 +52,20 @@ let description = tagHeader;
     }
   </div>
 
-  <Heading>
-    {tagHeader}
-  </Heading>
+  <Heading>{tagHeader}</Heading>
+
   <div class="pt-4">
     {
-      sites.map(({ data: { description, site, title, tags } }) => (
+      sites.map(({ id, data }: Site) => (
         <div class="pb-2">
-          <Card>
-            <a href={site} target="_blank">
+          <Card key={id}>
+            <a href={data.site} target="_blank">
               <CardHeader>
                 <CardTitle>{title}</CardTitle>
                 <CardDescription>{description}</CardDescription>
               </CardHeader>
-              <CardFooter className="space-x-1 space-y-1">
-                {tags.map((tag) => (
+              <CardFooter className="flex flex-wrap gap-1">
+                {(data.tags ?? []).map((tag) => (
                   <Badge>
                     <a href={`/tag/${tag}/`}>{tag}</a>
                   </Badge>

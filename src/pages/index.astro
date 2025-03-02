@@ -11,7 +11,8 @@ import {
 import { Badge } from "@/components/ui/badge";
 
 import { getCollection } from "astro:content";
-import { sitesAndTags } from "@/utils/sites";
+import type { Site } from "@/lib/siteHelpers";
+import { sitesAndTags } from "@/lib/siteHelpers";
 
 const sites = await getCollection("sites");
 const { allSites, allTags } = sitesAndTags(sites);
@@ -19,23 +20,11 @@ const tagsSorted: string[] = allTags ? Object.keys(allTags).sort() : [];
 
 const title = "Sites You Wish You Knew Earlier!";
 const description = "Sites You Wish You Knew Earlier by AREA44";
-
-interface SiteData {
-  description: string;
-  site: string;
-  title: string;
-  tags: string[];
-}
-
-interface Site {
-  id: string;
-  data: SiteData;
-}
 ---
 
 <BaseLayout title={title} description={description}>
   <Heading>Browse Sites by Tag</Heading>
-  <div class="py-4 space-x-1 space-y-1">
+  <div class="flex flex-wrap gap-1">
     {
       tagsSorted.map((tag: string) => (
         <Badge>
@@ -58,8 +47,8 @@ interface Site {
                 <CardTitle>{data.title}</CardTitle>
                 <CardDescription>{data.description}</CardDescription>
               </CardHeader>
-              <CardFooter className="gap-1">
-                {data.tags.map((tag: string) => (
+              <CardFooter className="flex flex-wrap gap-1">
+                {(data.tags ?? []).map((tag: string) => (
                   <Badge>
                     <a href={`/tag/${tag}/`}>{tag}</a>
                   </Badge>
