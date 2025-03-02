@@ -23,9 +23,8 @@ export function sitesAndTags(allSites: Site[]): {
   return { allSites: sites, allTags: tags };
 }
 
-// Use .toSorted() instead of .sort() for immutability
 function sortedSites(sites: Site[]): Site[] {
-  return sites.toSorted((a, b) => a.data.title.localeCompare(b.data.title));
+  return sites.sort((a, b) => a.data.title.localeCompare(b.data.title));
 }
 
 function siteTags(sites: Site[]): Record<string, Site[]> {
