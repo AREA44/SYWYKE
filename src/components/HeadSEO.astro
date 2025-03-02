@@ -2,8 +2,6 @@
 import "@/styles/global.css";
 import "cal-sans";
 
-import { ViewTransitions } from "astro:transitions";
-
 export type Props = {
   title?: string;
   description?: string;
@@ -62,10 +60,9 @@ const { title, description } = Astro.props;
   <meta property="og:url" content={Astro.url} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:image" content={new URL('og.svg', Astro.site)} />
+  <meta property="og:image" content={new URL("og.svg", Astro.site)} />
   <meta name="twitter:url" content={Astro.url} />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content={new URL('og.svg', Astro.site)} />
-  <ViewTransitions />
+  <meta name="twitter:image" content={new URL("og.svg", Astro.site)} />
 </head>
