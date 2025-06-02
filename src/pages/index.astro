@@ -51,8 +51,8 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
     {
       sites.map((site) => (
         <div class="pb-2">
-          <Card key={site.id}>
-            <a href={site.data.url} target="_blank" rel="noopener noreferrer">
+          <a href={site.data.url} target="_blank" rel="noopener noreferrer">
+            <Card key={site.id}>
               <CardHeader>
                 <CardTitle>{site.data.title}</CardTitle>
                 <CardDescription>{site.data.description}</CardDescription>
@@ -64,8 +64,8 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
                   </Badge>
                 ))}
               </CardFooter>
-            </a>
-          </Card>
+            </Card>
+          </a>
         </div>
       ))
     }

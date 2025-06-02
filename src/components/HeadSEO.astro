@@ -1,8 +1,8 @@
 ---
-import "@/styles/global.css";
-import "cal-sans";
-
+import { Font } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
+
+import "@/styles/global.css";
 
 export type Props = {
   title?: string;
@@ -63,4 +63,7 @@ const ogImage = new URL("og.png", siteUrl).toString();
   <meta name="twitter:image" content={ogImage} />
 
   <ClientRouter />
+
+  <!-- Fonts -->
+  <Font cssVariable="--font-geist" preload />
 </head>
