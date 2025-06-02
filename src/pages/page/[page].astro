@@ -12,13 +12,26 @@ import {
 import Pagination from "@/components/Pagination.astro";
 import { getCollection } from "astro:content";
 
-const perPage = 8;
-const page = 1;
+export async function getStaticPaths() {
+  const sites = await getCollection("sites");
+  const perPage = 8;
+  const totalPages = Math.ceil(sites.length / perPage);
+
+  return Array.from({ length: totalPages - 1 }).map((_, i) => {
+    const page = i + 2;
+    return {
+      params: { page: String(page) },
+      props: { page, perPage },
+    };
+  });
+}
+
+const { page, perPage } = Astro.props;
 
 const allSites = (await getCollection("sites")).sort((a, b) =>
   (a.data.title || "").localeCompare(b.data.title || ""),
 );
-const paginatedSites = allSites.slice(0, perPage);
+const paginatedSites = allSites.slice((page - 1) * perPage, page * perPage);
 const totalPages = Math.ceil(allSites.length / perPage);
 
 const tagSet = new Set<string>();
@@ -29,7 +42,7 @@ for (const site of allSites) {
 }
 const uniqueTags = Array.from(tagSet);
 
-const title = "Sites You Wish You Knew Earlier!";
+const title = `Page ${page} | Sites You Wish You Knew Earlier!`;
 const description = "Sites You Wish You Knew Earlier by AREA44";
 ---
 
