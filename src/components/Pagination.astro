@@ -50,19 +50,31 @@ function getPaginationItems(currentPage: number, totalPages: number) {
 
   // Insert ellipsis or missing single pages
   let prev: number | null = null;
-  for (const num of range) {
-    if (prev !== null) {
-      if (num - prev === 2) {
-        // Gap of exactly 2 = one missing page, so insert it
+  for (const item of range) {
+    // Only run page‐gap logic if `item` is a number
+    if (typeof item === "number" && prev !== null) {
+      // Now `item` is known to be a `number`, and `prev` is a `number`
+      const gap = item - prev;
+
+      if (gap === 2) {
+        // Exactly one page missing in between, e.g. [3, 5] → insert 4
         rangeWithDots.push(prev + 1);
-      } else if (num - prev > 2) {
-        // Gap > 2 = insert an ellipsis
+      } else if (gap > 2) {
+        // More than one page missing → insert ellipsis
         rangeWithDots.push("ellipsis");
       }
     }
-    rangeWithDots.push(num);
-    prev = num;
+
+    // Always push the current page number if it’s a number;
+    // if it was "ellipsis", we push "ellipsis" here instead.
+    rangeWithDots.push(item);
+
+    // Update `prev` only if `item` is a number
+    if (typeof item === "number") {
+      prev = item;
+    }
   }
+
   return rangeWithDots;
 }
 

@@ -46,7 +46,7 @@ export async function getStaticPaths() {
 // Props from getStaticPaths:
 const { tag } = Astro.props;
 const index = 1; // Always page 1 in this file
-const perPage = 8;
+const perPage = 10;
 
 // Get all sites, filter by tag
 const allSites = await getSites();
@@ -63,7 +63,7 @@ const totalPages = Math.ceil(filteredSites.length / perPage);
 const tagHeader = `${filteredSites.length} site${
   filteredSites.length === 1 ? "" : "s"
 } tagged with "${tag}"`;
-const title = `${tagHeader} | Sites You Wish You Knew Earlier!`;
+const title = `${tagHeader} | SYWYKE`;
 const description = tagHeader;
 
 // Tags badge list

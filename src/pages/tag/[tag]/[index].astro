@@ -18,11 +18,12 @@ export const getSites = async () => {
   return sites;
 };
 
+const perPage = 10;
+
 // Generate static paths for each tag & index (again)
 export async function getStaticPaths() {
   const sites = await getSites();
 
-  /** @type {Map<string, number>} */
   const tagsCount = new Map();
   for (const site of sites) {
     const tagList = site.data.tags ?? [];
@@ -40,7 +41,7 @@ export async function getStaticPaths() {
 
   for (const [oneTag, count] of tagsCount) {
     const sanitizedTag = oneTag.replace(/\s+/g, "-");
-    const totalPages = Math.ceil(count / 8);
+    const totalPages = Math.ceil(count / 10);
 
     // Only generate pages 2…N in this file
     for (let i = 2; i <= totalPages; i++) {
@@ -56,8 +57,6 @@ export async function getStaticPaths() {
 
 // Props from getStaticPaths (tag: string, index: number)
 const { tag, index } = Astro.props as { tag: string; index: number };
-
-const perPage = 8;
 
 // Filter sites by tag
 const allSites = await getSites();
@@ -75,7 +74,7 @@ const sites = filteredSites.slice(start, start + perPage);
 const tagHeader = `${filteredSites.length} site${
   filteredSites.length === 1 ? "" : "s"
 } tagged with "${tag}"`;
-const title = `${tagHeader} | Sites You Wish You Knew Earlier!`;
+const title = `${tagHeader} | SYWYKE`;
 const description = tagHeader;
 
 // Unique tags badge list
