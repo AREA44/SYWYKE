@@ -1,12 +1,14 @@
 import { defineCollection, z } from "astro:content";
-const sitesCollection = defineCollection({
+import { glob } from "astro/loaders";
+
+const sites = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/sites/" }),
   schema: z.object({
     title: z.string(),
-    site: z.string().url(),
+    url: z.string().url(),
     description: z.string(),
-    tags: z.array(z.string()),
+    tags: z.array(z.string()).optional(),
   }),
 });
-export const collections = {
-  sites: sitesCollection,
-};
+
+export const collections = { sites };

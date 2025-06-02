@@ -1,6 +1,6 @@
 ---
 title: Eyecandy
-site: https://eyecannndy.com/
+url:  https://eyecannndy.com/
 description: Visual Technique Library
 tags: [video, explore]
 ---

@@ -11,12 +11,20 @@ import {
 import BaseLayout from "@/layouts/BaseLayout.astro";
 
 import { getCollection } from "astro:content";
-import type { Site } from "@/lib/siteHelpers";
-import { sitesAndTags } from "@/lib/siteHelpers";
 
-const sites = await getCollection("sites");
-const { allSites, allTags } = sitesAndTags(sites);
-const tagsSorted: string[] = allTags ? Object.keys(allTags).sort() : [];
+// Fetch and sort sites
+const sites = (await getCollection("sites")).sort((a, b) =>
+  (a.data.title || "").localeCompare(b.data.title || ""),
+);
+
+// Extract unique tags
+const tagSet = new Set<string>();
+for (const site of sites) {
+  for (const tag of site.data.tags ?? []) {
+    tagSet.add(tag);
+  }
+}
+const uniqueTags = Array.from(tagSet);
 
 const title = "Sites You Wish You Knew Earlier!";
 const description = "Sites You Wish You Knew Earlier by AREA44";
@@ -24,33 +32,35 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
 
 <BaseLayout title={title} description={description}>
   <Heading>Browse Sites by Tag</Heading>
+
+  <!-- Unique Tags -->
   <div class="flex flex-wrap gap-1">
     {
-      tagsSorted.map((tag: string) => (
+      uniqueTags.map((tag) => (
         <Badge>
-          <a href={`/tag/${tag}/`}>
-            {tag} | {allTags[tag].length}
-          </a>
+          <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
         </Badge>
       ))
     }
   </div>
 
   <Heading>Sites You Wish You Knew Earlier!</Heading>
+
+  <!-- Site Cards -->
   <div class="pt-4">
     {
-      allSites.map(({ id, data }: Site) => (
+      sites.map((site) => (
         <div class="pb-2">
-          <Card key={id}>
-            <a href={data.site} target="_blank">
+          <Card key={site.id}>
+            <a href={site.data.url} target="_blank" rel="noopener noreferrer">
               <CardHeader>
-                <CardTitle>{data.title}</CardTitle>
-                <CardDescription>{data.description}</CardDescription>
+                <CardTitle>{site.data.title}</CardTitle>
+                <CardDescription>{site.data.description}</CardDescription>
               </CardHeader>
               <CardFooter className="flex flex-wrap gap-1">
-                {(data.tags ?? []).map((tag: string) => (
+                {(site.data.tags ?? []).map((tag) => (
                   <Badge>
-                    <a href={`/tag/${tag}/`}>{tag}</a>
+                    <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
                   </Badge>
                 ))}
               </CardFooter>

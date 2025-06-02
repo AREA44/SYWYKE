@@ -1,6 +1,6 @@
 ---
 title: Bitwarden
-site: https://bitwarden.com
+url:  https://bitwarden.com
 description: Open Source Password Manager.
 tags: [opensource, tool]
 ---

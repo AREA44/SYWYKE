@@ -11,44 +11,101 @@ import {
 import BaseLayout from "@/layouts/BaseLayout.astro";
 
 import { getCollection } from "astro:content";
-import type { Site } from "@/lib/siteHelpers";
-import { sitesAndTags } from "@/lib/siteHelpers";
 
-// Fetch all tags
-const tags = await getCollection("sites");
-const { allTags } = sitesAndTags(tags);
-const tagsSorted: string[] = allTags ? Object.keys(allTags).sort() : [];
-
-// Generate static paths for each tag
-export async function getStaticPaths() {
+// Fetch and sort all sites by title
+export const getSites = async () => {
   const sites = await getCollection("sites");
-  const { allTags } = sitesAndTags(sites);
+  sites.sort((a, b) => (a.data.title || "").localeCompare(b.data.title || ""));
+  return sites;
+};
 
-  return Object.keys(allTags).map((tag) => ({
-    params: { tag },
-    props: { sites: allTags[tag] },
-  }));
+// Generate static paths for each tag and pagination
+export async function getStaticPaths() {
+  const sites = await getSites();
+  const tags = new Map<string, number>();
+
+  for (const site of sites) {
+    const tagList = site.data.tags ?? [];
+    for (const tag of tagList) {
+      tags.set(tag, (tags.get(tag) || 0) + 1);
+    }
+  }
+
+  const paths: {
+    params: { tag: string; index?: string };
+    props: { tag: string; index: number };
+  }[] = [];
+
+  for (const [tag, count] of tags) {
+    const sanitizedTag = tag.replace(/\s+/g, "-");
+    const totalPages = Math.ceil(count / 8);
+
+    // Add base path (page 1)
+    paths.push({
+      params: { tag: sanitizedTag },
+      props: { tag, index: 1 },
+    });
+
+    // Add paginated paths
+    for (let i = 2; i <= totalPages; i++) {
+      paths.push({
+        params: { tag: sanitizedTag, index: i.toString() },
+        props: { tag, index: i },
+      });
+    }
+  }
+
+  return paths;
 }
 
-const { tag } = Astro.params;
-const { sites }: { sites: Site[] } = Astro.props;
+// Props from static path
+const { tag, index } = Astro.props;
 
-const tagHeader = `${sites.length} site${sites.length === 1 ? "" : "s"} tagged with "${tag}"`;
+// Filter and paginate sites by tag
+const allSites = await getSites();
+const filteredSites = [];
+
+for (const site of allSites) {
+  const tags = site.data.tags ?? [];
+  if (tags.includes(tag)) {
+    filteredSites.push(site);
+  }
+}
+
+const sites = filteredSites.slice((index - 1) * 8, index * 8);
+const total = Math.ceil(filteredSites.length / 8);
+
+// Page title and description
+const tagHeader = `${filteredSites.length} site${filteredSites.length === 1 ? "" : "s"} tagged with "${tag}"`;
 const title = `${tagHeader} | Sites You Wish You Knew Earlier!`;
 const description = tagHeader;
 ---
 
 <BaseLayout title={title} description={description}>
   <Heading>Browse Sites by Tag</Heading>
+
+  <!-- Tag list from filtered sites -->
   <div class="flex flex-wrap gap-1">
     {
-      tagsSorted.map((tag) => (
-        <Badge>
-          <a href={`/tag/${tag}/`}>
-            {tag} | {allTags[tag].length}
-          </a>
-        </Badge>
-      ))
+      (() => {
+        const seen = new Set();
+        const elements = [];
+
+        for (const site of filteredSites) {
+          const tags = site.data.tags ?? [];
+          for (const tag of tags) {
+            if (seen.has(tag)) continue;
+            seen.add(tag);
+            elements.push(
+              <Badge>
+                <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
+              </Badge>,
+            );
+          }
+        }
+
+        return elements;
+      })()
     }
   </div>
 
@@ -56,18 +113,18 @@ const description = tagHeader;
 
   <div class="pt-4">
     {
-      sites.map(({ id, data }: Site) => (
+      sites.map((site) => (
         <div class="pb-2">
-          <Card key={id}>
-            <a href={data.site} target="_blank">
+          <Card key={site.id}>
+            <a href={site.data.url} target="_blank" rel="noopener noreferrer">
               <CardHeader>
-                <CardTitle>{title}</CardTitle>
-                <CardDescription>{description}</CardDescription>
+                <CardTitle>{site.data.title}</CardTitle>
+                <CardDescription>{site.data.description}</CardDescription>
               </CardHeader>
               <CardFooter className="flex flex-wrap gap-1">
-                {(data.tags ?? []).map((tag) => (
+                {(site.data.tags ?? []).map((tag) => (
                   <Badge>
-                    <a href={`/tag/${tag}/`}>{tag}</a>
+                    <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
                   </Badge>
                 ))}
               </CardFooter>

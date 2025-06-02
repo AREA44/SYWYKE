@@ -1,6 +1,6 @@
 ---
 title: Plagiarism Detector
-site: https://plagiarismdetector.net
+url:  https://plagiarismdetector.net
 description: Plagiarism Checker Free.
 tags: [tool, develop]
 ---
