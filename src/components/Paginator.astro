@@ -1,0 +1,130 @@
+---
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
+
+// Props interface defining expected values
+export interface Props {
+  currentPage: number | string;
+  totalPages: number | string;
+  basePath?: string;
+}
+
+// Parse current and total pages from Astro.props
+const rawCurrent = Astro.props.currentPage;
+const rawTotal = Astro.props.totalPages;
+
+// Ensure currentPage and totalPages are numbers
+const currentPage =
+  typeof rawCurrent === "string" ? Number.parseInt(rawCurrent, 10) : rawCurrent;
+const totalPages =
+  typeof rawTotal === "string" ? Number.parseInt(rawTotal, 10) : rawTotal;
+
+// Throw error if invalid values
+if (Number.isNaN(currentPage) || Number.isNaN(totalPages)) {
+  throw new Error(
+    "Invalid pagination props: currentPage and totalPages must be numeric",
+  );
+}
+
+// Set base path for URLs
+const basePath = Astro.props.basePath ?? "/page";
+
+// If only one page or less, don't render pagination
+if (totalPages <= 1) {
+  return null;
+}
+
+/**
+ * Build pagination range with numbers and ellipses
+ * Example: [1, "ellipsis", 4, 5, 6, "ellipsis", 10]
+ */
+function getPaginationItems(currentPage: number, totalPages: number) {
+  const delta = 1; // Number of pages to show around current
+  const range: (number | "ellipsis")[] = [];
+  const rangeWithDots: (number | "ellipsis")[] = [];
+
+  // Always include first, last, and pages around currentPage
+  for (let i = 1; i <= totalPages; i++) {
+    if (
+      i === 1 ||
+      i === totalPages ||
+      (i >= currentPage - delta && i <= currentPage + delta)
+    ) {
+      range.push(i);
+    }
+  }
+
+  // Add ellipsis or single missing pages
+  let prev: number | null = null;
+  for (const item of range) {
+    if (typeof item === "number" && prev !== null) {
+      const gap = item - prev;
+      if (gap === 2) {
+        rangeWithDots.push(prev + 1); // Insert single missing page
+      } else if (gap > 2) {
+        rangeWithDots.push("ellipsis"); // Insert ellipsis
+      }
+    }
+
+    rangeWithDots.push(item); // Always include current item
+    if (typeof item === "number") {
+      prev = item;
+    }
+  }
+
+  return rangeWithDots;
+}
+
+// Generate pagination items for rendering
+const paginationItems = getPaginationItems(currentPage, totalPages);
+---
+
+<Pagination>
+  <PaginationContent>
+    <PaginationItem>
+      {
+        currentPage > 1 && (
+          <PaginationPrevious
+            href={currentPage === 2 ? `/` : `${basePath}/${currentPage - 1}/`}
+          />
+        )
+      }
+    </PaginationItem>
+
+    {
+      paginationItems.map((item) => {
+        if (item === "ellipsis") {
+          return (
+            <PaginationItem>
+              <PaginationEllipsis />
+            </PaginationItem>
+          );
+        }
+
+        const pageNum = item as number;
+        const href = pageNum === 1 ? `/` : `${basePath}/${pageNum}/`;
+
+        return (
+          <PaginationItem>
+            <PaginationLink href={href} isActive={pageNum === currentPage}>
+              {pageNum}
+            </PaginationLink>
+          </PaginationItem>
+        );
+      })
+    }
+
+    {
+      currentPage < totalPages && (
+        <PaginationNext href={`${basePath}/${currentPage + 1}/`} />
+      )
+    }
+  </PaginationContent>
+</Pagination>
