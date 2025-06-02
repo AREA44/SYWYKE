@@ -59,14 +59,12 @@ const filteredSites = allSites.filter((site) => {
 const sites = filteredSites.slice(0, perPage);
 const totalPages = Math.ceil(filteredSites.length / perPage);
 
-// Build header/title
 const tagHeader = `${filteredSites.length} site${
   filteredSites.length === 1 ? "" : "s"
 } tagged with "${tag}"`;
 const title = `${tagHeader} | SYWYKE`;
 const description = tagHeader;
 
-// Tags badge list
 const uniqueTags = Array.from(
   new Set(filteredSites.flatMap((s) => s.data.tags ?? [])),
 );
@@ -116,7 +114,6 @@ const paginationItems =
 <BaseLayout title={title} description={description}>
   <Heading>Browse Sites by Tag</Heading>
 
-  <!-- Render badges for all tags in the filtered set -->
   <div class="flex flex-wrap gap-1">
     {
       uniqueTags.map((oneTag) => (

@@ -50,7 +50,6 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
     {
       uniqueTags.map((tag) => (
         <Badge>
-          <!-- Link each badge to its corresponding tag page -->
           <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
         </Badge>
       ))

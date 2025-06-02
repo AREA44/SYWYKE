@@ -5,11 +5,9 @@ export interface Props {
   basePath?: string;
 }
 
-// Pull raw props
 const rawCurrent = Astro.props.currentPage;
 const rawTotal = Astro.props.totalPages;
 
-// Convert to integers
 const currentPage =
   typeof rawCurrent === "string" ? Number.parseInt(rawCurrent, 10) : rawCurrent;
 const totalPages =
