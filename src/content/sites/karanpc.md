@@ -1,6 +1,6 @@
 ---
 title: Karan PC
-site: https://karanpc.com
+url:  https://karanpc.com
 description: Download free software full.
 tags: [download]
 ---

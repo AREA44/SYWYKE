@@ -2,7 +2,7 @@
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 
-![SYWYKE banner](./public/og.svg)
+![SYWYKE banner](./public/og.png)
 
 SYWYKE is an open-source project that aims to gather and showcase awesome websites on the internet. It provides a platform for users to discover and explore websites based on their interests and preferences.
 
@@ -44,5 +44,6 @@ SYWYKE is licensed under the MIT License.
 
 We build upon the knowledge and success of these pioneers. Here are a few Open Source projects that have inspired us along the way.
 
-- [rachsmith.com](https://rachsmith.com)
 - [shadcn/ui](https://ui.shadcn.com)
+- [rachsmith.com](https://rachsmith.com)
+- [flo-bit's blog template](https://flo-bit.dev/blog-template)

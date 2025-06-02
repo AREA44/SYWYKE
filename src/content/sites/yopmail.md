@@ -1,6 +1,6 @@
 ---
 title: Yopmail
-site: https://yopmail.com/en
+url:  https://yopmail.com/en
 description: Disposable and Free email address.
 tags: [tool]
 ---

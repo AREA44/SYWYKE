@@ -1,6 +1,6 @@
 ---
 title: Lucidchart
-site: https://lucid.app
+url:  https://lucid.app
 description: Diagramming powered by intelligence.
 tags: [tools, ai]
 ---
