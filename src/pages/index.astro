@@ -1,6 +1,7 @@
 ---
-import Layout from "@/layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
 import Heading from "@/components/Heading.astro";
+import Pagination from "@/components/Pagination.astro";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -9,24 +10,33 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import Pagination from "@/components/Pagination.astro";
-import { getCollection } from "astro:content";
+import Layout from "@/layouts/BaseLayout.astro";
 
-const perPage = 8;
+// Number of items per page
+const perPage = 10;
+
+// Current page (hard-coded to page 1 here; you could make this dynamic later)
 const page = 1;
 
+// Fetch all “sites” from the content collection and sort them alphabetically by title
 const allSites = (await getCollection("sites")).sort((a, b) =>
   (a.data.title || "").localeCompare(b.data.title || ""),
 );
+
+// Take only the first `perPage` items for this page
 const paginatedSites = allSites.slice(0, perPage);
+
+// Compute how many pages are needed in total
 const totalPages = Math.ceil(allSites.length / perPage);
 
+// Build a set of all unique tags across every site
 const tagSet = new Set<string>();
 for (const site of allSites) {
   for (const tag of site.data.tags ?? []) {
     tagSet.add(tag);
   }
 }
+// Convert the set into an array for easy iteration
 const uniqueTags = Array.from(tagSet);
 
 const title = "Sites You Wish You Knew Earlier!";
@@ -40,6 +50,7 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
     {
       uniqueTags.map((tag) => (
         <Badge>
+          <!-- Link each badge to its corresponding tag page -->
           <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
         </Badge>
       ))
@@ -52,6 +63,7 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
     {
       paginatedSites.map((site) => (
         <div class="pb-2">
+          <!-- Wrap the entire card in an external link -->
           <a href={site.data.url} target="_blank" rel="noopener noreferrer">
             <Card key={site.id}>
               <CardHeader>
@@ -59,11 +71,13 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
                 <CardDescription>{site.data.description}</CardDescription>
               </CardHeader>
               <CardFooter className="flex flex-wrap gap-1">
-                {(site.data.tags ?? []).map((tag) => (
-                  <Badge>
-                    <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
-                  </Badge>
-                ))}
+                {
+                  (site.data.tags ?? []).map((tag) => (
+                    <Badge>
+                      <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
+                    </Badge>
+                  ))
+                }
               </CardFooter>
             </Card>
           </a>
