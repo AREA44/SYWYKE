@@ -1,3 +1,7 @@
+---
+import Search from "astro-pagefind/components/Search";
+---
+
 <header
   class="supports-backdrop-blur:bg-background/60 sticky pt-2 top-0 z-50 w-full border-b bg-background/95 backdrop-blur"
 >
@@ -6,4 +10,56 @@
   >
     <a href="/">Home</a>
   </h2>
+  <Search
+    id="search"
+    className="pagefind-ui"
+    uiOptions={{ showImages: false }}
+  />
 </header>
+
+<style>
+  .pagefind-ui {
+    --pagefind-ui-scale: 0.75;
+    --pagefind-ui-primary: navy;
+    --pagefind-ui-text: rgb(255, 255, 255);
+    --pagefind-ui-border: slategrey;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 0.25rem;
+    --pagefind-ui-font: sans-serif;
+
+    width: 50%;
+  }
+
+  .pagefind-ui.yellow {
+    --pagefind-ui-background: lightyellow;
+  }
+
+  .pagefind-ui.red {
+    --pagefind-ui-background: peachpuff;
+    width: 100%;
+  }
+
+  .pagefind-ui .pagefind-ui__drawer:not(.pagefind-ui__hidden) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 0px;
+    z-index: 9999;
+    padding: 0 2em 1em;
+    overflow-y: auto;
+    box-shadow:
+      0 10px 10px -5px rgba(0, 0, 0, 0.2),
+      0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: var(--pagefind-ui-border-radius);
+    border-bottom-left-radius: var(--pagefind-ui-border-radius);
+    background-color: var(--pagefind-ui-background);
+  }
+
+  .pagefind-ui .pagefind-ui__result-link {
+    color: var(--pagefind-ui-primary);
+  }
+
+  .pagefind-ui .pagefind-ui__result-excerpt {
+    color: var(--pagefind-ui-text);
+  }
+</style>
