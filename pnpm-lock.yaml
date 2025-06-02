@@ -48,6 +48,9 @@ importers:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@4.1.8)
     devDependencies:
+      '@area44/biome-config':
+        specifier: ^0.4.1
+        version: 0.4.1
       '@biomejs/biome':
         specifier: ^1.9.4
         version: 1.9.4
@@ -69,6 +72,9 @@ packages:
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
+
+  '@area44/biome-config@0.4.1':
+    resolution: {integrity: sha512-vUCfpvQ9d2Jtjb6wJAa4Mbei8JAKXEc3t6QWt73NF8pWcOALQxcMGTYMmZmm6WFUSXFitpBc9kWkxdAExQf5zA==}
 
   '@astrojs/compiler@2.11.0':
     resolution: {integrity: sha512-zZOO7i+JhojO8qmlyR/URui6LyfHJY6m+L9nwyX5GiKD78YoRaZ5tzz6X0fkl+5bD3uwlDHayf6Oe8Fu36RKNg==}
@@ -2145,6 +2151,8 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
+
+  '@area44/biome-config@0.4.1': {}
 
   '@astrojs/compiler@2.11.0': {}
 

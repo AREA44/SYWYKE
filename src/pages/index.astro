@@ -1,6 +1,6 @@
 ---
-import BaseLayout from "@/layouts/BaseLayout.astro";
 import Heading from "@/components/Heading.astro";
+import { Badge } from "@/components/ui/badge";
 import {
   Card,
   CardDescription,
@@ -8,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import BaseLayout from "@/layouts/BaseLayout.astro";
 
 import { getCollection } from "astro:content";
 import type { Site } from "@/lib/siteHelpers";

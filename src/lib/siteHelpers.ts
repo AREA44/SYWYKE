@@ -1,3 +1,4 @@
+// Define the structure of a site's metadata
 export interface SiteData {
   title: string;
   description: string;
@@ -5,6 +6,7 @@ export interface SiteData {
   tags?: string[];
 }
 
+// Define the structure of a site
 export interface Site {
   id: string;
   data: SiteData;
@@ -13,26 +15,39 @@ export interface Site {
   collection: "sites";
 }
 
-// Define explicit return type for better TypeScript support
-export function sitesAndTags(allSites: Site[]): {
+// Define the return type for `sitesAndTags`
+export type SitesAndTagsResult = {
   allSites: Site[];
   allTags: Record<string, Site[]>;
-} {
+};
+
+// Main function to return sorted sites and tags mapping
+export function sitesAndTags(allSites: Site[]): SitesAndTagsResult {
   const sites = sortedSites(allSites);
   const tags = siteTags(sites);
   return { allSites: sites, allTags: tags };
 }
 
+// Sorts sites alphabetically by their title
 function sortedSites(sites: Site[]): Site[] {
-  return sites.sort((a, b) => a.data.title.localeCompare(b.data.title));
+  return sites.sort((a, b) =>
+    (a.data.title || "").localeCompare(b.data.title || ""),
+  );
 }
 
+// Groups sites by their tags, with optional alphabetical sorting of tags
 function siteTags(sites: Site[]): Record<string, Site[]> {
-  return sites.reduce<Record<string, Site[]>>((allTags, site) => {
-    (site.data.tags ?? []).forEach((tag) => {
-      allTags[tag] ||= []; // Use logical OR assignment for cleaner initialization
+  const allTags: Record<string, Site[]> = {};
+
+  for (const site of sites) {
+    for (const tag of site.data.tags ?? []) {
+      allTags[tag] ||= [];
       allTags[tag].push(site);
-    });
-    return allTags;
-  }, {});
+    }
+  }
+
+  // Optional: Return tags in alphabetical order
+  return Object.fromEntries(
+    Object.entries(allTags).sort(([a], [b]) => a.localeCompare(b)),
+  );
 }
