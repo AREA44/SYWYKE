@@ -1,7 +1,6 @@
 // @ts-check
 import react from "@astrojs/react";
 import tailwindcss from "@tailwindcss/vite";
-import pagefind from "astro-pagefind";
 import { defineConfig, fontProviders } from "astro/config";
 
 const site = process.env.CI
@@ -12,7 +11,7 @@ const site = process.env.CI
 
 export default defineConfig({
   site,
-  integrations: [react(), pagefind()],
+  integrations: [react()],
   experimental: {
     fonts: [
       {
