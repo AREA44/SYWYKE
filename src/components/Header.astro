@@ -8,10 +8,9 @@
   </h2>
   <!-- Pagefind Search Box -->
   <div id="search"></div>
-  <script is:inline src="/_pagefind/pagefind.js"></script>
   <script is:inline>
-    window.addEventListener("DOMContentLoaded", () => {
-      new PagefindUI({ element: "#search" });
+    window.addEventListener("DOMContentLoaded", (event) => {
+      new PagefindUI({ element: "#search", showSubResults: true });
     });
   </script>
 </header>
