@@ -1,3 +1,7 @@
+---
+import Search from "@/components/Search.astro";
+---
+
 <header
   class="supports-backdrop-blur:bg-background/60 sticky pt-2 top-0 z-50 w-full border-b bg-background/95 backdrop-blur"
 >
@@ -5,12 +9,6 @@
     class="mt-10 scroll-m-20 pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
   >
     <a href="/">Home</a>
+    <Search />
   </h2>
-  <!-- Pagefind Search Box -->
-  <div id="search"></div>
-  <script is:inline>
-    window.addEventListener("DOMContentLoaded", (event) => {
-      new PagefindUI({ element: "#search", showSubResults: true });
-    });
-  </script>
 </header>
