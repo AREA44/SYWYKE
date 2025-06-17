@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Heading from "@/components/Heading.astro";
-import Pagination from "@/components/Paginator.astro";
+import Paginator from "@/components/Paginator.astro";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -108,6 +108,7 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
       ))
     }
   </section>
-
-  <Pagination currentPage={page} totalPages={totalPages} />
+  <div class="mt-8 flex justify-center">
+    <Paginator currentPage={page} totalPages={totalPages} />
+  </div>
 </Layout>

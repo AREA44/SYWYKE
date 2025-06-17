@@ -12,66 +12,70 @@ import {
 } from "@/components/ui/card";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 
-// Fetch+sort all sites by title
+// Fetch and sort sites
 export const getSites = async () => {
   const sites = await getCollection("sites");
   sites.sort((a, b) => (a.data.title || "").localeCompare(b.data.title || ""));
   return sites;
 };
 
-// Generate static paths for all tags
+// Get static paths for paginated pages beyond page 1
 export async function getStaticPaths() {
   const sites = await getSites();
 
-  const tagsCount = new Map();
+  const tagsMap = new Map();
   for (const site of sites) {
-    const tagList = site.data.tags ?? [];
-    for (const oneTag of tagList) {
-      tagsCount.set(oneTag, (tagsCount.get(oneTag) || 0) + 1);
+    for (const tag of site.data.tags ?? []) {
+      const existing = tagsMap.get(tag) || [];
+      existing.push(site);
+      tagsMap.set(tag, existing);
     }
   }
 
   const paths = [];
-  for (const [oneTag, count] of tagsCount) {
-    // Only push the “page 1” path here; page 2+ will go to [page].astro
-    const sanitizedTag = oneTag.replace(/\s+/g, "-");
-    paths.push({
-      params: { tag: sanitizedTag },
-      props: { tag: oneTag },
-    });
+  for (const [tag, taggedSites] of tagsMap.entries()) {
+    const totalPages = Math.ceil(taggedSites.length / 10);
+    const sanitizedTag = tag.replace(/\s+/g, "-");
+
+    for (let page = 2; page <= totalPages; page++) {
+      paths.push({
+        params: { tag: sanitizedTag, page: page.toString() },
+        props: { tag, page },
+      });
+    }
   }
 
   return paths;
 }
 
-// Props from getStaticPaths:
-const { tag } = Astro.props;
-const index = 1; // Always page 1 in this file
+// Props passed in
+const { tag, page } = Astro.props;
+const currentPage = typeof page === "string" ? Number.parseInt(page, 10) : page;
 const perPage = 10;
 
 // Get all sites, filter by tag
 const allSites = await getSites();
-const filteredSites = allSites.filter((site) => {
-  const siteTags = site.data.tags ?? [];
-  return siteTags.includes(tag);
-});
+const filteredSites = allSites.filter((site) =>
+  (site.data.tags ?? []).includes(tag),
+);
 
-// Slice out page 1
-const sites = filteredSites.slice(0, perPage);
+// Paginate
+const start = (currentPage - 1) * perPage;
+const end = currentPage * perPage;
+const sites = filteredSites.slice(start, end);
 const totalPages = Math.ceil(filteredSites.length / perPage);
 
+// Derived metadata
 const tagHeader = `${filteredSites.length} site${
   filteredSites.length === 1 ? "" : "s"
 } tagged with "${tag}"`;
 const title = `${tagHeader} | SYWYKE`;
 const description = tagHeader;
+const basePath = `/tag/${tag.replace(/\s+/g, "-")}`;
 
 const uniqueTags = Array.from(
   new Set(filteredSites.flatMap((s) => s.data.tags ?? [])),
 );
-
-// Base path for pagination links
-const basePath = `/tag/${tag.replace(/\s+/g, "-")}`;
 ---
 
 <BaseLayout title={title} description={description}>
@@ -120,7 +124,7 @@ const basePath = `/tag/${tag.replace(/\s+/g, "-")}`;
 
   <div class="mt-8 flex justify-center">
     <Paginator
-      currentPage={index}
+      currentPage={currentPage}
       totalPages={totalPages}
       basePath={basePath}
     />
