@@ -138,27 +138,34 @@ const paginationItems =
 
   <Heading>{tagHeader}</Heading>
 
-  <div class="pt-4 space-y-4">
+  <section class="pt-4 space-y-4">
     {
       sites.map((site) => (
         <Card key={site.id}>
-          <a href={site.data.url} target="_blank" rel="noopener noreferrer">
-            <CardHeader>
-              <CardTitle>{site.data.title}</CardTitle>
-              <CardDescription>{site.data.description}</CardDescription>
-            </CardHeader>
-            <CardFooter className="flex flex-wrap gap-1">
-              {(site.data.tags ?? []).map((oneTag) => (
-                <Badge>
-                  <a href={`/tag/${oneTag.replace(/\s+/g, "-")}/`}>{oneTag}</a>
-                </Badge>
-              ))}
-            </CardFooter>
-          </a>
+          <CardHeader>
+            <CardTitle>
+              <a
+                href={site.data.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:underline"
+              >
+                {site.data.title}
+              </a>
+            </CardTitle>
+            <CardDescription>{site.data.description}</CardDescription>
+          </CardHeader>
+          <CardFooter className="flex flex-wrap gap-1">
+            {(site.data.tags ?? []).map((tag) => (
+              <Badge>
+                <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
+              </Badge>
+            ))}
+          </CardFooter>
         </Card>
       ))
     }
-  </div>
+  </section>
 
   <!-- Pagination nav (only if totalPages > 1) -->
   {

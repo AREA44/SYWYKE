@@ -75,29 +75,39 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
 
   <Heading>{title}</Heading>
 
-  <div class="pt-4">
+  <section class="pt-4 space-y-4">
     {
       paginatedSites.map((site) => (
-        <div class="pb-2">
-          <a href={site.data.url} target="_blank" rel="noopener noreferrer">
-            <Card key={site.id}>
-              <CardHeader>
-                <CardTitle>{site.data.title}</CardTitle>
-                <CardDescription>{site.data.description}</CardDescription>
-              </CardHeader>
-              <CardFooter className="flex flex-wrap gap-1">
-                {(site.data.tags ?? []).map((tag) => (
-                  <Badge>
-                    <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
-                  </Badge>
-                ))}
-              </CardFooter>
-            </Card>
-          </a>
-        </div>
+        <Card key={site.id}>
+          <CardHeader>
+            <CardTitle>
+              <a
+                href={site.data.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:underline"
+              >
+                {site.data.title}
+              </a>
+            </CardTitle>
+            <CardDescription>{site.data.description}</CardDescription>
+          </CardHeader>
+          <CardFooter className="flex flex-wrap gap-1">
+            {(site.data.tags ?? []).map((tag) => (
+              <Badge>
+                <a
+                  href={`/tag/${tag.replace(/\s+/g, "-")}/`}
+                  title={`View sites tagged "${tag}"`}
+                >
+                  {tag}
+                </a>
+              </Badge>
+            ))}
+          </CardFooter>
+        </Card>
       ))
     }
-  </div>
+  </section>
 
   <Pagination currentPage={page} totalPages={totalPages} />
 </Layout>
