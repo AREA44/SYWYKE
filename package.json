@@ -1,13 +1,14 @@
 {
   "name": "@area44/sywyke",
-  "version": "25.06.03",
+  "version": "25.06.18",
   "description": "Sites You Wish You Knew Earlier!",
   "license": "MIT",
   "author": "AREA44",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
     "format": "biome format --write .",
     "lint": "biome lint --write .",
     "check": "biome check --write ."
@@ -34,6 +35,7 @@
     "@types/node": "^22.15.31",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "pagefind": "^1.3.0",
     "typescript": "^5.8.3"
   },
   "packageManager": "pnpm@10.12.1"

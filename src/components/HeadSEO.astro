@@ -62,6 +62,11 @@ const ogImage = new URL("og.png", siteUrl).toString();
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={ogImage} />
 
+  <!-- PageFind -->
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+
+  <!-- ViewTransitions -->
   <ClientRouter />
 
   <!-- Fonts -->

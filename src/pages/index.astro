@@ -12,31 +12,35 @@ import {
 } from "@/components/ui/card";
 import Layout from "@/layouts/BaseLayout.astro";
 
-// Number of items per page
+// Util for tag URL slugs
+const slugify = (str: string) =>
+  str
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, "") // Remove non-word characters
+    .replace(/\s+/g, "-"); // Replace spaces with hyphens
+
+// Pagination: Get current page from query params, fallback to 1
+const page = Number(Astro.url.searchParams.get("page") || 1);
 const perPage = 10;
 
-// Current page (hard-coded to page 1 here; you could make this dynamic later)
-const page = 1;
-
-// Fetch all “sites” from the content collection and sort them alphabetically by title
+// Fetch all “sites” and sort alphabetically
 const allSites = (await getCollection("sites")).sort((a, b) =>
   (a.data.title || "").localeCompare(b.data.title || ""),
 );
 
-// Take only the first `perPage` items for this page
-const paginatedSites = allSites.slice(0, perPage);
-
-// Compute how many pages are needed in total
+// Slice for pagination
+const start = (page - 1) * perPage;
+const paginatedSites = allSites.slice(start, start + perPage);
 const totalPages = Math.ceil(allSites.length / perPage);
 
-// Build a set of all unique tags across every site
+// Extract unique tags
 const tagSet = new Set<string>();
 for (const site of allSites) {
   for (const tag of site.data.tags ?? []) {
     tagSet.add(tag);
   }
 }
-// Convert the set into an array for easy iteration
 const uniqueTags = Array.from(tagSet);
 
 const title = "Sites You Wish You Knew Earlier!";
@@ -50,7 +54,12 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
     {
       uniqueTags.map((tag) => (
         <Badge>
-          <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
+          <a
+            href={`/tag/${slugify(tag)}/`}
+            title={`View sites tagged "${tag}"`}
+          >
+            {tag}
+          </a>
         </Badge>
       ))
     }
@@ -58,32 +67,39 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
 
   <Heading>{title}</Heading>
 
-  <div class="pt-4">
+  <section class="pt-4 space-y-4">
     {
       paginatedSites.map((site) => (
-        <div class="pb-2">
-          <!-- Wrap the entire card in an external link -->
-          <a href={site.data.url} target="_blank" rel="noopener noreferrer">
-            <Card key={site.id}>
-              <CardHeader>
-                <CardTitle>{site.data.title}</CardTitle>
-                <CardDescription>{site.data.description}</CardDescription>
-              </CardHeader>
-              <CardFooter className="flex flex-wrap gap-1">
-                {
-                  (site.data.tags ?? []).map((tag) => (
-                    <Badge>
-                      <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
-                    </Badge>
-                  ))
-                }
-              </CardFooter>
-            </Card>
-          </a>
-        </div>
+        <Card key={site.id}>
+          <CardHeader>
+            <CardTitle>
+              <a
+                href={site.data.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:underline"
+              >
+                {site.data.title}
+              </a>
+            </CardTitle>
+            <CardDescription>{site.data.description}</CardDescription>
+          </CardHeader>
+          <CardFooter className="flex flex-wrap gap-1">
+            {(site.data.tags ?? []).map((tag) => (
+              <Badge>
+                <a
+                  href={`/tag/${slugify(tag)}/`}
+                  title={`View sites tagged "${tag}"`}
+                >
+                  {tag}
+                </a>
+              </Badge>
+            ))}
+          </CardFooter>
+        </Card>
       ))
     }
-  </div>
+  </section>
 
   <Pagination currentPage={page} totalPages={totalPages} />
 </Layout>
