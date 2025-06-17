@@ -3,16 +3,11 @@ import Search from "@/components/Search.astro";
 ---
 
 <header
-  class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-blur:bg-background/60 pt-2"
+  class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-blur:bg-background/60"
 >
-  <div class="mx-auto flex max-w-2xl items-center justify-between px-4 py-2">
-    <h1 class="text-2xl font-bold tracking-tight">
-      <a
-        href="/"
-        class="hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-      >
-        Home
-      </a>
+  <div class="max-w-2xl mx-auto px-4 py-4 flex items-center justify-between">
+    <h1 class="text-2xl font-bold">
+      <a href="/">Home</a>
     </h1>
     <Search />
   </div>
