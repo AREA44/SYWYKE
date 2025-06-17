@@ -1,5 +1,4 @@
 ---
-import { getCollection } from "astro:content";
 import Heading from "@/components/Heading.astro";
 import Paginator from "@/components/Paginator.astro";
 import { Badge } from "@/components/ui/badge";
@@ -11,36 +10,36 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import {
+  extractUniqueTags,
+  getSitesByTag,
+  getSortedSites,
+  slugify,
+} from "@/lib/siteUtils";
 
-// Fetch and sort sites
-export const getSites = async () => {
-  const sites = await getCollection("sites");
-  sites.sort((a, b) => (a.data.title || "").localeCompare(b.data.title || ""));
-  return sites;
-};
-
-// Get static paths for paginated pages beyond page 1
+// Get static paths for pagination under each tag
 export async function getStaticPaths() {
-  const sites = await getSites();
+  const allSites = await getSortedSites();
+  const tagCounts = new Map<string, number>();
 
-  const tagsMap = new Map();
-  for (const site of sites) {
+  for (const site of allSites) {
     for (const tag of site.data.tags ?? []) {
-      const existing = tagsMap.get(tag) || [];
-      existing.push(site);
-      tagsMap.set(tag, existing);
+      tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
     }
   }
 
+  const perPage = 10;
   const paths = [];
-  for (const [tag, taggedSites] of tagsMap.entries()) {
-    const totalPages = Math.ceil(taggedSites.length / 10);
-    const sanitizedTag = tag.replace(/\s+/g, "-");
 
-    for (let page = 2; page <= totalPages; page++) {
+  for (const [tag, count] of tagCounts.entries()) {
+    const totalPages = Math.ceil(count / perPage);
+    const tagSlug = slugify(tag);
+
+    // Only generate pages 2 through N here; page 1 is handled by index.astro
+    for (let i = 2; i <= totalPages; i++) {
       paths.push({
-        params: { tag: sanitizedTag, page: page.toString() },
-        props: { tag, page },
+        params: { tag: tagSlug, page: String(i) },
+        props: { tag, page: i },
       });
     }
   }
@@ -48,34 +47,21 @@ export async function getStaticPaths() {
   return paths;
 }
 
-// Props passed in
 const { tag, page } = Astro.props;
-const currentPage = typeof page === "string" ? Number.parseInt(page, 10) : page;
 const perPage = 10;
 
-// Get all sites, filter by tag
-const allSites = await getSites();
-const filteredSites = allSites.filter((site) =>
-  (site.data.tags ?? []).includes(tag),
+const { paginated, totalPages, allFiltered } = await getSitesByTag(
+  tag,
+  page,
+  perPage,
 );
+const uniqueTags = extractUniqueTags(allFiltered);
 
-// Paginate
-const start = (currentPage - 1) * perPage;
-const end = currentPage * perPage;
-const sites = filteredSites.slice(start, end);
-const totalPages = Math.ceil(filteredSites.length / perPage);
-
-// Derived metadata
-const tagHeader = `${filteredSites.length} site${
-  filteredSites.length === 1 ? "" : "s"
-} tagged with "${tag}"`;
-const title = `${tagHeader} | SYWYKE`;
+const tagHeader = `${allFiltered.length} site${allFiltered.length === 1 ? "" : "s"} tagged with "${tag}"`;
+const title = `${tagHeader} | SYWYKE - Page ${page}`;
 const description = tagHeader;
-const basePath = `/tag/${tag.replace(/\s+/g, "-")}`;
 
-const uniqueTags = Array.from(
-  new Set(filteredSites.flatMap((s) => s.data.tags ?? [])),
-);
+const basePath = `/tag/${slugify(tag)}`;
 ---
 
 <BaseLayout title={title} description={description}>
@@ -85,7 +71,7 @@ const uniqueTags = Array.from(
     {
       uniqueTags.map((oneTag) => (
         <Badge key={oneTag}>
-          <a href={`/tag/${oneTag.replace(/\s+/g, "-")}/`}>{oneTag}</a>
+          <a href={`/tag/${slugify(oneTag)}/`}>{oneTag}</a>
         </Badge>
       ))
     }
@@ -95,7 +81,7 @@ const uniqueTags = Array.from(
 
   <section class="pt-4 space-y-4">
     {
-      sites.map((site) => (
+      paginated.map((site) => (
         <Card key={site.id}>
           <CardHeader>
             <CardTitle>
@@ -111,9 +97,9 @@ const uniqueTags = Array.from(
             <CardDescription>{site.data.description}</CardDescription>
           </CardHeader>
           <CardFooter className="flex flex-wrap gap-1">
-            {(site.data.tags ?? []).map((tag) => (
-              <Badge key={tag}>
-                <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
+            {(site.data.tags ?? []).map((t) => (
+              <Badge key={t}>
+                <a href={`/tag/${slugify(t)}/`}>{t}</a>
               </Badge>
             ))}
           </CardFooter>
@@ -123,10 +109,6 @@ const uniqueTags = Array.from(
   </section>
 
   <div class="mt-8 flex justify-center">
-    <Paginator
-      currentPage={currentPage}
-      totalPages={totalPages}
-      basePath={basePath}
-    />
+    <Paginator currentPage={page} totalPages={totalPages} basePath={basePath} />
   </div>
 </BaseLayout>

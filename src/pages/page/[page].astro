@@ -1,5 +1,4 @@
 ---
-import { getCollection } from "astro:content";
 import Heading from "@/components/Heading.astro";
 import Paginator from "@/components/Paginator.astro";
 import { Badge } from "@/components/ui/badge";
@@ -11,50 +10,24 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import Layout from "@/layouts/BaseLayout.astro";
+import { extractUniqueTags, getPaginatedSites, slugify } from "@/lib/siteUtils";
 
+// Generate static paths
 export async function getStaticPaths() {
-  const sites = await getCollection("sites");
-
   const perPage = 10;
-
-  // Calculate how many total pages are needed to display all sites
-  const totalPages = Math.ceil(sites.length / perPage);
-
-  // We only generate paths for “page 2” through “page N”
-  return Array.from({ length: totalPages - 1 }).map((_, i) => {
-    const page = i + 2;
-
-    return {
-      params: { page: String(page) },
-      props: { page, perPage },
-    };
-  });
+  const allSites = await getPaginatedSites(1, perPage); // Just to get total count
+  return Array.from({ length: allSites.totalPages - 1 }).map((_, i) => ({
+    params: { page: String(i + 2) },
+    props: { page: i + 2, perPage },
+  }));
 }
 
-// Destructure the “page” and “perPage” values passed in via Astro.props
 const { page, perPage } = Astro.props;
-
-// Fetch all sites again and sort them alphabetically by their title
-const allSites = (await getCollection("sites")).sort((a, b) =>
-  (a.data.title || "").localeCompare(b.data.title || ""),
+const { paginated, totalPages, allSites } = await getPaginatedSites(
+  page,
+  perPage,
 );
-
-// Calculate the slice indices for the current page
-// (page 1 would be slice(0 … perPage), page 2 is slice(perPage … 2*perPage), etc.)
-const paginatedSites = allSites.slice((page - 1) * perPage, page * perPage);
-
-// Recompute total number of pages (needed if you want to render a pagination component)
-const totalPages = Math.ceil(allSites.length / perPage);
-
-// Build a Set of all unique tags found across every site
-const tagSet = new Set<string>();
-for (const site of allSites) {
-  for (const tag of site.data.tags ?? []) {
-    tagSet.add(tag);
-  }
-}
-// Convert the Set into an array for easy iteration in the template
-const uniqueTags = Array.from(tagSet);
+const uniqueTags = extractUniqueTags(allSites);
 
 const title = `Page ${page} | Sites You Wish You Knew Earlier!`;
 const description = "Sites You Wish You Knew Earlier by AREA44";
@@ -67,7 +40,7 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
     {
       uniqueTags.map((tag) => (
         <Badge>
-          <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
+          <a href={`/tag/${slugify(tag)}/`}>{tag}</a>
         </Badge>
       ))
     }
@@ -77,7 +50,7 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
 
   <section class="pt-4 space-y-4">
     {
-      paginatedSites.map((site) => (
+      paginated.map((site) => (
         <Card key={site.id}>
           <CardHeader>
             <CardTitle>
@@ -95,12 +68,7 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
           <CardFooter className="flex flex-wrap gap-1">
             {(site.data.tags ?? []).map((tag) => (
               <Badge>
-                <a
-                  href={`/tag/${tag.replace(/\s+/g, "-")}/`}
-                  title={`View sites tagged "${tag}"`}
-                >
-                  {tag}
-                </a>
+                <a href={`/tag/${slugify(tag)}/`}>{tag}</a>
               </Badge>
             ))}
           </CardFooter>
@@ -108,6 +76,7 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
       ))
     }
   </section>
+
   <div class="mt-8 flex justify-center">
     <Paginator currentPage={page} totalPages={totalPages} />
   </div>

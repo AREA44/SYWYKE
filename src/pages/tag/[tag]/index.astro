@@ -1,5 +1,4 @@
 ---
-import { getCollection } from "astro:content";
 import Heading from "@/components/Heading.astro";
 import Paginator from "@/components/Paginator.astro";
 import { Badge } from "@/components/ui/badge";
@@ -11,67 +10,46 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import {
+  extractUniqueTags,
+  getSitesByTag,
+  getSortedSites,
+  slugify,
+} from "@/lib/siteUtils";
 
-// Fetch+sort all sites by title
-export const getSites = async () => {
-  const sites = await getCollection("sites");
-  sites.sort((a, b) => (a.data.title || "").localeCompare(b.data.title || ""));
-  return sites;
-};
-
-// Generate static paths for all tags
 export async function getStaticPaths() {
-  const sites = await getSites();
+  const sites = await getSortedSites();
 
-  const tagsCount = new Map();
+  const tagsCount = new Map<string, number>();
   for (const site of sites) {
-    const tagList = site.data.tags ?? [];
-    for (const oneTag of tagList) {
-      tagsCount.set(oneTag, (tagsCount.get(oneTag) || 0) + 1);
+    for (const tag of site.data.tags ?? []) {
+      tagsCount.set(tag, (tagsCount.get(tag) || 0) + 1);
     }
   }
 
-  const paths = [];
-  for (const [oneTag, count] of tagsCount) {
-    // Only push the “page 1” path here; page 2+ will go to [page].astro
-    const sanitizedTag = oneTag.replace(/\s+/g, "-");
-    paths.push({
-      params: { tag: sanitizedTag },
-      props: { tag: oneTag },
-    });
-  }
-
-  return paths;
+  return Array.from(tagsCount.entries()).map(([tag]) => ({
+    params: { tag: slugify(tag) },
+    props: { tag },
+  }));
 }
 
-// Props from getStaticPaths:
+// Props
 const { tag } = Astro.props;
-const index = 1; // Always page 1 in this file
+const page = 1;
 const perPage = 10;
 
-// Get all sites, filter by tag
-const allSites = await getSites();
-const filteredSites = allSites.filter((site) => {
-  const siteTags = site.data.tags ?? [];
-  return siteTags.includes(tag);
-});
+const { paginated, totalPages, allFiltered } = await getSitesByTag(
+  tag,
+  page,
+  perPage,
+);
+const uniqueTags = extractUniqueTags(allFiltered);
 
-// Slice out page 1
-const sites = filteredSites.slice(0, perPage);
-const totalPages = Math.ceil(filteredSites.length / perPage);
-
-const tagHeader = `${filteredSites.length} site${
-  filteredSites.length === 1 ? "" : "s"
-} tagged with "${tag}"`;
+const tagHeader = `${allFiltered.length} site${allFiltered.length === 1 ? "" : "s"} tagged with "${tag}"`;
 const title = `${tagHeader} | SYWYKE`;
 const description = tagHeader;
 
-const uniqueTags = Array.from(
-  new Set(filteredSites.flatMap((s) => s.data.tags ?? [])),
-);
-
-// Base path for pagination links
-const basePath = `/tag/${tag.replace(/\s+/g, "-")}`;
+const basePath = `/tag/${slugify(tag)}`;
 ---
 
 <BaseLayout title={title} description={description}>
@@ -81,7 +59,7 @@ const basePath = `/tag/${tag.replace(/\s+/g, "-")}`;
     {
       uniqueTags.map((oneTag) => (
         <Badge key={oneTag}>
-          <a href={`/tag/${oneTag.replace(/\s+/g, "-")}/`}>{oneTag}</a>
+          <a href={`/tag/${slugify(oneTag)}/`}>{oneTag}</a>
         </Badge>
       ))
     }
@@ -91,7 +69,7 @@ const basePath = `/tag/${tag.replace(/\s+/g, "-")}`;
 
   <section class="pt-4 space-y-4">
     {
-      sites.map((site) => (
+      paginated.map((site) => (
         <Card key={site.id}>
           <CardHeader>
             <CardTitle>
@@ -107,9 +85,9 @@ const basePath = `/tag/${tag.replace(/\s+/g, "-")}`;
             <CardDescription>{site.data.description}</CardDescription>
           </CardHeader>
           <CardFooter className="flex flex-wrap gap-1">
-            {(site.data.tags ?? []).map((tag) => (
-              <Badge key={tag}>
-                <a href={`/tag/${tag.replace(/\s+/g, "-")}/`}>{tag}</a>
+            {(site.data.tags ?? []).map((t) => (
+              <Badge key={t}>
+                <a href={`/tag/${slugify(t)}/`}>{t}</a>
               </Badge>
             ))}
           </CardFooter>
@@ -119,10 +97,6 @@ const basePath = `/tag/${tag.replace(/\s+/g, "-")}`;
   </section>
 
   <div class="mt-8 flex justify-center">
-    <Paginator
-      currentPage={index}
-      totalPages={totalPages}
-      basePath={basePath}
-    />
+    <Paginator currentPage={page} totalPages={totalPages} basePath={basePath} />
   </div>
 </BaseLayout>
