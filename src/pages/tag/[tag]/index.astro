@@ -1,14 +1,8 @@
 ---
 import Heading from "@/components/Heading.astro";
 import Paginator from "@/components/Paginator.astro";
-import { Badge } from "@/components/ui/badge";
-import {
-  Card,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import SiteList from "@/components/SiteList.astro";
+import TagFilterList from "@/components/TagFilterList.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import {
   extractUniqueTags,
@@ -55,46 +49,11 @@ const basePath = `/tag/${slugify(tag)}`;
 <BaseLayout title={title} description={description}>
   <Heading>Browse Sites by Tag</Heading>
 
-  <div class="flex flex-wrap gap-1 mb-4">
-    {
-      uniqueTags.map((oneTag) => (
-        <Badge key={oneTag}>
-          <a href={`/tag/${slugify(oneTag)}/`}>{oneTag}</a>
-        </Badge>
-      ))
-    }
-  </div>
+  <TagFilterList tags={uniqueTags} />
 
   <Heading>{tagHeader}</Heading>
 
-  <section class="pt-4 space-y-4">
-    {
-      paginated.map((site) => (
-        <Card key={site.id}>
-          <CardHeader>
-            <CardTitle>
-              <a
-                href={site.data.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="hover:underline"
-              >
-                {site.data.title}
-              </a>
-            </CardTitle>
-            <CardDescription>{site.data.description}</CardDescription>
-          </CardHeader>
-          <CardFooter className="flex flex-wrap gap-1">
-            {(site.data.tags ?? []).map((t) => (
-              <Badge key={t}>
-                <a href={`/tag/${slugify(t)}/`}>{t}</a>
-              </Badge>
-            ))}
-          </CardFooter>
-        </Card>
-      ))
-    }
-  </section>
+  <SiteList sites={paginated} />
 
   <div class="mt-8 flex justify-center">
     <Paginator currentPage={page} totalPages={totalPages} basePath={basePath} />
