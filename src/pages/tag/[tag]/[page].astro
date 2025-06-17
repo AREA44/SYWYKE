@@ -11,25 +11,37 @@ import {
   slugify,
 } from "@/lib/siteUtils";
 
+// Get static paths for pagination under each tag
 export async function getStaticPaths() {
-  const sites = await getSortedSites();
+  const allSites = await getSortedSites();
+  const tagCounts = new Map<string, number>();
 
-  const tagsCount = new Map<string, number>();
-  for (const site of sites) {
+  for (const site of allSites) {
     for (const tag of site.data.tags ?? []) {
-      tagsCount.set(tag, (tagsCount.get(tag) || 0) + 1);
+      tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
     }
   }
 
-  return Array.from(tagsCount.entries()).map(([tag]) => ({
-    params: { tag: slugify(tag) },
-    props: { tag },
-  }));
+  const perPage = 10;
+  const paths = [];
+
+  for (const [tag, count] of tagCounts.entries()) {
+    const totalPages = Math.ceil(count / perPage);
+    const tagSlug = slugify(tag);
+
+    // Only generate pages 2 through N here; page 1 is handled by index.astro
+    for (let i = 2; i <= totalPages; i++) {
+      paths.push({
+        params: { tag: tagSlug, page: String(i) },
+        props: { tag, page: i },
+      });
+    }
+  }
+
+  return paths;
 }
 
-// Props
-const { tag } = Astro.props;
-const page = 1;
+const { tag, page } = Astro.props;
 const perPage = 10;
 
 const { paginated, totalPages, allFiltered } = await getSitesByTag(
@@ -40,7 +52,7 @@ const { paginated, totalPages, allFiltered } = await getSitesByTag(
 const uniqueTags = extractUniqueTags(allFiltered);
 
 const tagHeader = `${allFiltered.length} site${allFiltered.length === 1 ? "" : "s"} tagged with "${tag}"`;
-const title = `${tagHeader} | SYWYKE`;
+const title = `${tagHeader} | SYWYKE - Page ${page}`;
 const description = tagHeader;
 
 const basePath = `/tag/${slugify(tag)}`;

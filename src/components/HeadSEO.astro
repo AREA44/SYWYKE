@@ -22,31 +22,21 @@ const ogImage = new URL("og.png", siteUrl).toString();
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Favicon & Icons -->
-  <link rel="icon" href={`${siteUrl}favicon.ico`} />
-  <link rel="icon" sizes="16x16" href={`${siteUrl}favicon-16x16.png`} />
-  <link rel="icon" sizes="32x32" href={`${siteUrl}favicon-32x32.png`} />
-  <link
-    rel="apple-touch-icon"
-    sizes="180x180"
-    href={`${siteUrl}apple-touch-icon.png`}
-  />
-  <link rel="manifest" href={`${siteUrl}site.webmanifest`} />
-  <link
-    rel="sitemap"
-    type="application/xml"
-    href={`${siteUrl}sitemap-index.xml`}
-  />
-  <meta name="generator" content={Astro.generator} />
-  <!-- Theme -->
-  <meta name="theme-color" content="#ffffff" />
-
-  <!-- SEO Meta -->
+  <!-- Title & Description -->
   <title>{title}</title>
   <meta name="title" content={title} />
   <meta name="description" content={description} />
-  <meta name="image" content={ogImage} />
-  <meta name="generator" content={Astro.generator} />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href={Astro.url} />
+
+  <!-- Favicon & Icons -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#ffffff" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
@@ -62,13 +52,19 @@ const ogImage = new URL("og.png", siteUrl).toString();
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={ogImage} />
 
-  <!-- PageFind -->
-  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+
+  <!-- Generator -->
+  <meta name="generator" content={Astro.generator} />
+
+  <!-- Pagefind (search UI) -->
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
   <script is:inline src="/pagefind/pagefind-ui.js"></script>
 
-  <!-- ViewTransitions -->
+  <!-- View Transitions -->
   <ClientRouter />
 
-  <!-- Fonts -->
+  <!-- Font Preload (Geist via astro:assets) -->
   <Font cssVariable="--font-geist" preload />
 </head>

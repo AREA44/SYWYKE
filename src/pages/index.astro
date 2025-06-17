@@ -1,105 +1,35 @@
 ---
-import { getCollection } from "astro:content";
 import Heading from "@/components/Heading.astro";
-import Pagination from "@/components/Paginator.astro";
-import { Badge } from "@/components/ui/badge";
-import {
-  Card,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import Paginator from "@/components/Paginator.astro";
+import SiteList from "@/components/SiteList.astro";
+import TagFilterList from "@/components/TagFilterList.astro";
 import Layout from "@/layouts/BaseLayout.astro";
+import { extractUniqueTags, getPaginatedSites, slugify } from "@/lib/siteUtils";
 
-// Util for tag URL slugs
-const slugify = (str: string) =>
-  str
-    .toLowerCase()
-    .trim()
-    .replace(/[^\w\s-]/g, "") // Remove non-word characters
-    .replace(/\s+/g, "-"); // Replace spaces with hyphens
-
-// Pagination: Get current page from query params, fallback to 1
+// Page setup
 const page = Number(Astro.url.searchParams.get("page") || 1);
 const perPage = 10;
 
-// Fetch all “sites” and sort alphabetically
-const allSites = (await getCollection("sites")).sort((a, b) =>
-  (a.data.title || "").localeCompare(b.data.title || ""),
+const { paginated, totalPages, allSites } = await getPaginatedSites(
+  page,
+  perPage,
 );
-
-// Slice for pagination
-const start = (page - 1) * perPage;
-const paginatedSites = allSites.slice(start, start + perPage);
-const totalPages = Math.ceil(allSites.length / perPage);
-
-// Extract unique tags
-const tagSet = new Set<string>();
-for (const site of allSites) {
-  for (const tag of site.data.tags ?? []) {
-    tagSet.add(tag);
-  }
-}
-const uniqueTags = Array.from(tagSet);
+const uniqueTags = extractUniqueTags(allSites);
 
 const title = "Sites You Wish You Knew Earlier!";
 const description = "Sites You Wish You Knew Earlier by AREA44";
 ---
 
 <Layout title={title} description={description}>
-  <Heading>Browse Sites by Tag</Heading>
+  <Heading level={2}>Browse Sites by Tag</Heading>
 
-  <div class="flex flex-wrap gap-1 mb-4">
-    {
-      uniqueTags.map((tag) => (
-        <Badge>
-          <a
-            href={`/tag/${slugify(tag)}/`}
-            title={`View sites tagged "${tag}"`}
-          >
-            {tag}
-          </a>
-        </Badge>
-      ))
-    }
+  <TagFilterList tags={uniqueTags} />
+
+  <Heading level={2}>{title}</Heading>
+
+  <SiteList sites={paginated} />
+
+  <div class="mt-8 flex justify-center">
+    <Paginator currentPage={page} totalPages={totalPages} />
   </div>
-
-  <Heading>{title}</Heading>
-
-  <section class="pt-4 space-y-4">
-    {
-      paginatedSites.map((site) => (
-        <Card key={site.id}>
-          <CardHeader>
-            <CardTitle>
-              <a
-                href={site.data.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="hover:underline"
-              >
-                {site.data.title}
-              </a>
-            </CardTitle>
-            <CardDescription>{site.data.description}</CardDescription>
-          </CardHeader>
-          <CardFooter className="flex flex-wrap gap-1">
-            {(site.data.tags ?? []).map((tag) => (
-              <Badge>
-                <a
-                  href={`/tag/${slugify(tag)}/`}
-                  title={`View sites tagged "${tag}"`}
-                >
-                  {tag}
-                </a>
-              </Badge>
-            ))}
-          </CardFooter>
-        </Card>
-      ))
-    }
-  </section>
-
-  <Pagination currentPage={page} totalPages={totalPages} />
 </Layout>
