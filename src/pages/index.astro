@@ -21,11 +21,11 @@ const description = "Sites You Wish You Knew Earlier by AREA44";
 ---
 
 <Layout title={title} description={description}>
-  <Heading>Browse Sites by Tag</Heading>
+  <Heading level={2}>Browse Sites by Tag</Heading>
 
   <TagFilterList tags={uniqueTags} />
 
-  <Heading>{title}</Heading>
+  <Heading level={2}>{title}</Heading>
 
   <SiteList sites={paginated} />
 

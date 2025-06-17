@@ -59,11 +59,11 @@ const basePath = `/tag/${slugify(tag)}`;
 ---
 
 <BaseLayout title={title} description={description}>
-  <Heading>Browse Sites by Tag</Heading>
+  <Heading level={2}>Browse Sites by Tag</Heading>
 
   <TagFilterList tags={uniqueTags} />
 
-  <Heading>{tagHeader}</Heading>
+  <Heading level={2}>{tagHeader}</Heading>
 
   <SiteList sites={paginated} />
 

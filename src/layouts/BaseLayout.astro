@@ -3,18 +3,28 @@ import Footer from "@/components/Footer.astro";
 import Header from "@/components/Header.astro";
 import HeadSEO from "@/components/HeadSEO.astro";
 
-const { title, description } = Astro.props;
+const { title, description } = Astro.props as {
+  title: string;
+  description: string;
+};
 ---
 
 <html lang="en" class="dark">
   <HeadSEO title={title} description={description} />
-
-  <body class="flex h-full flex-col bg-background font-sans antialiased">
-    <div class="mx-auto max-w-2xl px-4 py-10">
+  <body
+    class="min-h-screen bg-background font-sans antialiased text-foreground"
+  >
+    <!-- Page Container -->
+    <div class="flex flex-col min-h-screen">
+      <!-- Header -->
       <Header />
-      <main transition:animate="initial">
+
+      <!-- Main content -->
+      <main class="flex-grow w-full max-w-screen-md mx-auto px-4 py-10">
         <slot />
       </main>
+
+      <!-- Footer -->
       <Footer />
     </div>
   </body>
