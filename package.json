@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && pagefind --site dist",
+    "build": "astro build",
+    "postbuild": "pagefind --site dist --output-path public/pagefind",
     "preview": "astro preview",
     "format": "biome format --write .",
     "lint": "biome lint --write .",
