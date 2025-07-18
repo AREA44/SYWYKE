@@ -12,7 +12,7 @@ const perPage = 10;
 
 const { paginated, totalPages, allSites } = await getPaginatedSites(
   page,
-  perPage,
+  perPage
 );
 const uniqueTags = extractUniqueTags(allSites);
 

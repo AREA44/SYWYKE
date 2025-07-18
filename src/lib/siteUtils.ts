@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 export async function getSortedSites() {
   const sites = await getCollection("sites");
   return sites.sort((a, b) =>
-    (a.data.title || "").localeCompare(b.data.title || ""),
+    (a.data.title || "").localeCompare(b.data.title || "")
   );
 }
 
@@ -21,7 +21,7 @@ export async function getPaginatedSites(page: number, perPage: number) {
 
 // Extract unique tags from sites
 export function extractUniqueTags(
-  sites: Awaited<ReturnType<typeof getSortedSites>>,
+  sites: Awaited<ReturnType<typeof getSortedSites>>
 ) {
   const tagSet = new Set<string>();
   for (const site of sites) {
@@ -45,11 +45,11 @@ export function slugify(str: string) {
 export async function getSitesByTag(
   tag: string,
   page: number,
-  perPage: number,
+  perPage: number
 ) {
   const allSites = await getSortedSites();
   const filtered = allSites.filter((site) =>
-    (site.data.tags ?? []).includes(tag),
+    (site.data.tags ?? []).includes(tag)
   );
   const start = (page - 1) * perPage;
   return {
