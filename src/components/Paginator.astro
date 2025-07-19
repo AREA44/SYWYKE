@@ -31,7 +31,7 @@ const totalPages =
 // Validate
 if (Number.isNaN(currentPage) || Number.isNaN(totalPages)) {
   throw new Error(
-    "Invalid pagination props: currentPage and totalPages must be numeric",
+    "Invalid pagination props: currentPage and totalPages must be numeric"
   );
 }
 
@@ -43,7 +43,7 @@ if (totalPages <= 1) {
 function getPaginationItems(
   currentPage: number,
   totalPages: number,
-  delta: number,
+  delta: number
 ) {
   const range: (number | "ellipsis")[] = [];
   const rangeWithDots: (number | "ellipsis")[] = [];
@@ -81,7 +81,7 @@ function getPaginationItems(
 const paginationItems = getPaginationItems(
   currentPage,
   totalPages,
-  siblingCount,
+  siblingCount
 );
 ---
 
